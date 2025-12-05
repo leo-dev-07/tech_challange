@@ -1,0 +1,232 @@
+[
+  {
+    "meeting_id": "d404097e-1af4-41b2-86a1-ce71c21cfd2f",
+    "deal_id": "bbc99d6a-8669-44e2-90a5-1f3ee14cf950",
+    "title": "Discovery Call",
+    "stage_at_time": "Prospecting",
+    "scheduled_start": "2025-10-19T01:12:11.885761",
+    "scheduled_end": "2025-10-19T02:12:11.885761",
+    "actual_start": "2025-10-19T01:12:11.885761",
+    "actual_end": "2025-10-19T02:12:11.885761",
+    "attendee_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+      "b2457985-917b-4e98-933a-1d411ebf7fd9"
+    ],
+    "outcome": "decision-meeting",
+    "notes": "Discussed Discovery Call. References email thread and next steps. Its itself effect.",
+    "sentiment": "Neutral",
+    "trackers": [
+      "SOC2",
+      "AML",
+      "PHI"
+    ],
+    "follow_up_action": "Provide integration docs"
+  },
+  {
+    "meeting_id": "9b5cd911-a42e-48e6-a661-c27729e7bd90",
+    "deal_id": "bbc99d6a-8669-44e2-90a5-1f3ee14cf950",
+    "title": "Demo",
+    "stage_at_time": "Prospecting",
+    "scheduled_start": "2025-10-25T01:12:11.885761",
+    "scheduled_end": "2025-10-25T02:12:11.885761",
+    "actual_start": "2025-10-25T01:12:11.885761",
+    "actual_end": "2025-10-25T02:12:11.885761",
+    "attendee_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+      "b2457985-917b-4e98-933a-1d411ebf7fd9"
+    ],
+    "outcome": "decision-meeting",
+    "notes": "Discussed Demo. References email thread and next steps. Time north return special experience thank.",
+    "sentiment": "Positive",
+    "trackers": [
+      "KYC",
+      "API",
+      "HIPAA"
+    ],
+    "follow_up_action": "Share API rate limits"
+  },
+  {
+    "meeting_id": "57e94c4b-3c8b-4fbf-a5c7-667870c21965",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "title": "Discovery Call",
+    "stage_at_time": "Proposal",
+    "scheduled_start": "2025-11-22T01:12:11.885761",
+    "scheduled_end": "2025-11-22T02:12:11.885761",
+    "actual_start": "2025-11-22T01:12:11.885761",
+    "actual_end": "2025-11-22T02:12:11.885761",
+    "attendee_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "outcome": "blocked",
+    "notes": "Discussed Discovery Call. References email thread and next steps. Pm member if daughter identify benefit anyone.",
+    "sentiment": "Neutral",
+    "trackers": [
+      "PCI",
+      "uptime",
+      "IoT"
+    ],
+    "follow_up_action": "Send SOC2 report"
+  },
+  {
+    "meeting_id": "59641e14-298d-44fe-8abf-de63e6f38c2c",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "title": "Demo",
+    "stage_at_time": "Proposal",
+    "scheduled_start": "2025-11-23T01:12:11.885761",
+    "scheduled_end": "2025-11-23T02:12:11.885761",
+    "actual_start": "2025-11-23T01:12:11.885761",
+    "actual_end": "2025-11-23T02:12:11.885761",
+    "attendee_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "outcome": "rescheduled",
+    "notes": "Discussed Demo. References email thread and next steps. Much station certain rise event born.",
+    "sentiment": "Positive",
+    "trackers": [
+      "VPN",
+      "supply-chain",
+      "uptime"
+    ],
+    "follow_up_action": "Draft MSA"
+  },
+  {
+    "meeting_id": "bb44b596-08e4-438f-a49b-d7083ce3d885",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "title": "Technical Deep Dive",
+    "stage_at_time": "Proposal",
+    "scheduled_start": "2025-12-01T01:12:11.885761",
+    "scheduled_end": "2025-12-01T02:12:11.885761",
+    "actual_start": "2025-12-01T01:12:11.885761",
+    "actual_end": "2025-12-01T02:12:11.885761",
+    "attendee_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "outcome": "blocked",
+    "notes": "Discussed Technical Deep Dive. References email thread and next steps. Receive human matter all.",
+    "sentiment": "Neutral",
+    "trackers": [
+      "EMR",
+      "supply-chain",
+      "VPN"
+    ],
+    "follow_up_action": "Send SOC2 report"
+  },
+  {
+    "meeting_id": "c570a2ff-db4d-427f-bf43-5aa0e3a8ec03",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "title": "Proposal Review",
+    "stage_at_time": "Proposal",
+    "scheduled_start": "2025-12-07T01:12:11.885761",
+    "scheduled_end": "2025-12-07T02:12:11.885761",
+    "actual_start": "2025-12-07T01:12:11.885761",
+    "actual_end": "2025-12-07T02:12:11.885761",
+    "attendee_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "outcome": "decision-meeting",
+    "notes": "Discussed Proposal Review. References email thread and next steps. Trial interest any develop.",
+    "sentiment": "Positive",
+    "trackers": [
+      "EMR",
+      "uptime",
+      "PLC"
+    ],
+    "follow_up_action": "Provide integration docs"
+  },
+  {
+    "meeting_id": "79e0dc86-9fdf-43aa-9751-fb0939304597",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "title": "Discovery Call",
+    "stage_at_time": "Qualified",
+    "scheduled_start": "2025-12-04T01:12:11.885761",
+    "scheduled_end": "2025-12-04T02:12:11.885761",
+    "actual_start": "2025-12-04T01:12:11.885761",
+    "actual_end": "2025-12-04T02:12:11.885761",
+    "attendee_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb",
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "outcome": "rescheduled",
+    "notes": "Discussed Discovery Call. References email thread and next steps. Finish just music state well describe.",
+    "sentiment": "Neutral",
+    "trackers": [
+      "AML",
+      "SOC2",
+      "PHI"
+    ],
+    "follow_up_action": "Send SOC2 report"
+  },
+  {
+    "meeting_id": "cc594e3b-84af-45fd-a839-86fe7cf016be",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "title": "Demo",
+    "stage_at_time": "Qualified",
+    "scheduled_start": "2025-12-06T01:12:11.885761",
+    "scheduled_end": "2025-12-06T02:12:11.885761",
+    "actual_start": "2025-12-06T01:12:11.885761",
+    "actual_end": "2025-12-06T02:12:11.885761",
+    "attendee_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb",
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "outcome": "completed",
+    "notes": "Discussed Demo. References email thread and next steps. Program right author party.",
+    "sentiment": "Neutral",
+    "trackers": [
+      "SSO",
+      "compliance",
+      "KYC"
+    ],
+    "follow_up_action": "Share API rate limits"
+  },
+  {
+    "meeting_id": "d8906984-e5ab-445b-bc56-93dda3e9c5f1",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "title": "Technical Deep Dive",
+    "stage_at_time": "Qualified",
+    "scheduled_start": "2025-12-16T01:12:11.885761",
+    "scheduled_end": "2025-12-16T02:12:11.885761",
+    "actual_start": "2025-12-16T01:12:11.885761",
+    "actual_end": "2025-12-16T02:12:11.885761",
+    "attendee_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb",
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "outcome": "rescheduled",
+    "notes": "Discussed Technical Deep Dive. References email thread and next steps. Even fly economic our general support put nation.",
+    "sentiment": "Positive",
+    "trackers": [
+      "OT",
+      "HIPAA",
+      "SSO"
+    ],
+    "follow_up_action": "Share API rate limits"
+  },
+  {
+    "meeting_id": "9c8109bf-9bc6-4d96-83b6-cb42b626c414",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "title": "Proposal Review",
+    "stage_at_time": "Qualified",
+    "scheduled_start": "2025-12-17T01:12:11.885761",
+    "scheduled_end": "2025-12-17T02:12:11.885761",
+    "actual_start": "2025-12-17T01:12:11.885761",
+    "actual_end": "2025-12-17T02:12:11.885761",
+    "attendee_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb",
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "outcome": "no-show",
+    "notes": "Discussed Proposal Review. References email thread and next steps. Debate economy interest hour keep would food.",
+    "sentiment": "Positive",
+    "trackers": [
+      "EMR",
+      "IoT",
+      "PCI"
+    ],
+    "follow_up_action": "Provide integration docs"
+  }
+]

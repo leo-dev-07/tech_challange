@@ -1,0 +1,42 @@
+[
+  {
+    "company_id": "620c1604-c878-4646-8b57-f79a7c228149",
+    "name": "Johnson, Olson and Smith",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Kyrgyz Republic",
+    "annual_revenue_usd": 31154200,
+    "context_note": "Statement president civil minute foreign economic well you and team owner high."
+  },
+  {
+    "company_id": "b81c4924-827c-48ad-a97c-b8ee16eef901",
+    "name": "Serrano-Baker",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "China",
+    "annual_revenue_usd": 9330150,
+    "context_note": "Product card should word wide party analysis about care."
+  },
+  {
+    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
+    "name": "Herrera-Ingram",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Dominican Republic",
+    "annual_revenue_usd": 331302000,
+    "context_note": "Project late like president foot maybe success wide draw all."
+  },
+  {
+    "company_id": "6267e411-c0a1-4fdb-811b-ce097de5ceb2",
+    "name": "Meyers-Barrett",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Marshall Islands",
+    "annual_revenue_usd": 7211800,
+    "context_note": "Change note hear over both simply benefit."
+  }
+]

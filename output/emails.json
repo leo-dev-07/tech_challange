@@ -1,0 +1,968 @@
+[
+  {
+    "email_id": "b618bde6-8926-4164-bfb9-79b5982a7ef5",
+    "deal_id": "bbc99d6a-8669-44e2-90a5-1f3ee14cf950",
+    "thread_id": "5596c764-8006-466f-a979-1f9c559e9966",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "b2457985-917b-4e98-933a-1d411ebf7fd9"
+    ],
+    "timestamp": "2025-10-14T14:12:11.885761",
+    "subject": "Prospecting discussion - Whiteboard Frictionless Communities",
+    "body": "Smile generation clearly reveal Mr south because keep. Arrive under know likely later kind.",
+    "sequence_index": 1,
+    "sentiment": "Positive",
+    "trackers": [
+      "VPN",
+      "HIPAA",
+      "ERP"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": null,
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "ed8fcc9e-bae1-4f5e-8cdf-0659253f20ee",
+    "deal_id": "bbc99d6a-8669-44e2-90a5-1f3ee14cf950",
+    "thread_id": "5596c764-8006-466f-a979-1f9c559e9966",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "b2457985-917b-4e98-933a-1d411ebf7fd9"
+    ],
+    "timestamp": "2025-10-16T02:12:11.885761",
+    "subject": "Prospecting discussion - Expedite Virtual Convergence",
+    "body": "Western mention hold best political among. Policy couple investment travel. Next whether painting close what development.",
+    "sequence_index": 2,
+    "sentiment": "Negative",
+    "trackers": [
+      "KYC",
+      "compliance",
+      "EMR"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "b618bde6-8926-4164-bfb9-79b5982a7ef5",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "32632c00-7285-4690-a0b5-e4ecc04f326d",
+    "deal_id": "bbc99d6a-8669-44e2-90a5-1f3ee14cf950",
+    "thread_id": "5596c764-8006-466f-a979-1f9c559e9966",
+    "direction": "inbound",
+    "sender_id": "b2457985-917b-4e98-933a-1d411ebf7fd9",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-10-18T19:12:11.885761",
+    "subject": "Prospecting discussion - Benchmark Virtual Platforms",
+    "body": "Structure few sure how shake back. Man collection speak white wait. These community they ok inside message.",
+    "sequence_index": 3,
+    "sentiment": "Negative",
+    "trackers": [
+      "KYC",
+      "IoT",
+      "EMR"
+    ],
+    "reply_latency_hours": 65,
+    "in_reply_to_email_id": "ed8fcc9e-bae1-4f5e-8cdf-0659253f20ee",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "4b3292e0-7602-4d95-86c9-86ef5f219fa5",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-13T11:12:11.885761",
+    "subject": "Proposal discussion - Matrix Impactful Platforms",
+    "body": "Dog institution police rich. Power through generation trade people part mouth. Professor white hit.",
+    "sequence_index": 1,
+    "sentiment": "Neutral",
+    "trackers": [
+      "HIPAA",
+      "PCI",
+      "OT"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": null,
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "98b59b4a-f910-4e79-990f-489b6a1d1c6d",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-15T02:12:11.885761",
+    "subject": "Proposal discussion - Enhance Mission-Critical Mindshare",
+    "body": "Officer human design green. Performance newspaper ago hundred all. Full truth risk grow personal would.",
+    "sequence_index": 2,
+    "sentiment": "Negative",
+    "trackers": [
+      "integration",
+      "PLC",
+      "OT"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "4b3292e0-7602-4d95-86c9-86ef5f219fa5",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "1e26bc22-408a-47b3-84a9-a9da93b5ca5e",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1"
+    ],
+    "timestamp": "2025-11-17T17:12:11.885761",
+    "subject": "Proposal discussion - Leverage Vertical E-Tailers",
+    "body": "Where cut town hit nation. Industry necessary all accept agree area side without.",
+    "sequence_index": 3,
+    "sentiment": "Positive",
+    "trackers": [
+      "OT",
+      "SLA",
+      "PCI"
+    ],
+    "reply_latency_hours": 63,
+    "in_reply_to_email_id": "98b59b4a-f910-4e79-990f-489b6a1d1c6d",
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "ceea9d84-09da-4fca-bbfe-c9bba2b3a6b5",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-19T01:12:11.885761",
+    "subject": "Proposal discussion - Embrace Integrated Partnerships",
+    "body": "Scene consumer instead answer college reflect.",
+    "sequence_index": 4,
+    "sentiment": "Neutral",
+    "trackers": [
+      "AML",
+      "supply-chain",
+      "PCI"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "1e26bc22-408a-47b3-84a9-a9da93b5ca5e",
+    "outcome": "objection"
+  },
+  {
+    "email_id": "0138d257-faa3-4eff-9bfa-e212b8007b2f",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-19T17:12:11.885761",
+    "subject": "Proposal discussion - Benchmark Ubiquitous Bandwidth",
+    "body": "Alone physical major remember. Program cause education before actually everyone. Final short Mr explain peace free about.",
+    "sequence_index": 5,
+    "sentiment": "Neutral",
+    "trackers": [
+      "uptime",
+      "compliance",
+      "API"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "ceea9d84-09da-4fca-bbfe-c9bba2b3a6b5",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "7cb9c629-20cc-45d3-8a99-8e1be2452c3b",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1"
+    ],
+    "timestamp": "2025-11-22T07:12:11.885761",
+    "subject": "Proposal discussion - Morph Cutting-Edge Mindshare",
+    "body": "Plant participant position movie. Chair team success character agree.",
+    "sequence_index": 6,
+    "sentiment": "Neutral",
+    "trackers": [
+      "API",
+      "AML",
+      "SOC2"
+    ],
+    "reply_latency_hours": 62,
+    "in_reply_to_email_id": "0138d257-faa3-4eff-9bfa-e212b8007b2f",
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "54a631e8-a649-4f73-8d0c-d2fd7c2dc37e",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-22T19:12:11.885761",
+    "subject": "Proposal discussion - Mesh One-To-One Info-Mediaries",
+    "body": "Surface compare personal agree participant later tonight. Full protect choice majority.",
+    "sequence_index": 7,
+    "sentiment": "Neutral",
+    "trackers": [
+      "OT",
+      "rate-limits",
+      "SLA"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "7cb9c629-20cc-45d3-8a99-8e1be2452c3b",
+    "outcome": "objection"
+  },
+  {
+    "email_id": "bdb80003-1f26-476f-a403-fcbb49c7e3e7",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-24T09:12:11.885761",
+    "subject": "Proposal discussion - Synergize Frictionless Info-Mediaries",
+    "body": "Manager government whether shoulder take. Chance politics first voice candidate leader.",
+    "sequence_index": 8,
+    "sentiment": "Negative",
+    "trackers": [
+      "KYC",
+      "integration",
+      "SLA"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "54a631e8-a649-4f73-8d0c-d2fd7c2dc37e",
+    "outcome": "objection"
+  },
+  {
+    "email_id": "b54fde61-477f-4ffc-a246-f44d4dd82c69",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1"
+    ],
+    "timestamp": "2025-11-26T19:12:11.885761",
+    "subject": "Proposal discussion - Innovate Open-Source Deliverables",
+    "body": "Herself simply skin. Camera yard us. Develop local not product view bill.",
+    "sequence_index": 9,
+    "sentiment": "Neutral",
+    "trackers": [
+      "PLC",
+      "rate-limits",
+      "EMR"
+    ],
+    "reply_latency_hours": 58,
+    "in_reply_to_email_id": "bdb80003-1f26-476f-a403-fcbb49c7e3e7",
+    "outcome": "forwarded"
+  },
+  {
+    "email_id": "e74023e3-58c2-46ac-b372-353cdb6e5ea1",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-28T16:12:11.885761",
+    "subject": "Proposal discussion - Disintermediate Ubiquitous E-Commerce",
+    "body": "See shake hundred recently. Race second rest stuff design.",
+    "sequence_index": 10,
+    "sentiment": "Positive",
+    "trackers": [
+      "PHI",
+      "ERP",
+      "OT"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "b54fde61-477f-4ffc-a246-f44d4dd82c69",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "133a18ca-36be-429e-bba1-be07193c90a2",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "outbound",
+    "sender_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-29T05:12:11.885761",
+    "subject": "Proposal discussion - Deliver Holistic Methodologies",
+    "body": "Would movement see take option. Author how become we. Law professional happen.",
+    "sequence_index": 11,
+    "sentiment": "Negative",
+    "trackers": [
+      "compliance",
+      "EMR",
+      "VPN"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "e74023e3-58c2-46ac-b372-353cdb6e5ea1",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "3541fb7e-4ae0-4e4d-bef0-a63706391384",
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "thread_id": "59983d91-1b82-4467-8597-2fa1a2f110d8",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1"
+    ],
+    "timestamp": "2025-12-01T06:12:11.885761",
+    "subject": "Proposal discussion - Whiteboard Best-Of-Breed Action-Items",
+    "body": "Open choice machine green above. May simply theory answer research. Color station through individual yard building claim.",
+    "sequence_index": 12,
+    "sentiment": "Neutral",
+    "trackers": [
+      "supply-chain",
+      "uptime",
+      "VPN"
+    ],
+    "reply_latency_hours": 49,
+    "in_reply_to_email_id": "133a18ca-36be-429e-bba1-be07193c90a2",
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "cd0ec519-de8e-42ec-bf71-77ae028dcf50",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-08T13:12:11.885761",
+    "subject": "Closed-Lost discussion - Generate Intuitive Architectures",
+    "body": "West minute right employee. Tonight be want send surface spring hour. Kitchen learn nothing.",
+    "sequence_index": 1,
+    "sentiment": "Positive",
+    "trackers": [
+      "IoT",
+      "PCI",
+      "PHI"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": null,
+    "outcome": "forwarded"
+  },
+  {
+    "email_id": "011f9498-68fa-4969-8e24-6292601d700a",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-09T06:12:11.885761",
+    "subject": "Closed-Lost discussion - Synthesize Next-Generation Content",
+    "body": "Late dinner matter life. Win necessary large service may. Piece spring field doctor health civil.",
+    "sequence_index": 2,
+    "sentiment": "Positive",
+    "trackers": [
+      "PHI",
+      "compliance",
+      "IoT"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "cd0ec519-de8e-42ec-bf71-77ae028dcf50",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "9a72ca16-bc03-4cb9-af16-b7c617b0d497",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-11-12T03:12:11.885761",
+    "subject": "Closed-Lost discussion - Revolutionize Proactive Users",
+    "body": "Around information seven. Should agreement level amount. Along center majority side against.",
+    "sequence_index": 3,
+    "sentiment": "Negative",
+    "trackers": [
+      "SLA",
+      "PLC",
+      "compliance"
+    ],
+    "reply_latency_hours": 69,
+    "in_reply_to_email_id": "011f9498-68fa-4969-8e24-6292601d700a",
+    "outcome": "objection"
+  },
+  {
+    "email_id": "96d3ee71-ce35-44c8-a56d-73e5f34245df",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-14T03:12:11.885761",
+    "subject": "Closed-Lost discussion - Whiteboard Synergistic Portals",
+    "body": "Eight cell rate time.",
+    "sequence_index": 4,
+    "sentiment": "Negative",
+    "trackers": [
+      "PHI",
+      "integration",
+      "AML"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "9a72ca16-bc03-4cb9-af16-b7c617b0d497",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "c9dd08cf-7d3a-4d23-b0e2-6e5c275b4272",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-16T01:12:11.885761",
+    "subject": "Closed-Lost discussion - Embrace Collaborative Technologies",
+    "body": "Need single recently our far argue. Program respond magazine join ground citizen course. Eye above role involve short several.",
+    "sequence_index": 5,
+    "sentiment": "Negative",
+    "trackers": [
+      "SSO",
+      "PHI",
+      "compliance"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "96d3ee71-ce35-44c8-a56d-73e5f34245df",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "e5c1e6e1-e106-46c6-a505-6263b083b546",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-11-18T14:12:11.885761",
+    "subject": "Closed-Lost discussion - Leverage Granular Info-Mediaries",
+    "body": "Build easy which tough off back. Near truth major. Yes receive each positive college if reflect course.",
+    "sequence_index": 6,
+    "sentiment": "Negative",
+    "trackers": [
+      "PHI",
+      "SOC2",
+      "compliance"
+    ],
+    "reply_latency_hours": 61,
+    "in_reply_to_email_id": "c9dd08cf-7d3a-4d23-b0e2-6e5c275b4272",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "ec56cf80-438c-488d-bf77-3e9661502a1f",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-18T23:12:11.885761",
+    "subject": "Closed-Lost discussion - Brand Bleeding-Edge E-Commerce",
+    "body": "Discuss reflect strong loss Republican. Soon price school role mission. Country result point must.",
+    "sequence_index": 7,
+    "sentiment": "Neutral",
+    "trackers": [
+      "AML",
+      "SLA",
+      "compliance"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "e5c1e6e1-e106-46c6-a505-6263b083b546",
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "a9f84f16-0618-4285-9906-8855d096618e",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-20T21:12:11.885761",
+    "subject": "Closed-Lost discussion - Expedite Bleeding-Edge Networks",
+    "body": "Team though old understand compare soon. Heart leg blood owner road. Arrive right establish everyone record.",
+    "sequence_index": 8,
+    "sentiment": "Negative",
+    "trackers": [
+      "SLA",
+      "VPN",
+      "PLC"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "ec56cf80-438c-488d-bf77-3e9661502a1f",
+    "outcome": "objection"
+  },
+  {
+    "email_id": "3a799163-745a-4256-a6c4-01edccf8b949",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-11-23T13:12:11.885761",
+    "subject": "Closed-Lost discussion - Engineer Front-End Users",
+    "body": "Go three point suggest. Red under senior late. Trip whatever peace clear.",
+    "sequence_index": 9,
+    "sentiment": "Negative",
+    "trackers": [
+      "PCI",
+      "SLA",
+      "KYC"
+    ],
+    "reply_latency_hours": 64,
+    "in_reply_to_email_id": "a9f84f16-0618-4285-9906-8855d096618e",
+    "outcome": "forwarded"
+  },
+  {
+    "email_id": "7fa4b360-0742-4158-aaaf-209455c80d4d",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-24T12:12:11.885761",
+    "subject": "Closed-Lost discussion - Enable Transparent Action-Items",
+    "body": "At back possible especially child term arm. To process approach join themselves improve movement. Officer guess or let four attorney employee yet.",
+    "sequence_index": 10,
+    "sentiment": "Neutral",
+    "trackers": [
+      "SLA",
+      "OT",
+      "ERP"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "3a799163-745a-4256-a6c4-01edccf8b949",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "35e5f002-670c-4002-ad05-4c9fc032a075",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-26T04:12:11.885761",
+    "subject": "Closed-Lost discussion - Envisioneer Cross-Media Schemas",
+    "body": "Phone finish into coach break. Pay suggest know sort until involve environment.",
+    "sequence_index": 11,
+    "sentiment": "Negative",
+    "trackers": [
+      "PCI",
+      "HIPAA",
+      "compliance"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "7fa4b360-0742-4158-aaaf-209455c80d4d",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "837890fa-26ab-421c-a74f-42268bfc2a42",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-11-28T06:12:11.885761",
+    "subject": "Closed-Lost discussion - Harness Dynamic Methodologies",
+    "body": "Approach once not. Character offer good leave half teacher eight.",
+    "sequence_index": 12,
+    "sentiment": "Neutral",
+    "trackers": [
+      "VPN",
+      "SSO",
+      "KYC"
+    ],
+    "reply_latency_hours": 50,
+    "in_reply_to_email_id": "35e5f002-670c-4002-ad05-4c9fc032a075",
+    "outcome": "forwarded"
+  },
+  {
+    "email_id": "6757fafd-1568-4e9b-96e3-2068a8d34642",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-28T16:12:11.885761",
+    "subject": "Closed-Lost discussion - Aggregate Synergistic Partnerships",
+    "body": "East site quite off environment public anyone. Involve result level recent hear long example.",
+    "sequence_index": 13,
+    "sentiment": "Negative",
+    "trackers": [
+      "IoT",
+      "AML",
+      "VPN"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "837890fa-26ab-421c-a74f-42268bfc2a42",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "b0e6ca7e-f45f-4ee5-a1d5-542d8a6dcb92",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-11-29T09:12:11.885761",
+    "subject": "Closed-Lost discussion - Incubate Holistic Synergies",
+    "body": "Throughout old like consumer step. Hold fly event future before. Job concern race compare they.",
+    "sequence_index": 14,
+    "sentiment": "Positive",
+    "trackers": [
+      "VPN",
+      "uptime",
+      "supply-chain"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "6757fafd-1568-4e9b-96e3-2068a8d34642",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "6c4d109e-bdf2-4161-9e13-34294d3d0598",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-12-01T16:12:11.885761",
+    "subject": "Closed-Lost discussion - Implement Front-End Functionalities",
+    "body": "Off tough with result business fire. Trade could area since note admit.",
+    "sequence_index": 15,
+    "sentiment": "Neutral",
+    "trackers": [
+      "SOC2",
+      "compliance",
+      "PHI"
+    ],
+    "reply_latency_hours": 55,
+    "in_reply_to_email_id": "b0e6ca7e-f45f-4ee5-a1d5-542d8a6dcb92",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "c10fc744-009d-46ff-ba54-a1a9ef6479ec",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-12-03T10:12:11.885761",
+    "subject": "Closed-Lost discussion - Engage Distributed Mindshare",
+    "body": "Opportunity character personal song whose find officer. Hospital cold heart.",
+    "sequence_index": 16,
+    "sentiment": "Negative",
+    "trackers": [
+      "ERP",
+      "SSO",
+      "PCI"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "6c4d109e-bdf2-4161-9e13-34294d3d0598",
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "e65d3568-f68e-4cb1-b346-c32f8b084513",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "outbound",
+    "sender_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "recipient_ids": [
+      "7d6fca5b-501b-4735-8ade-2572e5965ee3"
+    ],
+    "timestamp": "2025-12-04T13:12:11.885761",
+    "subject": "Closed-Lost discussion - Visualize Value-Added Info-Mediaries",
+    "body": "Part plan police air unit on. If option our machine down. Difference off on test strong account chair.",
+    "sequence_index": 17,
+    "sentiment": "Negative",
+    "trackers": [
+      "ERP",
+      "PHI",
+      "PLC"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "c10fc744-009d-46ff-ba54-a1a9ef6479ec",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "9e2b5a97-72be-4a11-a3fd-42363ebded0c",
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "thread_id": "c54a37de-e773-4570-9476-0f23ff263811",
+    "direction": "inbound",
+    "sender_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "recipient_ids": [
+      "a19c62b1-4e35-4cf8-80be-2c88f71ef21a"
+    ],
+    "timestamp": "2025-12-07T13:12:11.885761",
+    "subject": "Closed-Lost discussion - Enable Best-Of-Breed Niches",
+    "body": "Majority room subject hard. Phone computer with.",
+    "sequence_index": 18,
+    "sentiment": "Negative",
+    "trackers": [
+      "KYC",
+      "API",
+      "ERP"
+    ],
+    "reply_latency_hours": 72,
+    "in_reply_to_email_id": "e65d3568-f68e-4cb1-b346-c32f8b084513",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "e65333d2-87c5-4c70-ab25-d5dcfc9e21c5",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "outbound",
+    "sender_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "recipient_ids": [
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "timestamp": "2025-11-27T06:12:11.885761",
+    "subject": "Qualified discussion - Transition Best-Of-Breed Convergence",
+    "body": "Choice million painting true himself.",
+    "sequence_index": 1,
+    "sentiment": "Negative",
+    "trackers": [
+      "PCI",
+      "KYC",
+      "HIPAA"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": null,
+    "outcome": "ignored"
+  },
+  {
+    "email_id": "5acfde19-4c2f-490a-8e61-bf6e82b2f743",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "outbound",
+    "sender_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "recipient_ids": [
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "timestamp": "2025-11-27T19:12:11.885761",
+    "subject": "Qualified discussion - Transition End-To-End Info-Mediaries",
+    "body": "Professor contain simple little serve. Live another attack good.",
+    "sequence_index": 2,
+    "sentiment": "Neutral",
+    "trackers": [
+      "AML",
+      "HIPAA",
+      "SSO"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "e65333d2-87c5-4c70-ab25-d5dcfc9e21c5",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "e78dcc57-db01-468f-a1d1-a19b0c2a0288",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "inbound",
+    "sender_id": "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96",
+    "recipient_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb"
+    ],
+    "timestamp": "2025-11-30T11:12:11.885761",
+    "subject": "Qualified discussion - Brand Robust Initiatives",
+    "body": "Campaign some provide though. Until federal society animal. Four method participant particularly fast effect.",
+    "sequence_index": 3,
+    "sentiment": "Negative",
+    "trackers": [
+      "SOC2",
+      "PCI",
+      "SLA"
+    ],
+    "reply_latency_hours": 64,
+    "in_reply_to_email_id": "5acfde19-4c2f-490a-8e61-bf6e82b2f743",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "51f8ce72-70dc-41c9-b9f9-a16b08e4f4ae",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "outbound",
+    "sender_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "recipient_ids": [
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "timestamp": "2025-12-01T15:12:11.885761",
+    "subject": "Qualified discussion - Synergize Value-Added Schemas",
+    "body": "Letter news heavy. Red story prove along force think level. Color general manager score develop appear.",
+    "sequence_index": 4,
+    "sentiment": "Positive",
+    "trackers": [
+      "SLA",
+      "OT",
+      "IoT"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "e78dcc57-db01-468f-a1d1-a19b0c2a0288",
+    "outcome": "objection"
+  },
+  {
+    "email_id": "fd403056-4bdf-4584-bc15-9e844093a29a",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "outbound",
+    "sender_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "recipient_ids": [
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "timestamp": "2025-12-03T11:12:11.885761",
+    "subject": "Qualified discussion - Monetize Clicks-And-Mortar Mindshare",
+    "body": "Second require apply off. Evening government adult.",
+    "sequence_index": 5,
+    "sentiment": "Positive",
+    "trackers": [
+      "compliance",
+      "KYC",
+      "supply-chain"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "51f8ce72-70dc-41c9-b9f9-a16b08e4f4ae",
+    "outcome": "scheduling-request"
+  },
+  {
+    "email_id": "26caaa8b-0bfa-45a4-8d12-1143b1eaf4db",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "inbound",
+    "sender_id": "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96",
+    "recipient_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb"
+    ],
+    "timestamp": "2025-12-06T01:12:11.885761",
+    "subject": "Qualified discussion - Monetize Enterprise Web Services",
+    "body": "Person language fish account tax campaign. Goal get phone matter you. Receive benefit central him form quality.",
+    "sequence_index": 6,
+    "sentiment": "Neutral",
+    "trackers": [
+      "uptime",
+      "compliance",
+      "rate-limits"
+    ],
+    "reply_latency_hours": 62,
+    "in_reply_to_email_id": "fd403056-4bdf-4584-bc15-9e844093a29a",
+    "outcome": "replied"
+  },
+  {
+    "email_id": "26d8f4cf-46c4-4f2f-b258-269c303009bd",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "outbound",
+    "sender_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "recipient_ids": [
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "timestamp": "2025-12-06T18:12:11.885761",
+    "subject": "Qualified discussion - Incentivize User-Centric Web-Readiness",
+    "body": "Here red citizen while guy. Public school process outside.",
+    "sequence_index": 7,
+    "sentiment": "Neutral",
+    "trackers": [
+      "PHI",
+      "ERP",
+      "compliance"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "26caaa8b-0bfa-45a4-8d12-1143b1eaf4db",
+    "outcome": "forwarded"
+  },
+  {
+    "email_id": "13ed245a-dd16-4da1-a01e-4a805e94474b",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "outbound",
+    "sender_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "recipient_ids": [
+      "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96"
+    ],
+    "timestamp": "2025-12-08T11:12:11.885761",
+    "subject": "Qualified discussion - Re-Contextualize Leading-Edge Experiences",
+    "body": "Include reflect next. Standard end you my support cultural.",
+    "sequence_index": 8,
+    "sentiment": "Neutral",
+    "trackers": [
+      "API",
+      "IoT",
+      "HIPAA"
+    ],
+    "reply_latency_hours": null,
+    "in_reply_to_email_id": "26d8f4cf-46c4-4f2f-b258-269c303009bd",
+    "outcome": "forwarded"
+  },
+  {
+    "email_id": "4a9510be-501f-4b55-8ac8-db36febf0004",
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "thread_id": "614c52e0-b41c-440c-bb2c-615a0dbed8c9",
+    "direction": "inbound",
+    "sender_id": "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96",
+    "recipient_ids": [
+      "9c1ba18d-9919-424a-be21-b51051b489eb"
+    ],
+    "timestamp": "2025-12-10T18:12:11.885761",
+    "subject": "Qualified discussion - Generate Intuitive Architectures",
+    "body": "For box research drive. Lot site series cut.",
+    "sequence_index": 9,
+    "sentiment": "Positive",
+    "trackers": [
+      "HIPAA",
+      "uptime",
+      "AML"
+    ],
+    "reply_latency_hours": 55,
+    "in_reply_to_email_id": "13ed245a-dd16-4da1-a01e-4a805e94474b",
+    "outcome": "ignored"
+  }
+]

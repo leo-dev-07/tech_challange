@@ -1,0 +1,38 @@
+[
+  {
+    "rep_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "full_name": "Regina Watkins",
+    "tier": "Underperformer",
+    "quarter_deals_closed_target": 2
+  },
+  {
+    "rep_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "full_name": "Gerald Barron",
+    "tier": "Underperformer",
+    "quarter_deals_closed_target": 2
+  },
+  {
+    "rep_id": "be652ac8-33a5-4bf7-b42a-480a6191c62b",
+    "full_name": "Timothy Elliott",
+    "tier": "Underperformer",
+    "quarter_deals_closed_target": 2
+  },
+  {
+    "rep_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "full_name": "Sara Berg",
+    "tier": "Top",
+    "quarter_deals_closed_target": 12
+  },
+  {
+    "rep_id": "6feb4c39-86b6-4a79-a653-1f7e8fa13fa3",
+    "full_name": "Laura Johnson",
+    "tier": "Average",
+    "quarter_deals_closed_target": 3
+  },
+  {
+    "rep_id": "0668b587-de2a-4a5b-82cc-26836d126903",
+    "full_name": "Timothy Nguyen",
+    "tier": "Good",
+    "quarter_deals_closed_target": 7
+  }
+]

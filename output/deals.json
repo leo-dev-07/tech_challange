@@ -1,0 +1,54 @@
+[
+  {
+    "deal_id": "bbc99d6a-8669-44e2-90a5-1f3ee14cf950",
+    "company_id": "b81c4924-827c-48ad-a97c-b8ee16eef901",
+    "primary_contact_id": "b2457985-917b-4e98-933a-1d411ebf7fd9",
+    "rep_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "stage": "Prospecting",
+    "health": "Neutral",
+    "value_usd": 2000,
+    "opened_at": "2025-10-14T01:12:11.885761",
+    "expected_close_at": "2025-12-21T01:12:11.885761",
+    "closed_at": null,
+    "loss_reason": null
+  },
+  {
+    "deal_id": "06910289-8718-468a-8ad1-c97dbe9edc63",
+    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
+    "primary_contact_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "rep_id": "cba238cd-7cd5-477b-9a67-d0ae6c0d53d1",
+    "stage": "Proposal",
+    "health": "Neutral",
+    "value_usd": 500000,
+    "opened_at": "2025-11-12T01:12:11.885761",
+    "expected_close_at": "2026-02-08T01:12:11.885761",
+    "closed_at": null,
+    "loss_reason": null
+  },
+  {
+    "deal_id": "7e0659fa-3c4e-42c7-8761-ce86a89a78f0",
+    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
+    "primary_contact_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "rep_id": "a19c62b1-4e35-4cf8-80be-2c88f71ef21a",
+    "stage": "Closed-Lost",
+    "health": "Neutral",
+    "value_usd": 300000,
+    "opened_at": "2025-11-07T01:12:11.885761",
+    "expected_close_at": null,
+    "closed_at": "2025-11-29T01:12:11.885761",
+    "loss_reason": "Budget"
+  },
+  {
+    "deal_id": "e68e2e79-a1c1-4cfd-b1a5-93462d3b57b5",
+    "company_id": "6267e411-c0a1-4fdb-811b-ce097de5ceb2",
+    "primary_contact_id": "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96",
+    "rep_id": "9c1ba18d-9919-424a-be21-b51051b489eb",
+    "stage": "Qualified",
+    "health": "Neutral",
+    "value_usd": 9000,
+    "opened_at": "2025-11-26T01:12:11.885761",
+    "expected_close_at": "2026-02-03T01:12:11.885761",
+    "closed_at": null,
+    "loss_reason": null
+  }
+]

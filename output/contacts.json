@@ -1,0 +1,110 @@
+[
+  {
+    "contact_id": "076b7dac-8888-40af-a32f-a2c78c12ba46",
+    "company_id": "620c1604-c878-4646-8b57-f79a7c228149",
+    "full_name": "Robert Meza",
+    "title": "Manager",
+    "seniority": "Manager",
+    "email": "cwaller@becker.org",
+    "relationship_note": "Previously worked with White, Wilson and Bryant on community"
+  },
+  {
+    "contact_id": "773bbc76-ab99-4777-8ed4-28becf2a65ee",
+    "company_id": "620c1604-c878-4646-8b57-f79a7c228149",
+    "full_name": "Terri Thompson",
+    "title": "Director",
+    "seniority": "C-Level",
+    "email": "timothybailey@walker-gardner.com",
+    "relationship_note": "Previously worked with Prince-Sanchez on everybody"
+  },
+  {
+    "contact_id": "8ad4bce2-7cb0-45f1-96a8-49a45a611107",
+    "company_id": "620c1604-c878-4646-8b57-f79a7c228149",
+    "full_name": "Kevin Myers",
+    "title": "Manager",
+    "seniority": "IC",
+    "email": "pnunez@fox.org",
+    "relationship_note": "Previously worked with Brown-Burns on main"
+  },
+  {
+    "contact_id": "b2457985-917b-4e98-933a-1d411ebf7fd9",
+    "company_id": "b81c4924-827c-48ad-a97c-b8ee16eef901",
+    "full_name": "Brandy Weaver",
+    "title": "VP",
+    "seniority": "Director",
+    "email": "amanda72@alexander.com",
+    "relationship_note": "Previously worked with Gonzales Inc on apply"
+  },
+  {
+    "contact_id": "28e62f29-e414-4b31-bc6b-401fea090984",
+    "company_id": "b81c4924-827c-48ad-a97c-b8ee16eef901",
+    "full_name": "Christian Franklin",
+    "title": "Director",
+    "seniority": "Manager",
+    "email": "btaylor@livingston.info",
+    "relationship_note": "Previously worked with Murphy-Stone on necessary"
+  },
+  {
+    "contact_id": "a8482867-2f81-4f6f-b905-82f0182d68f9",
+    "company_id": "b81c4924-827c-48ad-a97c-b8ee16eef901",
+    "full_name": "David Harvey",
+    "title": "Director",
+    "seniority": "Manager",
+    "email": "dawnchapman@mendoza.biz",
+    "relationship_note": "Previously worked with Higgins Inc on any"
+  },
+  {
+    "contact_id": "7d6fca5b-501b-4735-8ade-2572e5965ee3",
+    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
+    "full_name": "Krista Terrell",
+    "title": "Manager",
+    "seniority": "Director",
+    "email": "zavalajustin@woods.com",
+    "relationship_note": "Previously worked with White-Vargas on last"
+  },
+  {
+    "contact_id": "cf185430-9289-42e0-91ab-1e40dec29005",
+    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
+    "full_name": "Brendan Key",
+    "title": "Manager",
+    "seniority": "Manager",
+    "email": "wroy@wilcox.net",
+    "relationship_note": "Previously worked with Adams LLC on business"
+  },
+  {
+    "contact_id": "ab5252a8-e082-44a5-bbc0-9435c4fc4ebd",
+    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
+    "full_name": "Lori Clark",
+    "title": "CIO",
+    "seniority": "C-Level",
+    "email": "zgolden@gonzalez.com",
+    "relationship_note": "Previously worked with Scott-Bryant on song"
+  },
+  {
+    "contact_id": "b28bbe1e-ee31-4e3e-ae57-a564b8669394",
+    "company_id": "6267e411-c0a1-4fdb-811b-ce097de5ceb2",
+    "full_name": "Paul Owens",
+    "title": "CIO",
+    "seniority": "Manager",
+    "email": "william84@alexander-peterson.com",
+    "relationship_note": "Previously worked with Bullock-Castaneda on people"
+  },
+  {
+    "contact_id": "f6ee3b84-bc7f-4c6d-b784-4075fe75bb96",
+    "company_id": "6267e411-c0a1-4fdb-811b-ce097de5ceb2",
+    "full_name": "Michael Cortez",
+    "title": "Manager",
+    "seniority": "IC",
+    "email": "kbartlett@gay.com",
+    "relationship_note": "Previously worked with Vargas Ltd on fund"
+  },
+  {
+    "contact_id": "9c06858b-3498-417f-afac-8e7102efd5d1",
+    "company_id": "6267e411-c0a1-4fdb-811b-ce097de5ceb2",
+    "full_name": "James Brooks",
+    "title": "Director",
+    "seniority": "IC",
+    "email": "johnparker@gibbs.com",
+    "relationship_note": "Previously worked with Lee-Armstrong on leg"
+  }
+]

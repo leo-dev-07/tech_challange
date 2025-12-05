@@ -64,7 +64,8 @@ understand and extend the code.
 	sentiment and follow-up actions.
 
 Generator methods (in `app/core.py`):
-
+- `Seed`: A seed is an initial value used to initialize a random number generator.
+    Once you set a seed, all subsequent "random" values  become deterministic — the same seed produces the same sequence of random numbers every time.
 - `Generator(seed=None)`: construct the generator; pass `seed` for deterministic
 	outputs (seeds `random` and `Faker`).
 - `gen_companies(n, industries)`: create `n` `Company` objects across the given
@@ -82,3 +83,85 @@ Generator methods (in `app/core.py`):
 The code is intentionally small and easy to extend. If you want stricter
 validation, more realistic templates, or multi-threaded generation, I can add
 those next.
+
+## Query Agent (LangGraph + Groq + LangSmith)
+
+A new agent app allows you to chat with the generated data using a Groq-powered LLM.
+
+### Setup
+
+1. Copy `.env.example` to `.env` and update the API keys (already configured):
+
+```powershell
+Copy-Item .env.example .env
+```
+
+2. Install additional dependencies (already in `requirements.txt`):
+
+```powershell
+pip install -r requirements.txt
+```
+
+### Run the agent
+
+```powershell
+python -m app.chat
+```
+
+This launches an interactive chat session. Try queries like:
+- "What companies are in the Healthcare industry?"
+- "Show me deals at the Demo stage"
+- "How many contacts work at company X?"
+- "What is the average deal value by rep tier?"
+
+### Architecture
+
+**Components:**
+
+- **`app/data_loader.py`**: `DataStore` class loads all generated JSON files and
+  provides indexed lookup methods (`get_company`, `search_contacts`, `get_deals_by_company`, etc.).
+
+- **`app/agent.py`**: `LangGraph` agent with nodes:
+  - `retrieve`: searches data for relevant context
+  - `process`: sends the query to Groq's Mixtral model with system prompt and conversation history
+
+- **`app/chat.py`**: CLI entry point that runs an interactive loop.
+
+**LangSmith Integration:**
+
+Set `LANGSMITH_TRACING=true` in `.env` to enable tracing. View traces at:
+```
+https://smith.langchain.com/
+```
+
+This lets you:
+- Monitor agent execution step-by-step
+- Debug LLM prompts and responses
+- Identify bottlenecks or errors
+
+**Groq Model:**
+
+Uses `mixtral-8x7b-32768` (fast, ~8B parameters). You can change the `model_name`
+in `app/agent.py` to any Groq-available model (e.g., `llama-2-70b-chat`).
+
+### Example queries
+
+```
+You: How many deals are in Closed-Won status?
+Agent: Based on the dataset, there are X deals in Closed-Won status...
+
+You: List the top 3 sales reps by target deals
+Agent: The top 3 reps are...
+
+You: Tell me about the company with ID abc-123
+Agent: Here's what I found...
+```
+
+### Extending the agent
+
+To add more capabilities:
+1. Add new methods to `DataStore` in `app/data_loader.py` (e.g., `filter_deals_by_health`).
+2. Update the system prompt in `app/agent.py` to describe new capabilities.
+3. Optionally add new LangGraph nodes for complex logic.
+
+---

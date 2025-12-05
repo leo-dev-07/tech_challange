@@ -1,42 +1,5002 @@
 [
   {
-    "company_id": "620c1604-c878-4646-8b57-f79a7c228149",
-    "name": "Johnson, Olson and Smith",
+    "company_id": "58952f98-fd70-4edc-b8cc-9348a0dc20da",
+    "name": "Nguyen-Allen",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Swaziland",
+    "annual_revenue_usd": 5576050,
+    "context_note": "Factor well yourself down new produce able."
+  },
+  {
+    "company_id": "3038abc6-0c91-4d16-8f83-69e6afff95c2",
+    "name": "Johnson-Krueger",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "China",
+    "annual_revenue_usd": 190162000,
+    "context_note": "Medical structure consumer focus beautiful single move day."
+  },
+  {
+    "company_id": "8b5ae665-5b67-4232-abc8-d7b76395c4c1",
+    "name": "Jones and Sons",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Qatar",
+    "annual_revenue_usd": 30624800,
+    "context_note": "Top other much between soon religious deep forget because officer still true six."
+  },
+  {
+    "company_id": "6ad88cf3-6b6e-4771-a733-642a95c2b1f2",
+    "name": "Nelson Ltd",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Singapore",
+    "annual_revenue_usd": 8133000,
+    "context_note": "Window goal morning stock sign identify old paper easy of I catch sound."
+  },
+  {
+    "company_id": "e5bef63c-f271-447e-9944-108ce7c0877f",
+    "name": "Valentine Inc",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Austria",
+    "annual_revenue_usd": 167432000,
+    "context_note": "Plan second set item eight mean none major practice state pressure challenge."
+  },
+  {
+    "company_id": "03db4e10-4f32-481e-9633-e433413e046f",
+    "name": "Davis, Bridges and Herman",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Uzbekistan",
+    "annual_revenue_usd": 9330400,
+    "context_note": "Offer artist loss set series ago account because under box hope."
+  },
+  {
+    "company_id": "948acd04-9b5c-48ff-99d9-fc5036fbcdcc",
+    "name": "Garcia-Wyatt",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Dominican Republic",
+    "annual_revenue_usd": 37907200,
+    "context_note": "Decide study claim chance anything test prove show whom."
+  },
+  {
+    "company_id": "b3955260-7724-47d4-b711-5e5c186cd289",
+    "name": "Joseph, Burke and Burns",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ethiopia",
+    "annual_revenue_usd": 6106850,
+    "context_note": "Stuff billion perform far everybody law country option audience affect center bed there."
+  },
+  {
+    "company_id": "5a917450-e7fc-41a4-a6a6-2a48c9404420",
+    "name": "Harris, Miller and Coleman",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Botswana",
+    "annual_revenue_usd": 9103400,
+    "context_note": "Exist theory mouth stand I theory practice suddenly exist tonight."
+  },
+  {
+    "company_id": "72a1d05e-d1b0-4889-85f8-990122b57cd5",
+    "name": "Hodge LLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Germany",
+    "annual_revenue_usd": 21373200,
+    "context_note": "Simply wife senior yourself long see sit modern."
+  },
+  {
+    "company_id": "f65f710d-d432-4e9c-9129-0ba37280050a",
+    "name": "Ferguson, Costa and Scott",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "San Marino",
+    "annual_revenue_usd": 4530500,
+    "context_note": "Successful probably understand ever billion case upon receive deep station perhaps painting often."
+  },
+  {
+    "company_id": "95473c99-1568-4277-995b-0c1b1d19448f",
+    "name": "Johnson, Le and Willis",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Northern Mariana Islands",
+    "annual_revenue_usd": 39623000,
+    "context_note": "Even claim why art middle perhaps western."
+  },
+  {
+    "company_id": "371c7ddd-01cb-49fa-a8b2-64e0dd81717f",
+    "name": "Hobbs LLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Belgium",
+    "annual_revenue_usd": 30122800,
+    "context_note": "Law per support another security chance identify wonder sure baby."
+  },
+  {
+    "company_id": "7ffa616b-abd1-4deb-9d38-c4d5aa06085e",
+    "name": "Rodriguez Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Slovakia (Slovak Republic)",
+    "annual_revenue_usd": 9252050,
+    "context_note": "Although size southern stage view plan stay."
+  },
+  {
+    "company_id": "adc11c25-064f-404d-bb2a-0703e4f53d43",
+    "name": "Snow, Miller and Williams",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Lucia",
+    "annual_revenue_usd": 38275400,
+    "context_note": "Memory author scene daughter nothing say foot director magazine job."
+  },
+  {
+    "company_id": "b48f4f68-f245-4f62-8af4-c40a9e9eff5e",
+    "name": "Hughes, Hopkins and Hawkins",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Congo",
+    "annual_revenue_usd": 7022750,
+    "context_note": "Recent deep pass yes fill protect fund popular course may size."
+  },
+  {
+    "company_id": "f6e5adca-6f0b-4642-88ef-29e2366566bc",
+    "name": "King and Sons",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Wallis and Futuna",
+    "annual_revenue_usd": 365570000,
+    "context_note": "General certainly enter western factor manage receive behind."
+  },
+  {
+    "company_id": "6a2e58c3-0c86-4748-9f06-378a208c242f",
+    "name": "Maldonado, Ramirez and Thompson",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Algeria",
+    "annual_revenue_usd": 8109550,
+    "context_note": "Old it modern institution hundred start bill key technology."
+  },
+  {
+    "company_id": "beb97f86-3a0d-4036-b96a-23bbf36c1c5c",
+    "name": "Kennedy-Herman",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Uganda",
+    "annual_revenue_usd": 7471550,
+    "context_note": "History test involve seem agency organization water just."
+  },
+  {
+    "company_id": "085517d1-422d-4065-a1ab-f2fa5ce526f6",
+    "name": "Becker-Smith",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Belarus",
+    "annual_revenue_usd": 362314000,
+    "context_note": "Former will prevent our team go certainly knowledge traditional close."
+  },
+  {
+    "company_id": "5a6efdb0-9924-4421-9c9e-9ec03fdd07fa",
+    "name": "Ray-Cooper",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Yemen",
+    "annual_revenue_usd": 31875200,
+    "context_note": "Third production significant carry forget recent list."
+  },
+  {
+    "company_id": "b6b69c40-d3c1-4d30-8847-1f242b9790dc",
+    "name": "Hicks Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Djibouti",
+    "annual_revenue_usd": 7095150,
+    "context_note": "Rest only voice use blue young trade before."
+  },
+  {
+    "company_id": "6d6534d4-3535-48d1-9193-bc120b032b12",
+    "name": "Swanson Group",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Lao People's Democratic Republic",
+    "annual_revenue_usd": 36146000,
+    "context_note": "If baby create guy discover they reduce production soldier."
+  },
+  {
+    "company_id": "b6201e7c-7f26-4c61-abad-c0171eb9c11f",
+    "name": "Ball, White and Castro",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Croatia",
+    "annual_revenue_usd": 4230000,
+    "context_note": "Go fight score movement miss hand late probably war."
+  },
+  {
+    "company_id": "89ef3955-b269-4edd-add0-7c7532178056",
+    "name": "Gardner Group",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Martin",
+    "annual_revenue_usd": 17034200,
+    "context_note": "Risk opportunity benefit collection police do south medical fine enjoy."
+  },
+  {
+    "company_id": "dec4f733-7858-4bf2-a70f-df5bf6fe047a",
+    "name": "Diaz-Edwards",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "United Kingdom",
+    "annual_revenue_usd": 27345600,
+    "context_note": "Analysis whose news similar over support."
+  },
+  {
+    "company_id": "42c2049c-526b-45a3-a1c2-6135f7b6bab2",
+    "name": "Atkins-Rush",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Saint Lucia",
+    "annual_revenue_usd": 7303100,
+    "context_note": "Direction main sit figure dog share bring four organization market we."
+  },
+  {
+    "company_id": "b072b9cf-924d-426f-921d-b69d12a84ac9",
+    "name": "Avery-Hernandez",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Antarctica (the territory South of 60 deg S)",
+    "annual_revenue_usd": 7090100,
+    "context_note": "Anyone administration half source effort life."
+  },
+  {
+    "company_id": "74f829a6-411f-460a-b69b-d6057be00fcc",
+    "name": "Gallegos Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Wallis and Futuna",
+    "annual_revenue_usd": 7481100,
+    "context_note": "Benefit western life career happen which contain several very trip sense type."
+  },
+  {
+    "company_id": "cf52c381-b38f-4aee-8e3b-9d8f831140cd",
+    "name": "Montes LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Taiwan",
+    "annual_revenue_usd": 7181900,
+    "context_note": "Election citizen especially development effect future power new top seem teacher control."
+  },
+  {
+    "company_id": "0a18b592-59f4-455c-88b2-37608bef85da",
+    "name": "Johnson, Mann and Moody",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 356806000,
+    "context_note": "Politics deep how but finally blood fund finally play let east."
+  },
+  {
+    "company_id": "d9734285-e899-404d-bbb7-a5110c26f202",
+    "name": "Maldonado-Garcia",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Papua New Guinea",
+    "annual_revenue_usd": 17630400,
+    "context_note": "Bring once case inside last performance."
+  },
+  {
+    "company_id": "91363e70-6ed1-427b-b8ef-c485b8339034",
+    "name": "Fleming PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Canada",
+    "annual_revenue_usd": 9430850,
+    "context_note": "Specific report owner miss side it herself however agent decade perform hotel."
+  },
+  {
+    "company_id": "2eafa3ec-427f-4c69-9100-777bf09dd40f",
+    "name": "Rodriguez-Dunn",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mali",
+    "annual_revenue_usd": 22288800,
+    "context_note": "Song group trip number security check whatever laugh case at as a since."
+  },
+  {
+    "company_id": "cf89c414-b61f-4645-8499-8fa53f05d95e",
+    "name": "Long-Thomas",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mali",
+    "annual_revenue_usd": 28222800,
+    "context_note": "Save lawyer administration system image effort task third."
+  },
+  {
+    "company_id": "970d8419-288d-4d3f-96d5-9820da84aac1",
+    "name": "Holder Inc",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Djibouti",
+    "annual_revenue_usd": 284754000,
+    "context_note": "Arm pay best feeling factor keep itself student first."
+  },
+  {
+    "company_id": "f07b3e66-4b51-467b-8abf-6c1f988d7a99",
+    "name": "Campbell LLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Turkey",
+    "annual_revenue_usd": 195552000,
+    "context_note": "Fear fight pressure group within very personal affect may."
+  },
+  {
+    "company_id": "c0ec01ca-b3b4-4bee-ab95-75034124de5c",
+    "name": "Vazquez LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tonga",
+    "annual_revenue_usd": 9058900,
+    "context_note": "Various true article score seven help financial prove term relationship."
+  },
+  {
+    "company_id": "42d1fb93-42e2-4485-aee8-26226f1db6e2",
+    "name": "Robinson, Myers and Arroyo",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Antigua and Barbuda",
+    "annual_revenue_usd": 4977500,
+    "context_note": "White wear idea person field amount after room director meeting experience."
+  },
+  {
+    "company_id": "63aa7d56-cafb-42d9-9fed-6c24305ced67",
+    "name": "Wright LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Kuwait",
+    "annual_revenue_usd": 9683600,
+    "context_note": "Garden security service sell open inside range test interest couple out subject."
+  },
+  {
+    "company_id": "626b75af-a402-4900-bc8a-af8bc479324a",
+    "name": "Davis Group",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "French Polynesia",
+    "annual_revenue_usd": 36175000,
+    "context_note": "Full event level small forward candidate nearly government."
+  },
+  {
+    "company_id": "9eb42335-a742-439a-b3d1-dfee22bac185",
+    "name": "Moore and Sons",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Jamaica",
+    "annual_revenue_usd": 311140000,
+    "context_note": "Speak cost so necessary stop southern me return career senior."
+  },
+  {
+    "company_id": "35193b3f-400b-4157-b86f-958efbac3756",
+    "name": "Garza and Sons",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bulgaria",
+    "annual_revenue_usd": 23020200,
+    "context_note": "Building choice admit give point door after appear support peace real."
+  },
+  {
+    "company_id": "7fb35ade-7855-4b4f-bf9f-e8d1072bb2c1",
+    "name": "Holmes-Henry",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bouvet Island (Bouvetoya)",
+    "annual_revenue_usd": 26879200,
+    "context_note": "Nothing civil event arrive school station."
+  },
+  {
+    "company_id": "95073d05-32d5-4a53-957f-d470a56a4ac9",
+    "name": "Mcmahon-Martinez",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Gambia",
+    "annual_revenue_usd": 23540000,
+    "context_note": "Responsibility TV morning direction attorney look option."
+  },
+  {
+    "company_id": "5de815a4-e3ee-4753-b6e4-2058ce114b10",
+    "name": "King-Everett",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Ghana",
+    "annual_revenue_usd": 164796000,
+    "context_note": "Record prevent pull lawyer key power certain and black."
+  },
+  {
+    "company_id": "3e00aa48-e182-4d9e-a5cc-c8323fe01ca5",
+    "name": "Flores Group",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bermuda",
+    "annual_revenue_usd": 4123250,
+    "context_note": "Later occur drive push member first moment almost natural commercial way never."
+  },
+  {
+    "company_id": "6e3d8e30-0e30-4691-992e-2d0ee772b8ff",
+    "name": "Craig, Bradley and Horne",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tunisia",
+    "annual_revenue_usd": 8316400,
+    "context_note": "Current foreign owner approach already happy why bill use open."
+  },
+  {
+    "company_id": "aa36b4ea-b998-4384-aee5-1ee67dda1017",
+    "name": "Hall, Hammond and Johnson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Portugal",
+    "annual_revenue_usd": 33792600,
+    "context_note": "Job course without available fly process and several ability computer."
+  },
+  {
+    "company_id": "d705b0ca-a43c-4728-888d-c54ea31cd1df",
+    "name": "Williams-Melton",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Central African Republic",
+    "annual_revenue_usd": 20334400,
+    "context_note": "Policy west yes too billion rich at either write nice."
+  },
+  {
+    "company_id": "ab024e98-430d-4730-9536-14aae02bfcac",
+    "name": "Byrd Group",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Hong Kong",
+    "annual_revenue_usd": 260742000,
+    "context_note": "Room between day artist take community likely form evidence car just management."
+  },
+  {
+    "company_id": "f2cd6e47-afa1-491b-9c08-d04be4dbcbca",
+    "name": "Alexander, Santiago and Wu",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mali",
+    "annual_revenue_usd": 28801000,
+    "context_note": "Together join party toward positive offer follow everything late magazine modern try role."
+  },
+  {
+    "company_id": "03ccce9b-39a6-4fec-8ee4-195375507de8",
+    "name": "Waters LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Maldives",
+    "annual_revenue_usd": 9428350,
+    "context_note": "Discussion east into player peace local address resource can spend watch."
+  },
+  {
+    "company_id": "81412e5f-adc0-496b-b208-b92aaa7e2e13",
+    "name": "Hammond Group",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Wallis and Futuna",
+    "annual_revenue_usd": 234322000,
+    "context_note": "Hold clearly half order challenge political style accept without from often."
+  },
+  {
+    "company_id": "762aefc5-813b-4efc-a01e-f288af4cbcf5",
+    "name": "Alvarez, Dunn and Zamora",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "French Guiana",
+    "annual_revenue_usd": 244796000,
+    "context_note": "Meeting doctor PM strong area south increase decade between."
+  },
+  {
+    "company_id": "6b563121-4cee-469e-a3c2-e762e4cd5918",
+    "name": "Patterson, Johnson and Young",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Australia",
+    "annual_revenue_usd": 363388000,
+    "context_note": "Lay bad name individual consumer parent everybody give foot."
+  },
+  {
+    "company_id": "13267c82-dc83-4a94-974b-d0e7b7d960a5",
+    "name": "Copeland-Meza",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Hungary",
+    "annual_revenue_usd": 357880000,
+    "context_note": "Center walk fly rock treat job rather make enjoy industry team someone."
+  },
+  {
+    "company_id": "d840b699-801d-4f11-a0e8-142d1b950980",
+    "name": "Kaufman-Campbell",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Macao",
+    "annual_revenue_usd": 361250000,
+    "context_note": "Water foot billion door meeting debate article."
+  },
+  {
+    "company_id": "9ffcf050-aec6-47c4-9292-f84d7e03d0f8",
+    "name": "Singh, Wang and Coleman",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Nigeria",
+    "annual_revenue_usd": 26496400,
+    "context_note": "Town language hold executive law only difficult century development business challenge interesting."
+  },
+  {
+    "company_id": "c9fd0dec-5aac-4e19-8a30-6d35a3615dfa",
+    "name": "Foster-Rhodes",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Luxembourg",
+    "annual_revenue_usd": 8892500,
+    "context_note": "Mr unit change president fast fire per yard."
+  },
+  {
+    "company_id": "66b07af6-63c0-4c74-ba27-9f3d52246c70",
+    "name": "Barrett Inc",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "United States of America",
+    "annual_revenue_usd": 231898000,
+    "context_note": "Continue lead dog career reflect theory."
+  },
+  {
+    "company_id": "34ee51a1-5a59-429c-a3aa-9b566c0e7d25",
+    "name": "Smith, Valdez and Flores",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jersey",
+    "annual_revenue_usd": 6356400,
+    "context_note": "Employee thing agree each between follow difference mind pressure recent."
+  },
+  {
+    "company_id": "55988d93-d646-47bb-a6b6-9f91e10a7939",
+    "name": "Jacobs and Sons",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bulgaria",
+    "annual_revenue_usd": 9401700,
+    "context_note": "Argue city however pretty positive through necessary tend green public so less watch."
+  },
+  {
+    "company_id": "472aa121-7757-4c81-a8f1-684d1e6fdcc1",
+    "name": "Jones, Copeland and Phillips",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Turkey",
+    "annual_revenue_usd": 38440000,
+    "context_note": "Employee star idea western into product."
+  },
+  {
+    "company_id": "33064868-b1e8-402a-8bf1-80d45e1cd528",
+    "name": "Williams-Romero",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Yemen",
+    "annual_revenue_usd": 37579000,
+    "context_note": "Parent seat tell letter air simply summer line plant animal upon long."
+  },
+  {
+    "company_id": "6b20499e-f81e-4b91-8925-2e55e7a5807d",
+    "name": "Brown and Sons",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Eritrea",
+    "annual_revenue_usd": 5054750,
+    "context_note": "Laugh painting allow buy television certain available play position those."
+  },
+  {
+    "company_id": "92b673ac-1316-4a24-82ce-eb7b2280e865",
+    "name": "Anderson, Santos and Johnson",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Yemen",
+    "annual_revenue_usd": 7379350,
+    "context_note": "Prepare conference more enter kind stock stop own."
+  },
+  {
+    "company_id": "bcbf02f9-26c8-4faf-85c3-69273c5c5a23",
+    "name": "Schultz, Davis and Escobar",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Belize",
+    "annual_revenue_usd": 8603000,
+    "context_note": "At us which rich idea process region."
+  },
+  {
+    "company_id": "bcabfe62-301d-4687-b427-886973024214",
+    "name": "Cook-Daniels",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ireland",
+    "annual_revenue_usd": 6974050,
+    "context_note": "Edge idea which traditional everyone top baby cup enter pattern who."
+  },
+  {
+    "company_id": "5bdc8d21-9fbf-406d-a267-b23c56074f13",
+    "name": "Curtis-Flores",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 8905250,
+    "context_note": "Simple instead coach language black participant knowledge pattern have."
+  },
+  {
+    "company_id": "30cdae40-7887-444c-a1dd-102f1ffb6d26",
+    "name": "Smith, Carpenter and Johnson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Macedonia",
+    "annual_revenue_usd": 36664200,
+    "context_note": "Hundred herself art face build eight serve enough suddenly hear year building near."
+  },
+  {
+    "company_id": "87078df5-4434-47f8-ac30-b6407d6e07cc",
+    "name": "Huffman LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Central African Republic",
+    "annual_revenue_usd": 18872200,
+    "context_note": "Have theory education I build Republican."
+  },
+  {
+    "company_id": "fd80d195-e654-41bb-812c-9805a5faac80",
+    "name": "Torres, Cruz and Guzman",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Greenland",
+    "annual_revenue_usd": 4829800,
+    "context_note": "Need long so serve nor assume order environmental there recognize family less project different."
+  },
+  {
+    "company_id": "67e36fe3-4e88-4442-9887-4dab2d0585c5",
+    "name": "Dean Group",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Qatar",
+    "annual_revenue_usd": 326928000,
+    "context_note": "Trip race red lawyer million food establish."
+  },
+  {
+    "company_id": "b6273b3e-8bd1-45b5-a3da-485294c0008a",
+    "name": "Daniel, Willis and Porter",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Antarctica (the territory South of 60 deg S)",
+    "annual_revenue_usd": 226872000,
+    "context_note": "Stay report activity happen others find information choice shoulder everyone together include."
+  },
+  {
+    "company_id": "902327f6-2e30-4b22-8f21-07d6a3f9ed4c",
+    "name": "Jones, Walker and Hubbard",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Costa Rica",
+    "annual_revenue_usd": 33523000,
+    "context_note": "Board him situation region Republican mean material father."
+  },
+  {
+    "company_id": "da2a22d7-d790-4bca-b6e7-527b687133fe",
+    "name": "Green-Reyes",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jordan",
+    "annual_revenue_usd": 7608700,
+    "context_note": "Provide training each model grow theory end method."
+  },
+  {
+    "company_id": "b3f5852a-5e84-4301-bca6-e400adb7cf6b",
+    "name": "Smith and Sons",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "United Kingdom",
+    "annual_revenue_usd": 17875400,
+    "context_note": "Fly everyone those black Congress article peace."
+  },
+  {
+    "company_id": "18d2cd9c-75bb-4fcb-a6b2-45cd3275e299",
+    "name": "Daniels-Andersen",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Afghanistan",
+    "annual_revenue_usd": 21347400,
+    "context_note": "Drive political beat discuss stock push third true military open medical."
+  },
+  {
+    "company_id": "0453a145-dd6f-424a-8ff6-a1e618eb0b71",
+    "name": "Butler-Myers",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Burkina Faso",
+    "annual_revenue_usd": 5505000,
+    "context_note": "Speak station building TV high run worry grow bag job put wonder fish."
+  },
+  {
+    "company_id": "9122153d-839a-4ded-af4f-16ed2ec43341",
+    "name": "Davis, Chaney and Higgins",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Kiribati",
+    "annual_revenue_usd": 27433800,
+    "context_note": "Free sound security work animal bed ground fact under leg trade."
+  },
+  {
+    "company_id": "c0ca0c63-e3b6-4665-a255-0a61dece487c",
+    "name": "Hall, Moreno and Yates",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Jamaica",
+    "annual_revenue_usd": 38840000,
+    "context_note": "Return send few east with push direction authority."
+  },
+  {
+    "company_id": "86656c11-de01-4ace-889d-399f50687780",
+    "name": "Williams-Martinez",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Ukraine",
+    "annual_revenue_usd": 18527600,
+    "context_note": "Current why almost center sometimes water front."
+  },
+  {
+    "company_id": "d2fd5b66-1199-42a1-8941-ca0e99f92c7e",
+    "name": "Miller, Rodriguez and Potter",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Germany",
+    "annual_revenue_usd": 33197400,
+    "context_note": "My expect rather artist attack energy miss play pull could far student surface."
+  },
+  {
+    "company_id": "5d2a6d9b-7743-45f4-a3a0-3602571102d2",
+    "name": "Marshall, Burgess and Mills",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Portugal",
+    "annual_revenue_usd": 24669400,
+    "context_note": "Budget character service think safe shoulder fast house state."
+  },
+  {
+    "company_id": "29a8a819-87be-4c12-bebd-923a0e6c53fa",
+    "name": "Moyer-Watson",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Cayman Islands",
+    "annual_revenue_usd": 272542000,
+    "context_note": "Forget standard already wish prove eight after."
+  },
+  {
+    "company_id": "93743b3e-caa6-4f65-8707-a41ac0d6bde0",
+    "name": "Roach PLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Malawi",
+    "annual_revenue_usd": 25262000,
+    "context_note": "Home manage without performance bill their middle outside strong understand season alone."
+  },
+  {
+    "company_id": "34607488-652b-4f1d-9fbe-4833cc770bac",
+    "name": "Fitzgerald-Smith",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Botswana",
+    "annual_revenue_usd": 9219450,
+    "context_note": "Physical company along citizen hold church between."
+  },
+  {
+    "company_id": "6157bcad-81e6-457f-a742-e185d524d4bc",
+    "name": "Perry-Maldonado",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Slovenia",
+    "annual_revenue_usd": 250368000,
+    "context_note": "Watch former agreement blue air task sometimes this."
+  },
+  {
+    "company_id": "ec377232-b078-4aa4-a312-a9ec8e9a0d60",
+    "name": "Cooper, Thomas and Phillips",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Lithuania",
+    "annual_revenue_usd": 298096000,
+    "context_note": "Put already sport pretty natural very."
+  },
+  {
+    "company_id": "b669540f-21c9-4efe-b67e-56e002b1954e",
+    "name": "Nash-Mays",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bouvet Island (Bouvetoya)",
+    "annual_revenue_usd": 7228350,
+    "context_note": "Field appear anyone rate me school student accept list."
+  },
+  {
+    "company_id": "262f527d-d0a6-40c3-b45e-7adad68df3fb",
+    "name": "Nelson-Mendoza",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Barbados",
+    "annual_revenue_usd": 18464600,
+    "context_note": "Quite position rule themselves center base old."
+  },
+  {
+    "company_id": "dbc1b0f3-60b7-4125-b3dc-a0cd4d80d174",
+    "name": "Reid, Christian and Serrano",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mauritius",
+    "annual_revenue_usd": 17781600,
+    "context_note": "Look few country appear organization dog indeed concern people try often likely."
+  },
+  {
+    "company_id": "51b544f5-7332-4fbd-bae6-8d37ea3586f2",
+    "name": "Johnson and Sons",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Philippines",
+    "annual_revenue_usd": 4060400,
+    "context_note": "American I follow street even or development should say each citizen discover price whatever."
+  },
+  {
+    "company_id": "7652a9be-61db-4b0a-80b0-33ed28d4356b",
+    "name": "Thomas-Skinner",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Haiti",
+    "annual_revenue_usd": 27324400,
+    "context_note": "According light represent relate recently true protect reflect why."
+  },
+  {
+    "company_id": "386d6d4f-104c-4c25-8ada-e4ccb3a0fad0",
+    "name": "Clark-Brown",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Barthelemy",
+    "annual_revenue_usd": 38978200,
+    "context_note": "Month list stuff city language chair our newspaper culture."
+  },
+  {
+    "company_id": "fe4a28b4-72f4-4efa-bef4-361fb955acb1",
+    "name": "Landry-Howard",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Tuvalu",
+    "annual_revenue_usd": 37096600,
+    "context_note": "Significant how rise development doctor cut road officer run."
+  },
+  {
+    "company_id": "a1aebd1b-112a-4603-b506-d726e41fb522",
+    "name": "Barton, Durham and Tucker",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Guatemala",
+    "annual_revenue_usd": 39991400,
+    "context_note": "Position view quite modern have may admit red."
+  },
+  {
+    "company_id": "5e65174c-33c8-4991-a39d-ef730b7b8fb9",
+    "name": "Hardin and Sons",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Ecuador",
+    "annual_revenue_usd": 261172000,
+    "context_note": "Program tend nor movie major general though job my."
+  },
+  {
+    "company_id": "570711f7-42af-4471-a5ce-bb77b60be9be",
+    "name": "Castillo-Turner",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "British Virgin Islands",
+    "annual_revenue_usd": 272614000,
+    "context_note": "Age others indicate moment main who hard myself."
+  },
+  {
+    "company_id": "a45fefd6-577b-4c11-954f-3ef37aec2092",
+    "name": "Mcdonald, Allen and Hill",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Israel",
+    "annual_revenue_usd": 7897500,
+    "context_note": "Large cell interesting decide he my happy student wall shoulder tough practice director."
+  },
+  {
+    "company_id": "8d86d277-4e40-4c6e-8e31-703ede1f6389",
+    "name": "Adams, Harris and Horton",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Namibia",
+    "annual_revenue_usd": 274990000,
+    "context_note": "Wish also Democrat rock face writer begin gun agreement often different better letter."
+  },
+  {
+    "company_id": "172bb922-3de8-4a2b-8fb6-ec3d65b81ff6",
+    "name": "Watson Inc",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mauritius",
+    "annual_revenue_usd": 16535600,
+    "context_note": "Blue middle social plan trip end dream particular term level early item property."
+  },
+  {
+    "company_id": "aaa66d97-efd4-4976-9664-3ee5294e9404",
+    "name": "Doyle LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Heard Island and McDonald Islands",
+    "annual_revenue_usd": 9940400,
+    "context_note": "People forward election oil news well political build speech garden score."
+  },
+  {
+    "company_id": "17c57544-8264-4ab2-932a-c194f7befdb5",
+    "name": "Williams, Ryan and Simpson",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Dominica",
+    "annual_revenue_usd": 31669600,
+    "context_note": "White poor kid nearly until serious their can."
+  },
+  {
+    "company_id": "2b882b0f-eb84-46c9-97b8-ea1d9e27b607",
+    "name": "Johnson and Sons",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Mayotte",
+    "annual_revenue_usd": 4957800,
+    "context_note": "Nothing catch lay himself commercial able impact beautiful seat long store notice itself."
+  },
+  {
+    "company_id": "159d00ae-0c41-40b1-9157-0913a77288bf",
+    "name": "Barnes, Smith and Scott",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Gibraltar",
+    "annual_revenue_usd": 39803600,
+    "context_note": "Into indeed tend card final example interest everybody could quite make where quite."
+  },
+  {
+    "company_id": "5b0dabc7-844f-43ee-a7fc-c7a9db29915a",
+    "name": "Phillips, Lee and Martinez",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Oman",
+    "annual_revenue_usd": 7229650,
+    "context_note": "Network general better organization fish such town yes suggest house walk together foot."
+  },
+  {
+    "company_id": "1615ca20-88d5-484a-b8df-cc207dab3dcb",
+    "name": "Dixon-White",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "United Kingdom",
+    "annual_revenue_usd": 4605700,
+    "context_note": "Boy seat until machine cultural only enjoy may son entire employee issue land."
+  },
+  {
+    "company_id": "879e9664-81e4-46d2-ab30-35df3c1c08ed",
+    "name": "Bennett Group",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Sierra Leone",
+    "annual_revenue_usd": 19588000,
+    "context_note": "Wrong pay all player fear game camera wear news."
+  },
+  {
+    "company_id": "90a6c470-54e6-426c-8275-5c4216cf8ad4",
+    "name": "Castro Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "French Southern Territories",
+    "annual_revenue_usd": 8568850,
+    "context_note": "Contain key color daughter receive and."
+  },
+  {
+    "company_id": "f103d402-8562-4bc3-8cfe-a95970f27e74",
+    "name": "Smith-Mclaughlin",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Syrian Arab Republic",
+    "annual_revenue_usd": 18643200,
+    "context_note": "Quality rise ten budget create enjoy baby mean arrive receive wear visit paper."
+  },
+  {
+    "company_id": "af0a4ed4-a547-4605-a6c0-c217693633ca",
+    "name": "Smith, Kennedy and Wright",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ethiopia",
+    "annual_revenue_usd": 8716750,
+    "context_note": "Carry drug appear focus serious performance former message line maintain tree laugh management."
+  },
+  {
+    "company_id": "9654e222-22b5-4121-ae09-2f51bb3ecf4c",
+    "name": "Williams, Nichols and Mendez",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Indonesia",
+    "annual_revenue_usd": 286592000,
+    "context_note": "Set hot alone response forget same spring seat job open."
+  },
+  {
+    "company_id": "c33e6ecf-26c0-48f0-9f12-20ba831b1b3c",
+    "name": "Peterson Inc",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Puerto Rico",
+    "annual_revenue_usd": 27125400,
+    "context_note": "Century of road help race it upon series."
+  },
+  {
+    "company_id": "7c81bae4-d0df-4a6d-8e9f-7d7515465d16",
+    "name": "Jones, Jackson and Mendez",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Indonesia",
+    "annual_revenue_usd": 4380750,
+    "context_note": "Look take structure not produce air only again during past."
+  },
+  {
+    "company_id": "d49c81fd-7157-417b-9047-ebc0d4d361c5",
+    "name": "Fletcher, Harrison and Martin",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "South Georgia and the South Sandwich Islands",
+    "annual_revenue_usd": 23284200,
+    "context_note": "Gun enter assume stock positive degree."
+  },
+  {
+    "company_id": "12669e41-fa47-4969-8c90-84d17a230eaa",
+    "name": "Stevens-Obrien",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Ecuador",
+    "annual_revenue_usd": 38834400,
+    "context_note": "House own agreement minute continue even guy."
+  },
+  {
+    "company_id": "0a3aac75-9c69-4e4c-8f71-652f34345e6c",
+    "name": "Carroll, Gallagher and Moore",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mexico",
+    "annual_revenue_usd": 29587200,
+    "context_note": "Next hand total management huge available home air because sea west."
+  },
+  {
+    "company_id": "911a1e0f-4387-45f9-8c46-a7b3d7f1eda0",
+    "name": "Smith and Sons",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Angola",
+    "annual_revenue_usd": 38900400,
+    "context_note": "Into garden view scene painting few them discussion."
+  },
+  {
+    "company_id": "e98de30f-fa6f-4903-b384-fd9617e96832",
+    "name": "Sellers Inc",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Ukraine",
+    "annual_revenue_usd": 36806600,
+    "context_note": "Common if suggest south lose personal."
+  },
+  {
+    "company_id": "d38a8b6a-a57f-42d3-8c8f-0edf8be89c3b",
+    "name": "Williams-Weaver",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Niger",
+    "annual_revenue_usd": 7670850,
+    "context_note": "Lay agreement control day list spend media call than operation."
+  },
+  {
+    "company_id": "632aed4a-e132-4bf5-925d-314f99b07faa",
+    "name": "Miller, Davis and Anderson",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tajikistan",
+    "annual_revenue_usd": 5994500,
+    "context_note": "Factor occur inside before environment laugh let."
+  },
+  {
+    "company_id": "fa1f8e19-08e8-4186-b539-59ca48bd9f7b",
+    "name": "Parrish-Jones",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Gibraltar",
+    "annual_revenue_usd": 30029000,
+    "context_note": "Box rich change else test role analysis."
+  },
+  {
+    "company_id": "7a757895-10c4-43c2-b14d-24c704f146ea",
+    "name": "Soto-Davis",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Moldova",
+    "annual_revenue_usd": 25597000,
+    "context_note": "Stuff sea nation actually there over put PM prevent wind community land."
+  },
+  {
+    "company_id": "13d00826-fbce-4079-916a-020d93fed7b2",
+    "name": "White Ltd",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Netherlands Antilles",
+    "annual_revenue_usd": 28563400,
+    "context_note": "Practice common own somebody account gas represent agency play once place."
+  },
+  {
+    "company_id": "85e55910-e8a8-4a2e-9584-9d3f9f8f69cb",
+    "name": "Compton, Berry and Avery",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Fiji",
+    "annual_revenue_usd": 7142450,
+    "context_note": "Half room moment forward walk politics art film heavy nearly kid."
+  },
+  {
+    "company_id": "5bebf284-0a34-4bec-b9cf-e388ccab1a2d",
+    "name": "Collins PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Canada",
+    "annual_revenue_usd": 35034600,
+    "context_note": "Recently call condition plan scene third force."
+  },
+  {
+    "company_id": "b9ade6f5-3a98-426f-9b22-fbd8ba7b5d5a",
+    "name": "Herring-Pierce",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "French Polynesia",
+    "annual_revenue_usd": 18520200,
+    "context_note": "Evidence development family still back television."
+  },
+  {
+    "company_id": "6b3a8746-6f49-4430-af8f-96a51af4b031",
+    "name": "Cannon, Jones and Leonard",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Mongolia",
+    "annual_revenue_usd": 8190050,
+    "context_note": "Focus environmental government wonder appear station plan throw public oil certain."
+  },
+  {
+    "company_id": "f3b096c4-98c7-4c84-b3ad-42a710d5c767",
+    "name": "Richardson Ltd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Albania",
+    "annual_revenue_usd": 9284100,
+    "context_note": "Water career set two social a almost ready skill carry develop over court."
+  },
+  {
+    "company_id": "737e3168-965b-418d-a623-f0d8e2875fba",
+    "name": "Ewing-Hanson",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Rwanda",
+    "annual_revenue_usd": 24645600,
+    "context_note": "Across know difficult network nation strong than data allow technology no."
+  },
+  {
+    "company_id": "d6d9a253-ad48-4b56-9b1a-25ff461735e1",
+    "name": "Taylor-Espinoza",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cameroon",
+    "annual_revenue_usd": 6062000,
+    "context_note": "Often let despite free pay find data look eight hear three."
+  },
+  {
+    "company_id": "97be9787-ce7e-4cdc-8ffe-9652fd7a2344",
+    "name": "Barnes Inc",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Jersey",
+    "annual_revenue_usd": 167758000,
+    "context_note": "Story alone because fight billion know attention white century for rise traditional."
+  },
+  {
+    "company_id": "82270eb7-d533-4bf7-8996-0b2469fbe841",
+    "name": "Russell-Coffey",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Niue",
+    "annual_revenue_usd": 7650050,
+    "context_note": "Treat reflect performance do grow someone during tough figure today clearly continue."
+  },
+  {
+    "company_id": "f2cdb911-0a63-4b9c-b862-df1de5659256",
+    "name": "Watts, Vargas and White",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Morocco",
+    "annual_revenue_usd": 31741200,
+    "context_note": "True coach policy cell often miss rich need."
+  },
+  {
+    "company_id": "a2ee9f62-fa94-4bde-b633-4bb1f986f22f",
+    "name": "Potter-Steele",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Iran",
+    "annual_revenue_usd": 18386200,
+    "context_note": "Idea mean stock lead somebody reduce line generation control."
+  },
+  {
+    "company_id": "8dc26d00-98cb-46ba-b888-666349809106",
+    "name": "Garcia, Robinson and Peterson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Colombia",
+    "annual_revenue_usd": 33698400,
+    "context_note": "Campaign store class class turn service sense let pattern design."
+  },
+  {
+    "company_id": "e764ee52-ee1f-4b3a-9fc2-372bc5c99a82",
+    "name": "Gilmore-Rodriguez",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Botswana",
+    "annual_revenue_usd": 7190500,
+    "context_note": "One must possible social recently least officer father."
+  },
+  {
+    "company_id": "5786ad4e-aba0-4dff-a2ad-fc672c14e8d6",
+    "name": "Dean and Sons",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bosnia and Herzegovina",
+    "annual_revenue_usd": 5543500,
+    "context_note": "Majority term instead clearly report light forward treatment time president business born."
+  },
+  {
+    "company_id": "0e59b05b-320b-4d52-a8de-64da97fb9dc1",
+    "name": "Nunez, Moon and Gregory",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Armenia",
+    "annual_revenue_usd": 28811400,
+    "context_note": "Language space song smile continue most half page safe case manager heavy reduce."
+  },
+  {
+    "company_id": "0ea335ef-ae25-44a0-9e25-20685a3d1b0e",
+    "name": "Cunningham Inc",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Monaco",
+    "annual_revenue_usd": 6620950,
+    "context_note": "Election begin just wear issue consider heart realize today."
+  },
+  {
+    "company_id": "a9278589-e36d-43a8-ae43-61db47d7914e",
+    "name": "Woods and Sons",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Central African Republic",
+    "annual_revenue_usd": 199770000,
+    "context_note": "Turn follow pull trouble image every eight market almost."
+  },
+  {
+    "company_id": "f9402de1-dee1-4621-8f23-43549f14f6d7",
+    "name": "Atkinson, Hernandez and Schultz",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Taiwan",
+    "annual_revenue_usd": 4234900,
+    "context_note": "Raise life employee life choose old result food firm feel rise ability positive."
+  },
+  {
+    "company_id": "35cce517-35e2-474f-aafe-c920788d5bc6",
+    "name": "Gardner Ltd",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "United States of America",
+    "annual_revenue_usd": 6395100,
+    "context_note": "Government television sea continue loss yourself."
+  },
+  {
+    "company_id": "ff544a40-f0ba-47a7-9cd1-b69f1bd83ebc",
+    "name": "Castillo, Garcia and Richards",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cote d'Ivoire",
+    "annual_revenue_usd": 7066850,
+    "context_note": "Share house industry may with test."
+  },
+  {
+    "company_id": "b6de6b5e-4edc-4eac-b732-f68a6e2bcbae",
+    "name": "Stewart, Doyle and Collins",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Saudi Arabia",
+    "annual_revenue_usd": 270844000,
+    "context_note": "Door wish nature return listen short consider rest."
+  },
+  {
+    "company_id": "0f52a98a-9c3c-414e-87f6-aa3720453188",
+    "name": "Harrison-Roberts",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Sweden",
+    "annual_revenue_usd": 39735400,
+    "context_note": "Anything make could product key same help simply very quality surface."
+  },
+  {
+    "company_id": "e0d857df-ef73-4351-a700-5bdc587cf2c3",
+    "name": "Williams, Foster and Chung",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Spain",
+    "annual_revenue_usd": 6407350,
+    "context_note": "Loss anyone generation try within work interview security determine act box."
+  },
+  {
+    "company_id": "59dd3c0a-b898-408c-9ccc-314d9988c7a9",
+    "name": "Anderson-Montoya",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Tajikistan",
+    "annual_revenue_usd": 208056000,
+    "context_note": "Six administration indeed sell effect member."
+  },
+  {
+    "company_id": "5569f542-2c5d-4440-b69d-875b4ce7eb0b",
+    "name": "Ellis and Sons",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bouvet Island (Bouvetoya)",
+    "annual_revenue_usd": 30665600,
+    "context_note": "Five study identify leader dark try conference born body."
+  },
+  {
+    "company_id": "f5ea319d-dd4d-4d77-a33b-aff1d932c031",
+    "name": "Haynes-Burke",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Anguilla",
+    "annual_revenue_usd": 19005800,
+    "context_note": "Likely record generation wrong see most another investment year."
+  },
+  {
+    "company_id": "c63b152d-7c23-41cd-8199-2aa8811693cf",
+    "name": "Davis-Sanders",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Djibouti",
+    "annual_revenue_usd": 296748000,
+    "context_note": "Those law alone reflect behind town."
+  },
+  {
+    "company_id": "b76578a3-8aa5-4d93-bb9f-b03113212d35",
+    "name": "Morris PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Japan",
+    "annual_revenue_usd": 5900850,
+    "context_note": "Future call game step reveal long speech decision not throughout take range collection."
+  },
+  {
+    "company_id": "1424dd88-f902-4b2d-ab71-74cada023b12",
+    "name": "Thomas PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Korea",
+    "annual_revenue_usd": 26818600,
+    "context_note": "Newspaper head remain upon majority free employee respond now respond story allow soon."
+  },
+  {
+    "company_id": "fc6f580d-d14d-46ea-a3fa-88d26ce6f7d5",
+    "name": "Torres PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cape Verde",
+    "annual_revenue_usd": 20555400,
+    "context_note": "Decide ball ability traditional city particularly foot save admit situation head."
+  },
+  {
+    "company_id": "7d10a969-79a2-470d-9943-43b9cf828fad",
+    "name": "Jordan PLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Antarctica (the territory South of 60 deg S)",
+    "annual_revenue_usd": 39643200,
+    "context_note": "Available position attorney read fill experience meeting scientist great tough close."
+  },
+  {
+    "company_id": "144eeab4-1330-44f6-ba2a-d6a0782f4e7e",
+    "name": "Perez-Kemp",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Armenia",
+    "annual_revenue_usd": 208860000,
+    "context_note": "Success between inside friend service under onto film energy office blue cell."
+  },
+  {
+    "company_id": "570f2250-3bdc-40bc-95cf-62fcb8e54129",
+    "name": "Robbins, Garner and Ryan",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Monaco",
+    "annual_revenue_usd": 16791400,
+    "context_note": "Impact reach never bar grow where team discover."
+  },
+  {
+    "company_id": "12d892b8-0229-4472-90df-6ba452ede175",
+    "name": "Mccoy, Young and Mcguire",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Seychelles",
+    "annual_revenue_usd": 21537800,
+    "context_note": "Good early nothing arm standard yourself style design head."
+  },
+  {
+    "company_id": "b30a5357-71bf-4b14-8f1d-7a2d40c33c2b",
+    "name": "Peterson, Randall and Johnson",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Greenland",
+    "annual_revenue_usd": 6027650,
+    "context_note": "Real few tax sort inside name whose maybe civil natural cup through investment."
+  },
+  {
+    "company_id": "db5ee6c8-b32d-4293-aec7-ffbfd2f3046d",
+    "name": "Gibson, Burke and Bradley",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Palestinian Territory",
+    "annual_revenue_usd": 241008000,
+    "context_note": "Seat evening beat sure field yard."
+  },
+  {
+    "company_id": "9ec600c4-e29c-48d5-b9a3-fd8d6af4082e",
+    "name": "Cummings, Lee and Nielsen",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mexico",
+    "annual_revenue_usd": 28194200,
+    "context_note": "Easy management for key local poor paper environmental peace."
+  },
+  {
+    "company_id": "d5ee022e-5506-46c2-ab89-ba308a10f67c",
+    "name": "Barnes-Peterson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Jersey",
+    "annual_revenue_usd": 33863800,
+    "context_note": "Be guess various great church civil leave baby reason budget young argue law."
+  },
+  {
+    "company_id": "80ae287c-e3e8-441b-8d75-af575dbf6d50",
+    "name": "Williams, Walker and Riley",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Antigua and Barbuda",
+    "annual_revenue_usd": 8375100,
+    "context_note": "Common low them southern hot claim."
+  },
+  {
+    "company_id": "7d9f56a2-c556-4daa-9937-91ded178fa17",
+    "name": "Reynolds-Williamson",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Paraguay",
+    "annual_revenue_usd": 7831100,
+    "context_note": "For catch memory become fall toward fear."
+  },
+  {
+    "company_id": "2d853f2a-3310-4684-a7b5-30aeb74cd8d2",
+    "name": "Oconnor-Hernandez",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Lithuania",
+    "annual_revenue_usd": 6756850,
+    "context_note": "Same effect drive necessary charge need oil all."
+  },
+  {
+    "company_id": "41750cbd-5efb-4741-9168-4812b1192887",
+    "name": "Barnes-Oliver",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bulgaria",
+    "annual_revenue_usd": 32313200,
+    "context_note": "Specific sea leader happy occur decision must president or interview authority religious threat."
+  },
+  {
+    "company_id": "0b763fd5-964c-41c9-a53d-91e54550d9f2",
+    "name": "Armstrong-Webster",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Mauritius",
+    "annual_revenue_usd": 9422550,
+    "context_note": "Morning remember challenge huge old ask group six sister fall inside marriage on."
+  },
+  {
+    "company_id": "7ad0c699-2892-486b-b0d6-9a36b10fb21f",
+    "name": "Garcia, Taylor and Hamilton",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mali",
+    "annual_revenue_usd": 37256000,
+    "context_note": "Huge administration couple office grow game story protect yard training degree road."
+  },
+  {
+    "company_id": "9db20731-a78c-42fc-8bbe-9a37fc22775a",
+    "name": "Lopez-James",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Lesotho",
+    "annual_revenue_usd": 31819200,
+    "context_note": "Learn billion individual increase ability air including surface important seek."
+  },
+  {
+    "company_id": "66a2641a-6b92-45f8-8d8a-ad039e5ea452",
+    "name": "Allen Group",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Aruba",
+    "annual_revenue_usd": 27318400,
+    "context_note": "Cost tax off fire garden enough."
+  },
+  {
+    "company_id": "c74956df-5010-4460-82f5-cd16352cae68",
+    "name": "Copeland, Smith and Evans",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Trinidad and Tobago",
+    "annual_revenue_usd": 6604600,
+    "context_note": "Adult put artist miss effect direction rather bring value every arrive father soon."
+  },
+  {
+    "company_id": "0cfe0112-6e0e-4a4d-b0fa-34b6018dd7ec",
+    "name": "Robbins Inc",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Guinea-Bissau",
+    "annual_revenue_usd": 4243500,
+    "context_note": "Represent it order easy American recently base coach box station left partner help."
+  },
+  {
+    "company_id": "59182e63-d5cf-4e1c-a952-96934cfc2323",
+    "name": "Williamson Ltd",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "British Indian Ocean Territory (Chagos Archipelago)",
+    "annual_revenue_usd": 6796550,
+    "context_note": "Born moment which thing yard deal few Democrat care quality."
+  },
+  {
+    "company_id": "0c3375f1-0877-4263-a735-e2f9e782d1b6",
+    "name": "Goodwin LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Yemen",
+    "annual_revenue_usd": 5005750,
+    "context_note": "Manage red crime forward time offer argue man loss."
+  },
+  {
+    "company_id": "8118e0f6-0e77-48f9-86a3-34d1baf77e0f",
+    "name": "Cruz, Cuevas and Figueroa",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Ethiopia",
+    "annual_revenue_usd": 29225400,
+    "context_note": "Man long blood those reason partner TV receive heart visit however."
+  },
+  {
+    "company_id": "6951bb3d-ff0c-49b4-ae96-5cbd6df81716",
+    "name": "Cantu PLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ghana",
+    "annual_revenue_usd": 5978500,
+    "context_note": "Development imagine suddenly argue important new success country science."
+  },
+  {
+    "company_id": "00f97ef9-e266-41ee-980a-7b879a2c7453",
+    "name": "Parker Inc",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Congo",
+    "annual_revenue_usd": 39544800,
+    "context_note": "Region follow hospital board garden miss thing with four realize."
+  },
+  {
+    "company_id": "bd39b26d-212b-419c-9b90-c524008b9c57",
+    "name": "Rodriguez, Ochoa and Brown",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Montenegro",
+    "annual_revenue_usd": 17879400,
+    "context_note": "Trial tend because course join body food."
+  },
+  {
+    "company_id": "ce131d03-9119-4480-909a-a480afb27b69",
+    "name": "Smith LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "China",
+    "annual_revenue_usd": 37036000,
+    "context_note": "Degree spring identify should race consider."
+  },
+  {
+    "company_id": "e8bb69db-0df9-494e-9ad4-9707bbaefd6a",
+    "name": "Cunningham Ltd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 4954850,
+    "context_note": "While federal sound receive relate front month while president there rich."
+  },
+  {
+    "company_id": "7ae7c830-5fbc-4010-98b1-98d3eeae16a5",
+    "name": "Phillips, Blankenship and Stewart",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Solomon Islands",
+    "annual_revenue_usd": 27920200,
+    "context_note": "Third still picture until group drive determine increase thought."
+  },
+  {
+    "company_id": "6e961c30-ad25-408c-86fd-57c55eae800d",
+    "name": "Velasquez-Winters",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Iceland",
+    "annual_revenue_usd": 27980000,
+    "context_note": "Board operation represent kid significant arrive drug hope."
+  },
+  {
+    "company_id": "826e2c0d-2113-459b-b044-d8f8064fcecb",
+    "name": "Smith, Sandoval and Gutierrez",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "New Caledonia",
+    "annual_revenue_usd": 25442000,
+    "context_note": "Reality among church join up make expert activity treat rich."
+  },
+  {
+    "company_id": "5ff2965e-113b-4530-9f08-f5a0b3f1d9a9",
+    "name": "Medina LLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Uruguay",
+    "annual_revenue_usd": 191490000,
+    "context_note": "Soon allow travel rather mouth main read."
+  },
+  {
+    "company_id": "afcabe9d-1aad-407a-ba06-82e6cdaee7b6",
+    "name": "Livingston-Holloway",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Palau",
+    "annual_revenue_usd": 7466500,
+    "context_note": "Office wide weight rich method much soon."
+  },
+  {
+    "company_id": "f6176ece-6154-4b0b-8206-84563553ffcc",
+    "name": "Shah, Friedman and Jackson",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Japan",
+    "annual_revenue_usd": 375030000,
+    "context_note": "Door trip every school customer reach."
+  },
+  {
+    "company_id": "e6c83d5a-3c96-474c-8656-12eeaf248692",
+    "name": "Hernandez LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Pakistan",
+    "annual_revenue_usd": 8999000,
+    "context_note": "Environmental leave worry outside rate main especially threat maintain."
+  },
+  {
+    "company_id": "c5302918-f74e-4157-a081-5f8e98fb051b",
+    "name": "Chapman Group",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cote d'Ivoire",
+    "annual_revenue_usd": 6825600,
+    "context_note": "Appear more these pattern eye entire wait continue thought that fact Mrs."
+  },
+  {
+    "company_id": "7d1c8830-756e-4d66-8b71-db7b0bf40095",
+    "name": "Nichols-Rogers",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Burundi",
+    "annual_revenue_usd": 4179400,
+    "context_note": "Energy them difference author full commercial find cultural trade prepare organization and."
+  },
+  {
+    "company_id": "3afe7275-8b5f-4b4c-bff4-047df17079cf",
+    "name": "Warren-Hudson",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Macao",
+    "annual_revenue_usd": 39019400,
+    "context_note": "Quality anyone policy civil local at decide well bit line partner."
+  },
+  {
+    "company_id": "0a8271f1-478e-45ad-839a-5f25f1c9b089",
+    "name": "Vance PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jamaica",
+    "annual_revenue_usd": 5997250,
+    "context_note": "Mouth interest professor let effort cause finish month both agreement these put."
+  },
+  {
+    "company_id": "38735663-6032-4686-9d21-65d89ce092c0",
+    "name": "Curtis-Jones",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cook Islands",
+    "annual_revenue_usd": 5328900,
+    "context_note": "Start now attack manager recently special pull old generation dream same player."
+  },
+  {
+    "company_id": "177717a0-610d-4f56-baa3-9295c954c47c",
+    "name": "Reyes, Chambers and Thomas",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Holy See (Vatican City State)",
+    "annual_revenue_usd": 28476200,
+    "context_note": "Trouble rule oil move enough help suffer we sound create specific evidence because."
+  },
+  {
+    "company_id": "4f6d5693-ecc9-4b7b-b588-2bf613272efd",
+    "name": "Cooper Group",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Panama",
+    "annual_revenue_usd": 24995000,
+    "context_note": "Operation among this upon money he necessary north pattern happy in face."
+  },
+  {
+    "company_id": "84bf1b10-862b-4118-ab94-6a200b0e13fd",
+    "name": "Hanson, Fernandez and Moore",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Armenia",
+    "annual_revenue_usd": 334782000,
+    "context_note": "Discussion center upon strategy design particularly after them per."
+  },
+  {
+    "company_id": "9d0f918c-bf71-46aa-a1c8-baf4fb52dd41",
+    "name": "Griffin-Nash",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Latvia",
+    "annual_revenue_usd": 309454000,
+    "context_note": "Story interest drop firm draw attorney establish house when common such return every."
+  },
+  {
+    "company_id": "e12df44c-3990-4654-a9d7-5a69985ac35c",
+    "name": "Burnett-Stafford",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Saint Helena",
+    "annual_revenue_usd": 222126000,
+    "context_note": "Performance second Congress apply these step sit until me small guy fall surface."
+  },
+  {
+    "company_id": "a2e587fc-988e-4b3b-9479-2911c7b8f83e",
+    "name": "Jackson and Sons",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 16343400,
+    "context_note": "Reality true above we place often number form."
+  },
+  {
+    "company_id": "2347495a-113e-46ea-8f97-4690b20c08b3",
+    "name": "Watkins-Garcia",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "United Arab Emirates",
+    "annual_revenue_usd": 287292000,
+    "context_note": "Represent argue bill person cause probably everybody."
+  },
+  {
+    "company_id": "36683f54-b859-435e-ab3f-8d417d951e23",
+    "name": "Gonzalez, Wiley and Dawson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "South Georgia and the South Sandwich Islands",
+    "annual_revenue_usd": 33319600,
+    "context_note": "National board chance later with popular buy."
+  },
+  {
+    "company_id": "6363c9dc-b7e8-48b3-b0c2-88ffde935bd0",
+    "name": "Barry, Bell and Martinez",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Netherlands",
+    "annual_revenue_usd": 8985450,
+    "context_note": "Case PM shoulder hand itself such fear page create maintain."
+  },
+  {
+    "company_id": "111a3eac-3cac-470f-a397-df7144088b29",
+    "name": "Newman LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Sweden",
+    "annual_revenue_usd": 4132100,
+    "context_note": "Song however crime else order do like single throughout share low body."
+  },
+  {
+    "company_id": "0c06e4e5-86bb-4b8f-8f64-be05fdbcbf30",
+    "name": "Lopez PLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Iran",
+    "annual_revenue_usd": 9633300,
+    "context_note": "Worry how miss might positive fine different possible."
+  },
+  {
+    "company_id": "ec4a7a60-3396-474a-bae9-d4aa9968ced5",
+    "name": "Sanders, Lawson and Smith",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Germany",
+    "annual_revenue_usd": 225386000,
+    "context_note": "Indeed mother attention degree leader everybody address end enter."
+  },
+  {
+    "company_id": "f1ea7685-fd12-44d8-9784-6d64a3b684ed",
+    "name": "Humphrey LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Madagascar",
+    "annual_revenue_usd": 8467900,
+    "context_note": "Run recently become newspaper election fill."
+  },
+  {
+    "company_id": "b1790dcb-2889-45f7-b5c6-8251899fb959",
+    "name": "Wiley, Watson and Smith",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Western Sahara",
+    "annual_revenue_usd": 265082000,
+    "context_note": "Today different moment mission modern wall beyond themselves summer her."
+  },
+  {
+    "company_id": "1eb8c202-4116-491e-b2f3-9632a0dd30d0",
+    "name": "Taylor Group",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cyprus",
+    "annual_revenue_usd": 33950800,
+    "context_note": "Reason pattern feel deep operation man community stand."
+  },
+  {
+    "company_id": "67d43a98-8d3a-4a5f-9528-dcee73efcaef",
+    "name": "Leonard-Sims",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Argentina",
+    "annual_revenue_usd": 16221200,
+    "context_note": "Field field civil worker ok future add always exist investment office may rich."
+  },
+  {
+    "company_id": "ff91720b-146e-4888-a8eb-f0c607a21a0f",
+    "name": "Elliott, Taylor and Garcia",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "United Arab Emirates",
+    "annual_revenue_usd": 184400000,
+    "context_note": "Get other democratic discussion walk song break language fight letter continue painting staff."
+  },
+  {
+    "company_id": "00fad8bb-2183-4f36-ab80-5cf04c3cbc35",
+    "name": "Durham-Richards",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Netherlands Antilles",
+    "annual_revenue_usd": 6215750,
+    "context_note": "Star light family left reality individual."
+  },
+  {
+    "company_id": "c5176192-f2d7-48a5-b8c6-3577e1ec755c",
+    "name": "Gibson-Williams",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cambodia",
+    "annual_revenue_usd": 7060200,
+    "context_note": "Find indicate car just mind certainly billion green account picture for building."
+  },
+  {
+    "company_id": "ee221238-3143-4693-9b8b-12ea1ed13764",
+    "name": "Perez, Rodriguez and Ferrell",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Falkland Islands (Malvinas)",
+    "annual_revenue_usd": 4855650,
+    "context_note": "Training reach there land pick guess bit view person in can perhaps."
+  },
+  {
+    "company_id": "5a11da93-11ef-45f4-856c-bef906453645",
+    "name": "Gonzalez-Shaffer",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Poland",
+    "annual_revenue_usd": 9864100,
+    "context_note": "However very also how kitchen color spring maintain politics identify light wonder."
+  },
+  {
+    "company_id": "37a3c0ab-9cd4-4888-a7ba-f8a0a465601f",
+    "name": "Smith, Pennington and Moss",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bahrain",
+    "annual_revenue_usd": 4873350,
+    "context_note": "Activity bring body want learn medical friend second commercial alone individual floor ever maybe."
+  },
+  {
+    "company_id": "fe0d2d7b-1733-498d-b317-9a0ce059fe88",
+    "name": "Cooke PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "United Kingdom",
+    "annual_revenue_usd": 6642100,
+    "context_note": "Accept day machine onto foreign type home drop field draw."
+  },
+  {
+    "company_id": "a37ce841-d299-4b85-868f-d0d8872fb2f9",
+    "name": "Grant-Wood",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Afghanistan",
+    "annual_revenue_usd": 7833100,
+    "context_note": "Quite claim goal community stage half."
+  },
+  {
+    "company_id": "802b59ed-cbe7-4b78-9c0c-f8d9d40ce2ce",
+    "name": "Townsend and Sons",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Congo",
+    "annual_revenue_usd": 371442000,
+    "context_note": "Strategy huge fight mission morning physical follow."
+  },
+  {
+    "company_id": "e3daef50-2a76-40a3-9459-f63088990f25",
+    "name": "Wiggins-Dorsey",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Afghanistan",
+    "annual_revenue_usd": 8942800,
+    "context_note": "Sure young difficult century clear million spring smile moment region decision take industry however."
+  },
+  {
+    "company_id": "706d756a-ee78-44e7-8350-908c901b2d21",
+    "name": "Perez-Copeland",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Djibouti",
+    "annual_revenue_usd": 38410800,
+    "context_note": "Paper meet property recently spring effect name generation five."
+  },
+  {
+    "company_id": "0b29b618-349d-4b39-aad3-1044b0cedbc9",
+    "name": "Brown Inc",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "United States Virgin Islands",
+    "annual_revenue_usd": 6629950,
+    "context_note": "Ago law expect you center method value."
+  },
+  {
+    "company_id": "f208d1e7-d9a7-4608-b76b-e2c21aebe1fb",
+    "name": "Long-Roberts",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Christmas Island",
+    "annual_revenue_usd": 29304200,
+    "context_note": "Poor add sense can executive next east involve owner Mr."
+  },
+  {
+    "company_id": "6b718dd3-30fa-4a68-a913-d5e5df9388fe",
+    "name": "Chang-Robinson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Zimbabwe",
+    "annual_revenue_usd": 21099800,
+    "context_note": "Be note seem matter where assume finally movement who teach natural."
+  },
+  {
+    "company_id": "0a1fcec5-7f8e-4271-bdd2-d2d1ce89e7ea",
+    "name": "French, Moore and Conway",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jersey",
+    "annual_revenue_usd": 8206950,
+    "context_note": "Adult sort person economy community unit firm front."
+  },
+  {
+    "company_id": "fca5a4cd-c0d4-4d45-92d0-3b71d9a2e106",
+    "name": "Reyes LLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Reunion",
+    "annual_revenue_usd": 332336000,
+    "context_note": "Black stay every officer common identify."
+  },
+  {
+    "company_id": "0159badf-7e02-4089-b056-07bad3f73332",
+    "name": "Gonzalez PLC",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Samoa",
+    "annual_revenue_usd": 295658000,
+    "context_note": "International those throughout hair together group key time little director agent little environmental."
+  },
+  {
+    "company_id": "cf6a3346-7039-43af-9af2-cd8f5c6b4620",
+    "name": "Keller PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Barthelemy",
+    "annual_revenue_usd": 17010200,
+    "context_note": "Sort many quality simple wrong agent very large cultural."
+  },
+  {
+    "company_id": "255ae8f2-564e-4395-b173-7548d14bfe29",
+    "name": "Rodriguez-Welch",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Samoa",
+    "annual_revenue_usd": 5793050,
+    "context_note": "Take find director kind around explain recognize attack pretty fact activity stop this."
+  },
+  {
+    "company_id": "e95bd17b-212e-46eb-8ed4-16be340f8d20",
+    "name": "Mcdonald, Gonzales and Hutchinson",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Iceland",
+    "annual_revenue_usd": 8843050,
+    "context_note": "Mother marriage lay wear new boy per wife."
+  },
+  {
+    "company_id": "257a4da1-18c1-4f95-ba60-6d678a147708",
+    "name": "Hayes Ltd",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Netherlands",
+    "annual_revenue_usd": 19163600,
+    "context_note": "Kitchen individual loss build good choice challenge."
+  },
+  {
+    "company_id": "4eb8970c-5fbd-4718-853e-d512c94ca4c2",
+    "name": "Small, Gibson and Castillo",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Malta",
+    "annual_revenue_usd": 4613200,
+    "context_note": "Available cultural character behind off few network left shoulder record."
+  },
+  {
+    "company_id": "f5cf9922-25d4-4f6e-8fd7-5ca8b83a9aef",
+    "name": "Chang, Page and Sheppard",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "American Samoa",
+    "annual_revenue_usd": 298988000,
+    "context_note": "Big challenge care picture teacher year final office."
+  },
+  {
+    "company_id": "9d5e41c3-f415-4f8d-a4f6-105b55ddec8f",
+    "name": "Perry LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Italy",
+    "annual_revenue_usd": 4724900,
+    "context_note": "Poor give picture on management from rest couple would something."
+  },
+  {
+    "company_id": "bc4182a8-c8f3-46f6-8ddd-38618cab4224",
+    "name": "Bailey-Wells",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Guinea",
+    "annual_revenue_usd": 4745850,
+    "context_note": "If name practice leave certainly social fly eye also boy office describe."
+  },
+  {
+    "company_id": "ba2b28ff-7a0a-47b0-b0cc-b1ff0cfffd85",
+    "name": "Ryan-Boyd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bahrain",
+    "annual_revenue_usd": 7263300,
+    "context_note": "Quickly window bank anyone three represent there brother anyone only else former some."
+  },
+  {
+    "company_id": "3bc39429-98b7-435e-adc7-ea827071863f",
+    "name": "Robinson, Mason and Clark",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Iceland",
+    "annual_revenue_usd": 4755200,
+    "context_note": "World executive suggest good should music themselves parent."
+  },
+  {
+    "company_id": "c0f4794c-c96d-43fe-8dde-5a0493b1f367",
+    "name": "French, Nguyen and Walker",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Congo",
+    "annual_revenue_usd": 330248000,
+    "context_note": "Collection house teacher participant tell method design tree discover feel board need expert."
+  },
+  {
+    "company_id": "818ffbb2-e2dc-4aac-8c53-38fd301f7769",
+    "name": "Butler-Roberson",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Thailand",
+    "annual_revenue_usd": 4294200,
+    "context_note": "Evening physical national thought job space hospital pressure."
+  },
+  {
+    "company_id": "4b956040-109e-454c-a7c5-c75b0275ae8a",
+    "name": "Price-Freeman",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Libyan Arab Jamahiriya",
+    "annual_revenue_usd": 4171100,
+    "context_note": "Nice realize ever power good amount heart party at research."
+  },
+  {
+    "company_id": "1d62befb-28f3-4a81-89d1-133e0cb012a2",
+    "name": "Webb-Hahn",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Kyrgyz Republic",
+    "annual_revenue_usd": 18390200,
+    "context_note": "Care factor traditional party former response."
+  },
+  {
+    "company_id": "e333b425-0355-43df-918a-de4dc81b1671",
+    "name": "Jones, Clarke and Ramirez",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cook Islands",
+    "annual_revenue_usd": 5575200,
+    "context_note": "Minute camera today discussion very old know operation hotel onto last lay general."
+  },
+  {
+    "company_id": "5806f647-476a-4262-9814-a6d6247d4433",
+    "name": "Wilson, Garner and Phelps",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Philippines",
+    "annual_revenue_usd": 29364600,
+    "context_note": "Yes evidence together of compare picture each crime practice section position defense."
+  },
+  {
+    "company_id": "99fe732c-2944-43a7-ae6b-184eeb76635e",
+    "name": "Terry-Rodgers",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Slovakia (Slovak Republic)",
+    "annual_revenue_usd": 7446350,
+    "context_note": "Agreement feel idea you team foot participant move professional young likely."
+  },
+  {
+    "company_id": "9937334d-7643-4526-9f4f-a9f8e5277289",
+    "name": "Evans LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "China",
+    "annual_revenue_usd": 19969400,
+    "context_note": "Often data edge evening price center expect start return wind question."
+  },
+  {
+    "company_id": "9ddd8181-0169-4691-9371-c52fbd200292",
+    "name": "Yates-Gibbs",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Suriname",
+    "annual_revenue_usd": 4872200,
+    "context_note": "On article especially support receive able."
+  },
+  {
+    "company_id": "6a4c5426-d8e8-4d04-8c1c-c9ce137d97a3",
+    "name": "Long Group",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Guatemala",
+    "annual_revenue_usd": 21631400,
+    "context_note": "Our suffer threat go coach claim class career."
+  },
+  {
+    "company_id": "79a04e2f-0361-49d7-988a-8a546b0e5ffb",
+    "name": "Moss-Brown",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Madagascar",
+    "annual_revenue_usd": 388616000,
+    "context_note": "Goal stay phone environment position notice inside tough science."
+  },
+  {
+    "company_id": "12027543-6c5f-4a90-8f04-e83d03b8b4da",
+    "name": "Martinez-Chan",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ireland",
+    "annual_revenue_usd": 6146400,
+    "context_note": "Bar Republican tend us might answer music change site perform bill resource use."
+  },
+  {
+    "company_id": "491aff65-0469-45ca-83e2-abc0b8b9d0d3",
+    "name": "Wilson-Gomez",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Niger",
+    "annual_revenue_usd": 4237350,
+    "context_note": "Range power foot similar a group do shoulder off financial thus relationship."
+  },
+  {
+    "company_id": "8fa2e5b4-2ef2-4419-8219-b3a7494d9cda",
+    "name": "Phillips, Walter and Horton",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Timor-Leste",
+    "annual_revenue_usd": 5169700,
+    "context_note": "Although off plant plant maintain road law."
+  },
+  {
+    "company_id": "d514b15f-e6e4-4439-8e13-8f0b89d0bfea",
+    "name": "Cruz-Woods",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Djibouti",
+    "annual_revenue_usd": 37865000,
+    "context_note": "Garden drop newspaper son investment person from food would."
+  },
+  {
+    "company_id": "d024597c-d653-4dad-b4fe-eb0cece19892",
+    "name": "Carroll, Rodriguez and Blake",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "United Kingdom",
+    "annual_revenue_usd": 32500000,
+    "context_note": "Money what nearly conference career medical west image establish treatment myself."
+  },
+  {
+    "company_id": "49e5e857-4654-4418-8d02-3712b975a6d9",
+    "name": "Smith, Lucas and Hart",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Israel",
+    "annual_revenue_usd": 258070000,
+    "context_note": "Offer character carry record thought bad stuff."
+  },
+  {
+    "company_id": "eb201cac-7b07-4a2e-89eb-c38f2325cc0f",
+    "name": "Parrish-Pierce",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Armenia",
+    "annual_revenue_usd": 37292200,
+    "context_note": "Final charge some body letter animal to focus measure box boy certain leader."
+  },
+  {
+    "company_id": "c3a9603c-8500-4f51-ad6a-046f540022b7",
+    "name": "Sullivan, Terry and Vincent",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Angola",
+    "annual_revenue_usd": 6100250,
+    "context_note": "Character compare line science offer hotel civil red."
+  },
+  {
+    "company_id": "08a9dd06-87f5-41a9-a40d-56ac3b81323d",
+    "name": "Hopkins-Mitchell",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bangladesh",
+    "annual_revenue_usd": 8996650,
+    "context_note": "Identify decade candidate tell beat age nothing shake music see fight news."
+  },
+  {
+    "company_id": "8fcb1b6c-3298-42e8-a2c6-b7b4aaf9ba58",
+    "name": "White-Kelly",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Micronesia",
+    "annual_revenue_usd": 7593450,
+    "context_note": "Concern explain suggest without century goal site sell perform before officer."
+  },
+  {
+    "company_id": "b24f10ef-78d0-458e-9b02-77df2a5841ce",
+    "name": "Scott and Sons",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Kiribati",
+    "annual_revenue_usd": 9695200,
+    "context_note": "Suffer control class but style table each attention."
+  },
+  {
+    "company_id": "4582a4dd-8a64-409f-a35e-95939e28a99c",
+    "name": "Huffman and Sons",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tokelau",
+    "annual_revenue_usd": 6507150,
+    "context_note": "Although culture image else talk station Congress necessary company visit include even month."
+  },
+  {
+    "company_id": "5348808a-4dd5-49a3-bf15-5f2710f8fbe3",
+    "name": "Hines, Clark and Wilson",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Niger",
+    "annual_revenue_usd": 325744000,
+    "context_note": "Economic husband police name hear statement expert spend."
+  },
+  {
+    "company_id": "c26b7072-f9e0-49ad-a012-3de680324786",
+    "name": "Walton PLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Uzbekistan",
+    "annual_revenue_usd": 8744500,
+    "context_note": "Light kitchen debate stock program difference this little though movement century return short."
+  },
+  {
+    "company_id": "f437db22-c034-45cb-b5a8-7dd164e377d1",
+    "name": "Contreras Inc",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Mexico",
+    "annual_revenue_usd": 5687050,
+    "context_note": "Woman special light speech example three recently against."
+  },
+  {
+    "company_id": "7a7a97e2-0c40-48ff-be6c-f9aee192c7a8",
+    "name": "Murphy PLC",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Italy",
+    "annual_revenue_usd": 306802000,
+    "context_note": "Success group develop her across purpose without sense."
+  },
+  {
+    "company_id": "592c8d40-1422-4a32-a64d-afc94464dc2b",
+    "name": "Castillo, Lam and Brown",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Guernsey",
+    "annual_revenue_usd": 38301800,
+    "context_note": "Democratic indicate receive now leader maybe."
+  },
+  {
+    "company_id": "05720f49-47c8-4b8d-846d-6039e71c2ce1",
+    "name": "Adams-Oconnell",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Czech Republic",
+    "annual_revenue_usd": 8785700,
+    "context_note": "Manage enough old so stand include try fire thank fear beyond."
+  },
+  {
+    "company_id": "3f2b31ba-88b1-4158-96ee-8487b9288af2",
+    "name": "Smith PLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Bouvet Island (Bouvetoya)",
+    "annual_revenue_usd": 286662000,
+    "context_note": "Career find have prove dream town well movie tell manage."
+  },
+  {
+    "company_id": "ee8886de-67f0-4a1d-adab-00078fd1ec98",
+    "name": "Mckay-Hernandez",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Monaco",
+    "annual_revenue_usd": 280868000,
+    "context_note": "Long back describe order central trial much."
+  },
+  {
+    "company_id": "c3d7a135-56e4-43ed-9452-6f70c9c1aa25",
+    "name": "Hernandez-Mueller",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Tonga",
+    "annual_revenue_usd": 246644000,
+    "context_note": "Marriage build series collection firm college."
+  },
+  {
+    "company_id": "90821e23-06a4-4903-8007-4d12e7a4cea1",
+    "name": "Cooper-Miller",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Poland",
+    "annual_revenue_usd": 7900450,
+    "context_note": "Black study his medical ability line choice."
+  },
+  {
+    "company_id": "f255c01c-485e-4f3c-b570-026d49bbfc4f",
+    "name": "Stokes, Miller and Morrison",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Belize",
+    "annual_revenue_usd": 7465900,
+    "context_note": "Bag myself meet minute level risk."
+  },
+  {
+    "company_id": "2a8d3dd6-9b99-42eb-89d0-67957ce8c8e8",
+    "name": "Allen, Patterson and Bridges",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "French Polynesia",
+    "annual_revenue_usd": 38971800,
+    "context_note": "Edge approach heavy explain mother prevent describe production here."
+  },
+  {
+    "company_id": "90fd40d1-ddd2-46b4-983d-c484cc69792e",
+    "name": "Mills-Barnes",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Jordan",
+    "annual_revenue_usd": 32089800,
+    "context_note": "Stage big ahead father feel miss board mouth star herself quite."
+  },
+  {
+    "company_id": "a9ecb822-3d65-4d1b-84cb-abc14cf3d9a6",
+    "name": "Holland-Dunlap",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Venezuela",
+    "annual_revenue_usd": 329696000,
+    "context_note": "Girl treat drop Congress store American like exactly always relationship rise."
+  },
+  {
+    "company_id": "8602863d-69dc-4edd-9987-ad8d4983317a",
+    "name": "Avila, Travis and Lowery",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "China",
+    "annual_revenue_usd": 24472400,
+    "context_note": "Star name within science right water cause give represent national until but."
+  },
+  {
+    "company_id": "46d77917-dabf-409e-8b15-ce9c5a1d37b1",
+    "name": "Blake Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Montenegro",
+    "annual_revenue_usd": 6951700,
+    "context_note": "Give bank lot cover on executive campaign watch safe."
+  },
+  {
+    "company_id": "fff7067a-6a7a-44d5-84bc-b11cfd57615f",
+    "name": "Neal, Anderson and Smith",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Egypt",
+    "annual_revenue_usd": 29748000,
+    "context_note": "Point far key lot wear grow amount rise positive focus."
+  },
+  {
+    "company_id": "a31761e2-605b-4099-8618-7ef4a3e02e60",
+    "name": "James, Lawrence and Stevens",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Macedonia",
+    "annual_revenue_usd": 351336000,
+    "context_note": "Number white pressure newspaper attention reflect after any."
+  },
+  {
+    "company_id": "b5068559-272f-412a-9c45-7ee674ccc1d3",
+    "name": "Williamson-Lynch",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Solomon Islands",
+    "annual_revenue_usd": 8104100,
+    "context_note": "Report player cause time red operation yeah institution worry discussion summer."
+  },
+  {
+    "company_id": "fe5a0009-1cea-4e11-8b41-1b75b96e7aed",
+    "name": "Green, Miller and Good",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mozambique",
+    "annual_revenue_usd": 22101000,
+    "context_note": "Recognize event there rest day field."
+  },
+  {
+    "company_id": "270a1645-0f24-4978-acca-e44057eafcaa",
+    "name": "Ortiz, Cook and Gates",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Armenia",
+    "annual_revenue_usd": 307572000,
+    "context_note": "Last black office use child level large official democratic debate both live."
+  },
+  {
+    "company_id": "e72e5bba-603c-4681-9aca-5d4fed5cc08e",
+    "name": "Parker, Waters and Dean",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Grenada",
+    "annual_revenue_usd": 16391600,
+    "context_note": "Treat professional term suggest several behavior certain upon."
+  },
+  {
+    "company_id": "98a41dee-595e-4b1e-9c53-051c20b8f657",
+    "name": "Robertson-Fields",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Serbia",
+    "annual_revenue_usd": 19375600,
+    "context_note": "Stop out case practice box hundred anything he technology politics value ready past."
+  },
+  {
+    "company_id": "5c5e1128-a660-440e-9409-b0215c9fcf75",
+    "name": "Chase-Chan",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Germany",
+    "annual_revenue_usd": 247428000,
+    "context_note": "Evidence once begin according investment particular prepare bank participant until and system present."
+  },
+  {
+    "company_id": "1e2f21bd-d510-44da-bd90-18f068b0533b",
+    "name": "Liu, Orozco and Estrada",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Argentina",
+    "annual_revenue_usd": 28237200,
+    "context_note": "Responsibility improve share week where particularly."
+  },
+  {
+    "company_id": "ce0502d5-c0ca-468d-a20c-609310582f0b",
+    "name": "Edwards-Smith",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bermuda",
+    "annual_revenue_usd": 5076500,
+    "context_note": "Message consider option remember very international east site body half south move."
+  },
+  {
+    "company_id": "2376fd66-296a-4dbc-8d81-2ebf05303243",
+    "name": "Williamson, Vaughn and Henderson",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Costa Rica",
+    "annual_revenue_usd": 368036000,
+    "context_note": "Necessary since oil forget pay day edge would mention then a something."
+  },
+  {
+    "company_id": "10259a11-8a73-4d20-a874-922183748128",
+    "name": "Taylor-Barnett",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cyprus",
+    "annual_revenue_usd": 27811000,
+    "context_note": "Relate for thing these fine see everybody manager."
+  },
+  {
+    "company_id": "4ac67da3-1196-496f-b907-89addbc504bd",
+    "name": "Smith LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tuvalu",
+    "annual_revenue_usd": 7852050,
+    "context_note": "Shoulder ball eat seek behavior stay wall apply."
+  },
+  {
+    "company_id": "e1baaf15-02e8-44a9-8d4d-f665ee40fed8",
+    "name": "Harrell-Woods",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Chad",
+    "annual_revenue_usd": 8110250,
+    "context_note": "Author popular truth person on toward run."
+  },
+  {
+    "company_id": "e5815f05-1a12-470e-b60d-564dc05f1f85",
+    "name": "Miller-Adams",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Guernsey",
+    "annual_revenue_usd": 353526000,
+    "context_note": "Head bed member generation see control just behind program share of."
+  },
+  {
+    "company_id": "a35c5218-7e4e-4f7f-abac-98ed56706274",
+    "name": "Evans Ltd",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 29347000,
+    "context_note": "Enough former child across lawyer director however citizen finally."
+  },
+  {
+    "company_id": "1a081873-98b2-4af7-a231-3f4e5a8f2623",
+    "name": "Bradford-Thompson",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Estonia",
+    "annual_revenue_usd": 8176850,
+    "context_note": "Fine hot travel company family same hair standard southern unit increase."
+  },
+  {
+    "company_id": "aed7d7b5-6082-4b66-b5fc-35abfe0650bc",
+    "name": "Howard, Gibson and Johnson",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "El Salvador",
+    "annual_revenue_usd": 174532000,
+    "context_note": "Run across close avoid allow too spend loss account up."
+  },
+  {
+    "company_id": "38feec94-55ea-4b3b-ad98-ef928df30e6d",
+    "name": "Stone PLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Costa Rica",
+    "annual_revenue_usd": 268546000,
+    "context_note": "Early because beautiful suggest play control class response difficult green little."
+  },
+  {
+    "company_id": "111cbf96-9b67-4310-83ec-1b8430ff7abe",
+    "name": "Alvarez-Watts",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Palau",
+    "annual_revenue_usd": 36706600,
+    "context_note": "Party state because somebody be black government true record interest election million."
+  },
+  {
+    "company_id": "fad033d8-ea7c-4381-b894-c36e00c58382",
+    "name": "Chavez, Schmidt and Jensen",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Tuvalu",
+    "annual_revenue_usd": 394924000,
+    "context_note": "Right him miss stage executive attack expect key point level."
+  },
+  {
+    "company_id": "e1963541-c285-4c00-9e13-b9401f741721",
+    "name": "Delacruz, Leach and Aguirre",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Myanmar",
+    "annual_revenue_usd": 5839350,
+    "context_note": "So admit reveal keep theory without room half agree."
+  },
+  {
+    "company_id": "5e9ec1f3-ae7a-4643-9d00-4dc329515bd6",
+    "name": "Watson PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Hungary",
+    "annual_revenue_usd": 6732800,
+    "context_note": "Consider state happen audience despite hospital follow network option religious understand rather force."
+  },
+  {
+    "company_id": "36458ce8-3df4-453b-878a-7d6b5ba6890a",
+    "name": "Cox-Jones",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Albania",
+    "annual_revenue_usd": 20797200,
+    "context_note": "Quickly catch run quickly there for seat along century hundred."
+  },
+  {
+    "company_id": "143fdbe2-662d-45f1-a25e-7611dfef2f98",
+    "name": "Bennett Ltd",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Northern Mariana Islands",
+    "annual_revenue_usd": 19209200,
+    "context_note": "Make think visit official sing represent act message major social maintain owner whatever."
+  },
+  {
+    "company_id": "9cb0690d-9126-43e8-abc8-cad1695b2cde",
+    "name": "Hensley-Carey",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Bahamas",
+    "annual_revenue_usd": 379300000,
+    "context_note": "Expect want maintain easy machine culture that course door first."
+  },
+  {
+    "company_id": "5f0e8433-c391-4c75-a51b-d212bcb3c9ec",
+    "name": "Short-Rivers",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Bouvet Island (Bouvetoya)",
+    "annual_revenue_usd": 197126000,
+    "context_note": "Wait stock country mean candidate now clearly."
+  },
+  {
+    "company_id": "4555652a-12eb-4706-afa0-58797fc64da7",
+    "name": "Schultz-Bishop",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "India",
+    "annual_revenue_usd": 245088000,
+    "context_note": "Pass girl star though prepare enough nothing subject child sort everyone unit."
+  },
+  {
+    "company_id": "23d2ecdf-a331-4d9b-ae53-1f5205b38b0f",
+    "name": "Cole LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bolivia",
+    "annual_revenue_usd": 34000200,
+    "context_note": "Far still alone source quite at."
+  },
+  {
+    "company_id": "57258915-5eac-4160-be8d-ecb50dac26f9",
+    "name": "Ingram-Hall",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ukraine",
+    "annual_revenue_usd": 9833300,
+    "context_note": "Identify allow parent position despite music."
+  },
+  {
+    "company_id": "65b08a1d-f82d-4721-bd6e-6abd15da0044",
+    "name": "Williams-Kennedy",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "British Virgin Islands",
+    "annual_revenue_usd": 8514750,
+    "context_note": "Sense PM appear ever few standard continue professional article nor trip just."
+  },
+  {
+    "company_id": "729ecc6f-179c-4117-87f8-e1d33a20aa81",
+    "name": "Hays, Fields and Smith",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Albania",
+    "annual_revenue_usd": 233740000,
+    "context_note": "Else consider last leader thought detail court."
+  },
+  {
+    "company_id": "bcd836e4-e8a4-4506-ac40-cf04ce7873ba",
+    "name": "Skinner and Sons",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Senegal",
+    "annual_revenue_usd": 245158000,
+    "context_note": "Likely summer authority weight should everything once keep until edge quite attorney walk indeed."
+  },
+  {
+    "company_id": "6597f642-666e-4585-955f-c50667d26bc4",
+    "name": "Hampton Ltd",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Wallis and Futuna",
+    "annual_revenue_usd": 163816000,
+    "context_note": "Build event tell generation mind difficult stuff without."
+  },
+  {
+    "company_id": "6d08c37e-d7dc-4c4d-a21d-270d000ba562",
+    "name": "Hernandez-Cuevas",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Korea",
+    "annual_revenue_usd": 4398200,
+    "context_note": "Ago enough family light necessary performance throughout."
+  },
+  {
+    "company_id": "02c06ea8-5b4e-492f-9b91-2e2fccacb187",
+    "name": "Weiss PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Netherlands Antilles",
+    "annual_revenue_usd": 32459200,
+    "context_note": "Speech modern wait eat involve single window particularly own will."
+  },
+  {
+    "company_id": "4ff0bdfc-e05b-4243-94b8-7efc103d6230",
+    "name": "Wilson, Mcguire and Turner",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cayman Islands",
+    "annual_revenue_usd": 26177800,
+    "context_note": "Movie different myself well into medical bad down end bar."
+  },
+  {
+    "company_id": "6d4b8b1f-2ea7-49ad-af4c-dac75a078e7d",
+    "name": "Allen Ltd",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Germany",
+    "annual_revenue_usd": 6973900,
+    "context_note": "Administration anyone bed parent too light training type nothing when large hope."
+  },
+  {
+    "company_id": "9fe47d7b-9b57-4269-b785-424541bbf0b7",
+    "name": "Bradley-Ellis",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mozambique",
+    "annual_revenue_usd": 21938400,
+    "context_note": "Stay any know season gun subject campaign imagine tell movie generation."
+  },
+  {
+    "company_id": "2ef36d13-8c2d-4839-8829-bdffc2cf761d",
+    "name": "Hogan, Stanley and Wheeler",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tunisia",
+    "annual_revenue_usd": 5463350,
+    "context_note": "Since us food investment real move four since million if matter send."
+  },
+  {
+    "company_id": "0a1a4828-f2dc-4a52-bbe3-98e47b9a4ed1",
+    "name": "Woods and Sons",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Mauritania",
+    "annual_revenue_usd": 8088900,
+    "context_note": "Environmental nice production type page argue like rich prove Democrat join industry compare."
+  },
+  {
+    "company_id": "6b333773-7db2-4a9b-a79a-593769dfcfb4",
+    "name": "Riley-Payne",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "French Southern Territories",
+    "annual_revenue_usd": 6296100,
+    "context_note": "You water good arm mention by drop enter daughter science majority animal."
+  },
+  {
+    "company_id": "5a51e0e7-ec84-451f-a2b4-04a9674e5025",
+    "name": "Stewart PLC",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Palestinian Territory",
+    "annual_revenue_usd": 290854000,
+    "context_note": "Else piece book national draw before society author learn own here."
+  },
+  {
+    "company_id": "b126668b-6295-4c9c-a879-ce853c098c88",
+    "name": "Knight-Gamble",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Kazakhstan",
+    "annual_revenue_usd": 34476400,
+    "context_note": "State represent exactly subject against discussion."
+  },
+  {
+    "company_id": "6a21f22c-694d-44e1-9650-ad9122d149e9",
+    "name": "Williams-Hall",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Lucia",
+    "annual_revenue_usd": 37734600,
+    "context_note": "How the wall want player today reflect history tend agree book member."
+  },
+  {
+    "company_id": "0f0dabe3-0b6c-4759-b514-cecf0e61c506",
+    "name": "Strickland, Payne and Davis",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Anguilla",
+    "annual_revenue_usd": 18204000,
+    "context_note": "Race consider key around source music detail fall reveal."
+  },
+  {
+    "company_id": "7a050cea-4d78-42e2-aacf-8a5cf1db99e2",
+    "name": "Jenkins PLC",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Hungary",
+    "annual_revenue_usd": 167564000,
+    "context_note": "We economic home design certain century collection author yes far buy upon six."
+  },
+  {
+    "company_id": "114d363e-262b-45b5-af4e-dc668be4746e",
+    "name": "Boyer-Simon",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Ethiopia",
+    "annual_revenue_usd": 4288800,
+    "context_note": "Population pass game sister whom range describe American."
+  },
+  {
+    "company_id": "e7379e67-9b15-461b-99fb-bfe9e15d28c7",
+    "name": "Hayes, Rangel and Robinson",
     "industry": "SaaS",
     "employee_count": 200,
     "growth_stage": "Scaleup",
     "hq_region": "Kyrgyz Republic",
-    "annual_revenue_usd": 31154200,
-    "context_note": "Statement president civil minute foreign economic well you and team owner high."
+    "annual_revenue_usd": 21287000,
+    "context_note": "Point investment public movie feel subject focus."
   },
   {
-    "company_id": "b81c4924-827c-48ad-a97c-b8ee16eef901",
-    "name": "Serrano-Baker",
+    "company_id": "d9ba5647-60ff-428d-b4ba-824db6342826",
+    "name": "Reed Inc",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Taiwan",
+    "annual_revenue_usd": 17982600,
+    "context_note": "Change main democratic movement technology happy statement speech citizen may there against single."
+  },
+  {
+    "company_id": "6faa99c5-73ae-4249-8506-7e59c70a2147",
+    "name": "Johnson PLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Solomon Islands",
+    "annual_revenue_usd": 329226000,
+    "context_note": "Bar only present necessary mean drug have."
+  },
+  {
+    "company_id": "94826afe-dbb3-40e0-b064-1850ba53f337",
+    "name": "Davis-Dawson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "American Samoa",
+    "annual_revenue_usd": 23616400,
+    "context_note": "Identify draw consumer similar however pull."
+  },
+  {
+    "company_id": "1efc4eca-65aa-45ad-811b-fc1074d02fc2",
+    "name": "Mcdaniel-Reynolds",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "British Virgin Islands",
+    "annual_revenue_usd": 248980000,
+    "context_note": "Almost next realize technology adult bit parent send soldier government then relate always."
+  },
+  {
+    "company_id": "c84482ba-f484-46bf-9492-f6b56c0cb5bb",
+    "name": "Marshall-Howard",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "French Southern Territories",
+    "annual_revenue_usd": 7954600,
+    "context_note": "Deep read note book political spring hair far enjoy practice food manager."
+  },
+  {
+    "company_id": "17a7b5ea-6f3e-4e6a-8e7a-4f8748959229",
+    "name": "Rhodes, Martin and Simpson",
     "industry": "SaaS",
     "employee_count": 50,
     "growth_stage": "Startup",
-    "hq_region": "China",
-    "annual_revenue_usd": 9330150,
-    "context_note": "Product card should word wide party analysis about care."
+    "hq_region": "Uganda",
+    "annual_revenue_usd": 9447350,
+    "context_note": "Throughout floor challenge week full camera ok instead."
   },
   {
-    "company_id": "43daf3c6-a1ea-454e-a5df-d3b052f08bbf",
-    "name": "Herrera-Ingram",
+    "company_id": "2ce85d5e-d9f9-4f10-a55d-51e921e2eeaa",
+    "name": "Moyer LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Sudan",
+    "annual_revenue_usd": 9718400,
+    "context_note": "National teacher anyone certainly case huge shake human."
+  },
+  {
+    "company_id": "cfc047ce-ec03-4970-bf85-9a571ef078b0",
+    "name": "Johnson-Ponce",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Afghanistan",
+    "annual_revenue_usd": 33150400,
+    "context_note": "Space human mention tend lay opportunity medical."
+  },
+  {
+    "company_id": "49738f29-f580-478a-b2ee-39e657069f4c",
+    "name": "Howell-Hill",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Jamaica",
+    "annual_revenue_usd": 16494800,
+    "context_note": "Doctor amount it stay suggest process evidence help successful or group fear."
+  },
+  {
+    "company_id": "8f11dad2-e40b-4108-adfa-f631b1f4d2f2",
+    "name": "Oconnor LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cote d'Ivoire",
+    "annual_revenue_usd": 7678400,
+    "context_note": "Hotel white peace direction pull inside difficult."
+  },
+  {
+    "company_id": "c984d4fa-fe01-4561-ad03-6fbebb40bcda",
+    "name": "Mendez LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Oman",
+    "annual_revenue_usd": 8396350,
+    "context_note": "Last current evidence single too present even."
+  },
+  {
+    "company_id": "89ed3ed7-3266-4081-b19e-76ad0af5e9f8",
+    "name": "Hernandez LLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Sweden",
+    "annual_revenue_usd": 39889600,
+    "context_note": "Mind nation seek but company information."
+  },
+  {
+    "company_id": "7319ca99-ad9f-440b-943e-f659e7f75437",
+    "name": "Horne, Patton and Campos",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "El Salvador",
+    "annual_revenue_usd": 38691400,
+    "context_note": "Good fire page child try role stay."
+  },
+  {
+    "company_id": "89cb5f4a-2c60-465c-a9a9-cf2e2dc71987",
+    "name": "Snow PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Gambia",
+    "annual_revenue_usd": 18971200,
+    "context_note": "Apply discussion lay up should company again reason morning game."
+  },
+  {
+    "company_id": "8ab25304-1deb-4c7d-9b91-502e4500e488",
+    "name": "Jordan-Lawson",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Canada",
+    "annual_revenue_usd": 8945550,
+    "context_note": "Machine executive song training money say budget community often."
+  },
+  {
+    "company_id": "299dc462-7bfd-495b-857d-8bbffe6bddbb",
+    "name": "Gonzalez LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Ukraine",
+    "annual_revenue_usd": 18500600,
+    "context_note": "South firm tonight security back off movement this answer before lead."
+  },
+  {
+    "company_id": "8b579d22-1204-44e6-8e32-b427f080742d",
+    "name": "Ho, Armstrong and Thomas",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mozambique",
+    "annual_revenue_usd": 38963600,
+    "context_note": "Public direction significant lay event deal early adult Democrat."
+  },
+  {
+    "company_id": "6be3023d-73d3-472c-af0f-a45a6a578acf",
+    "name": "Mitchell, Rhodes and Vaughn",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Austria",
+    "annual_revenue_usd": 9374900,
+    "context_note": "Plan sing boy up probably during serious."
+  },
+  {
+    "company_id": "6eeba362-d3cf-4e0b-a4d2-2be770eb63a9",
+    "name": "Parker, Taylor and Strickland",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Malta",
+    "annual_revenue_usd": 23275600,
+    "context_note": "Main although page performance later safe."
+  },
+  {
+    "company_id": "1ace368e-88f8-413e-8e1b-fa8d68ff986b",
+    "name": "Morales-Arroyo",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Denmark",
+    "annual_revenue_usd": 38079000,
+    "context_note": "Six true hotel give other notice focus."
+  },
+  {
+    "company_id": "4beb5dc1-29ab-49ae-b83e-8f806087575e",
+    "name": "Perkins-Roberts",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Indonesia",
+    "annual_revenue_usd": 7332050,
+    "context_note": "Report talk less experience line window process yourself class fear high."
+  },
+  {
+    "company_id": "c777319b-f93e-4ebc-862f-f3a3664c7a48",
+    "name": "Serrano Inc",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Burundi",
+    "annual_revenue_usd": 344532000,
+    "context_note": "Challenge theory drive benefit statement back too hair."
+  },
+  {
+    "company_id": "d3325f1a-d2da-41a0-954d-468e763275ce",
+    "name": "Thomas PLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Liechtenstein",
+    "annual_revenue_usd": 38635800,
+    "context_note": "Store technology field American ask staff check heart hospital doctor."
+  },
+  {
+    "company_id": "703153e7-4a34-41c1-a22f-07f77f3970d0",
+    "name": "Oneal-Ali",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Jordan",
+    "annual_revenue_usd": 16805600,
+    "context_note": "Lead from born billion difficult task win poor."
+  },
+  {
+    "company_id": "2265e9c7-de4b-4e8a-923b-86a735ed7276",
+    "name": "Peters-Pope",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Liechtenstein",
+    "annual_revenue_usd": 38219000,
+    "context_note": "Scientist reduce will discussion possible present mother allow."
+  },
+  {
+    "company_id": "a72b2f98-69d2-448d-bb3d-b2228a521670",
+    "name": "Gallagher Inc",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Chad",
+    "annual_revenue_usd": 32607000,
+    "context_note": "Guess either likely information significant movement which whose leader body."
+  },
+  {
+    "company_id": "713962ea-014f-4733-8cd1-bdd17ba57a58",
+    "name": "Rios Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Holy See (Vatican City State)",
+    "annual_revenue_usd": 5365400,
+    "context_note": "Beat rate watch like language surface suffer."
+  },
+  {
+    "company_id": "7406001b-8b74-4e57-9090-d79d3f54345d",
+    "name": "Campbell Ltd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Timor-Leste",
+    "annual_revenue_usd": 4391800,
+    "context_note": "Purpose answer outside plant least inside approach manage part amount."
+  },
+  {
+    "company_id": "be2d45f4-d3f7-4a47-9020-e6fa91ab44e9",
+    "name": "Evans and Sons",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jamaica",
+    "annual_revenue_usd": 6465450,
+    "context_note": "Happen down try gun plan short significant like president possible indeed could."
+  },
+  {
+    "company_id": "36145670-91b0-4e26-b7d8-8f1909358293",
+    "name": "Estes-Soto",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "San Marino",
+    "annual_revenue_usd": 34284400,
+    "context_note": "However interview on plan television every yes always money TV inside consumer."
+  },
+  {
+    "company_id": "4a55e2b8-6360-4c45-a9b5-5cb2fbb7ac20",
+    "name": "Miller PLC",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "South Africa",
+    "annual_revenue_usd": 184398000,
+    "context_note": "Yourself side anyone receive employee so determine relationship able focus physical arm."
+  },
+  {
+    "company_id": "c8f7955b-832f-4506-a933-e17f8f247dbc",
+    "name": "Mcgee-Russo",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Ghana",
+    "annual_revenue_usd": 24847600,
+    "context_note": "Less half until hope including sell box value success thing."
+  },
+  {
+    "company_id": "8e356778-e1a9-460b-b7cf-8a71cf195487",
+    "name": "Gordon-Wiley",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Belize",
+    "annual_revenue_usd": 39199400,
+    "context_note": "Economic billion produce line soldier relate follow floor us garden ago surface."
+  },
+  {
+    "company_id": "ec63d7fa-8212-479b-b67f-b0d236444bdf",
+    "name": "Perry, Carter and Todd",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "British Indian Ocean Territory (Chagos Archipelago)",
+    "annual_revenue_usd": 34362600,
+    "context_note": "Boy those agreement brother standard force really first article technology threat."
+  },
+  {
+    "company_id": "3e377fbc-fcb6-4dc7-85c4-ec012f5c1357",
+    "name": "Mendez LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Saint Helena",
+    "annual_revenue_usd": 5410950,
+    "context_note": "Charge us be nothing investment summer local defense."
+  },
+  {
+    "company_id": "93762e43-5715-4849-8d19-55b6eb9dc88e",
+    "name": "Reed, Mueller and Pitts",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Kyrgyz Republic",
+    "annual_revenue_usd": 7466400,
+    "context_note": "Theory this upon first poor run responsibility thousand."
+  },
+  {
+    "company_id": "eb911f07-4fc0-4d0a-bce7-f45c48e0856c",
+    "name": "Gates-Ray",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Uganda",
+    "annual_revenue_usd": 6436400,
+    "context_note": "However more evening fact nice where west pull."
+  },
+  {
+    "company_id": "a0c9e9e5-bf54-4b3b-9db9-e795edcdddda",
+    "name": "Rhodes-Evans",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Saint Barthelemy",
+    "annual_revenue_usd": 317788000,
+    "context_note": "Believe teacher ever machine before fire culture."
+  },
+  {
+    "company_id": "0ea70519-3a66-4f0f-8d6a-b22d8a95caab",
+    "name": "Shea-Chavez",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jordan",
+    "annual_revenue_usd": 4542900,
+    "context_note": "Laugh officer major them attention development good no just of movement strong some."
+  },
+  {
+    "company_id": "7b8cb5d8-6e47-4360-9d71-93e355563067",
+    "name": "Mcbride, Torres and Burns",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Nepal",
+    "annual_revenue_usd": 7298700,
+    "context_note": "Brother right despite performance drive experience wide."
+  },
+  {
+    "company_id": "f1c4b17f-ed25-49d3-ba00-5a0a15562477",
+    "name": "Proctor LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Helena",
+    "annual_revenue_usd": 33292200,
+    "context_note": "Quite need body inside painting soldier church cup detail city always pass."
+  },
+  {
+    "company_id": "4e24781a-d51b-48b1-8ae4-098a7b938aad",
+    "name": "Gonzales, Perez and Patel",
     "industry": "Healthcare",
     "employee_count": 2000,
     "growth_stage": "Enterprise",
     "hq_region": "Dominican Republic",
-    "annual_revenue_usd": 331302000,
-    "context_note": "Project late like president foot maybe success wide draw all."
+    "annual_revenue_usd": 247336000,
+    "context_note": "Sister prevent only agency consumer within money worker can seek sport leg."
   },
   {
-    "company_id": "6267e411-c0a1-4fdb-811b-ce097de5ceb2",
-    "name": "Meyers-Barrett",
+    "company_id": "a1c829b2-1e0a-438a-97ac-9d50858ee27d",
+    "name": "Gilbert Ltd",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Georgia",
+    "annual_revenue_usd": 22595400,
+    "context_note": "Little fast town which large director cost new test country."
+  },
+  {
+    "company_id": "3ab536e6-77ed-472e-ba02-67deb06632bc",
+    "name": "Johnson, White and Taylor",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Saint Barthelemy",
+    "annual_revenue_usd": 16241000,
+    "context_note": "Arm book expect case along ok remain occur."
+  },
+  {
+    "company_id": "a5b1f24c-2f84-453e-a2a8-40bd80a5d2cc",
+    "name": "Clark, Cook and Parker",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bouvet Island (Bouvetoya)",
+    "annual_revenue_usd": 16028800,
+    "context_note": "Play benefit wait late meet science feel consider."
+  },
+  {
+    "company_id": "e6ca623f-5961-458d-b184-cabdea1282dc",
+    "name": "Castaneda, Klein and Watson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Kazakhstan",
+    "annual_revenue_usd": 27333000,
+    "context_note": "Son stock interest section media pattern big."
+  },
+  {
+    "company_id": "a6f0fc5c-986b-4a94-8636-6b5c48eb5a44",
+    "name": "Baker Inc",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Sierra Leone",
+    "annual_revenue_usd": 7711650,
+    "context_note": "Side chair already book rule exist game skin give laugh along difficult."
+  },
+  {
+    "company_id": "d6dad9f9-e969-4453-aff3-03f2295123aa",
+    "name": "Elliott LLC",
     "industry": "SaaS",
     "employee_count": 50,
     "growth_stage": "Startup",
+    "hq_region": "Bhutan",
+    "annual_revenue_usd": 6085600,
+    "context_note": "Me if hit should argue course real name."
+  },
+  {
+    "company_id": "bd48fc77-97c7-440d-af27-b253fc1f3081",
+    "name": "Shelton-Gonzales",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Congo",
+    "annual_revenue_usd": 27062600,
+    "context_note": "Tell break book as rock choose song party position."
+  },
+  {
+    "company_id": "50d0833d-dd87-46e4-8437-901b958a0c8a",
+    "name": "Cowan Group",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Botswana",
+    "annual_revenue_usd": 323220000,
+    "context_note": "Lay enter seven finally choose idea plan agreement heavy billion."
+  },
+  {
+    "company_id": "ca46f734-ca3b-42d3-8c9c-1df68fc54302",
+    "name": "Velazquez Inc",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Sao Tome and Principe",
+    "annual_revenue_usd": 4916250,
+    "context_note": "Available region final also message hot figure."
+  },
+  {
+    "company_id": "0d64c7f1-9b71-49c0-8980-121246178d10",
+    "name": "Williams, Garrison and Huffman",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Malaysia",
+    "annual_revenue_usd": 27418600,
+    "context_note": "Interest sister his month after pay central compare."
+  },
+  {
+    "company_id": "779a85ea-adf9-4835-a198-e9c8f3ccc73b",
+    "name": "Hendrix, Roach and Johnson",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Italy",
+    "annual_revenue_usd": 160784000,
+    "context_note": "Next whom heart wife begin hot window investment north too."
+  },
+  {
+    "company_id": "36a3085e-697a-4d84-82a7-06c6a2aade17",
+    "name": "Bennett, Davis and Fuller",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Heard Island and McDonald Islands",
+    "annual_revenue_usd": 16839800,
+    "context_note": "Leader whole important hand second a together rich."
+  },
+  {
+    "company_id": "73611db2-0551-4246-a6f9-44f1b2de9537",
+    "name": "Ramsey, Jackson and Moore",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Sierra Leone",
+    "annual_revenue_usd": 26500400,
+    "context_note": "Would customer produce hand heart change."
+  },
+  {
+    "company_id": "423d91da-bb50-42a8-a5b9-92934298c298",
+    "name": "Sanders, Evans and Barker",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Dominica",
+    "annual_revenue_usd": 162782000,
+    "context_note": "Training relationship now then difference happy fire."
+  },
+  {
+    "company_id": "380950ed-6a48-4031-b712-96fb53329767",
+    "name": "Walters, Padilla and Lopez",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Lithuania",
+    "annual_revenue_usd": 23414200,
+    "context_note": "Research on father young western section before."
+  },
+  {
+    "company_id": "96005736-ca46-42fd-b1a8-4e717d94ae41",
+    "name": "Alexander-Aguilar",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "New Caledonia",
+    "annual_revenue_usd": 5729850,
+    "context_note": "Center example spring institution leg wait under interest somebody employee brother five a."
+  },
+  {
+    "company_id": "814689b0-3a9b-402d-bda2-57986ef25e92",
+    "name": "Johnson LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Pitcairn Islands",
+    "annual_revenue_usd": 4017500,
+    "context_note": "Number somebody how voice enough sign."
+  },
+  {
+    "company_id": "197b2488-575f-4ccd-95bd-d57e8722b5f2",
+    "name": "Norton-Hunt",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Djibouti",
+    "annual_revenue_usd": 19144600,
+    "context_note": "Reason soldier today medical point during forget these protect."
+  },
+  {
+    "company_id": "fc094b27-18e5-4388-bdfe-e1b53dfc3aa0",
+    "name": "Jackson and Sons",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Costa Rica",
+    "annual_revenue_usd": 254012000,
+    "context_note": "Maintain box learn vote us attack author travel data smile condition."
+  },
+  {
+    "company_id": "5c615a50-9bb0-4eb0-ba1e-4eb737e822fa",
+    "name": "Walters, Perry and Anthony",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Falkland Islands (Malvinas)",
+    "annual_revenue_usd": 9745500,
+    "context_note": "Force local something affect since teacher yourself maintain."
+  },
+  {
+    "company_id": "78710318-2cc1-4771-ae6c-40fbd0890e34",
+    "name": "Olsen-Lopez",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Reunion",
+    "annual_revenue_usd": 6635100,
+    "context_note": "Degree west should food page instead hospital bad which."
+  },
+  {
+    "company_id": "15e48d2c-d5d8-41ba-9e43-58fd0f0c2299",
+    "name": "Howell-Murphy",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Svalbard & Jan Mayen Islands",
+    "annual_revenue_usd": 7573900,
+    "context_note": "Our because worry quality reach answer system."
+  },
+  {
+    "company_id": "dd60c6e0-a2b2-4c42-801a-32a8e046d132",
+    "name": "Bowers-Robinson",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cook Islands",
+    "annual_revenue_usd": 8292950,
+    "context_note": "Issue Congress avoid include better court wrong charge reach act next high."
+  },
+  {
+    "company_id": "b17d5a8d-463d-417e-8b65-00550aef3c81",
+    "name": "Harper LLC",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Argentina",
+    "annual_revenue_usd": 350654000,
+    "context_note": "Research season peace remember science she sea."
+  },
+  {
+    "company_id": "753bbf2f-7dcd-424a-819c-3c6909d4c25e",
+    "name": "Olson, Shah and Smith",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jersey",
+    "annual_revenue_usd": 4006250,
+    "context_note": "Church decide local his country forward."
+  },
+  {
+    "company_id": "aa398dcf-b7bf-4863-b2b3-462e0f7b7c8a",
+    "name": "Howell-Cook",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Reunion",
+    "annual_revenue_usd": 17712800,
+    "context_note": "Image sort sister his wish plant own figure win require but push education."
+  },
+  {
+    "company_id": "974c318d-4047-48b9-8d3a-862a7ce5d213",
+    "name": "Steele-Patterson",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cape Verde",
+    "annual_revenue_usd": 5804800,
+    "context_note": "When change left against state relate candidate away."
+  },
+  {
+    "company_id": "562e7684-3e4d-419c-8407-3721ce86b094",
+    "name": "Pierce-Scott",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Norway",
+    "annual_revenue_usd": 8367250,
+    "context_note": "Sometimes case sport old international best."
+  },
+  {
+    "company_id": "cdd4e6f4-01d0-4f3f-9e30-db9bdfd239f0",
+    "name": "Taylor Inc",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Hungary",
+    "annual_revenue_usd": 9410500,
+    "context_note": "Draw husband smile ball wait religious attack key my enough just listen region."
+  },
+  {
+    "company_id": "9171549b-43b9-4a62-ae4e-3d84ae616289",
+    "name": "Sandoval LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bahrain",
+    "annual_revenue_usd": 27713800,
+    "context_note": "North my various even movement cold activity fire rock sell."
+  },
+  {
+    "company_id": "1cb088ae-e775-4b22-88fb-673fea05e757",
+    "name": "Martinez, Lee and Graham",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Netherlands",
+    "annual_revenue_usd": 338476000,
+    "context_note": "Down large everyone image project personal military them though you."
+  },
+  {
+    "company_id": "9cd6c295-8e3a-47e2-8e0b-a1d7d4cef497",
+    "name": "Gross PLC",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Tanzania",
+    "annual_revenue_usd": 27921400,
+    "context_note": "Blue east whatever daughter degree be economy interview authority area."
+  },
+  {
+    "company_id": "f74391f3-3860-433d-95f8-4a6031bd54d6",
+    "name": "Taylor, Jones and Hicks",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Papua New Guinea",
+    "annual_revenue_usd": 24478400,
+    "context_note": "Although head week woman late career simply."
+  },
+  {
+    "company_id": "24b9e389-b470-4882-8cf2-87e3f15e2105",
+    "name": "Osborne PLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "New Zealand",
+    "annual_revenue_usd": 8291400,
+    "context_note": "Grow stage today senior instead senior call him political we reach political."
+  },
+  {
+    "company_id": "57f00ff7-86ca-4168-83fb-dcd2a9fa7da1",
+    "name": "Russo-Pratt",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Guam",
+    "annual_revenue_usd": 302124000,
+    "context_note": "Stay wall drug woman whose determine follow."
+  },
+  {
+    "company_id": "03476ff6-1d89-4064-bdec-9a4c92ee5f26",
+    "name": "Moore-Barr",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Slovakia (Slovak Republic)",
+    "annual_revenue_usd": 29605000,
+    "context_note": "Begin class discover investment believe say our likely southern."
+  },
+  {
+    "company_id": "713c1ce7-823f-4c77-a92d-1f9cda3ae473",
+    "name": "Moore-Parker",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Brazil",
+    "annual_revenue_usd": 17446800,
+    "context_note": "Mr more although lead wear often."
+  },
+  {
+    "company_id": "b538addf-705c-445c-83a8-ecfa52233e03",
+    "name": "Fernandez-Wright",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bangladesh",
+    "annual_revenue_usd": 23905000,
+    "context_note": "Design can join what rather process fear us TV local."
+  },
+  {
+    "company_id": "602e480c-3c21-44f5-b3e4-e83c85eae074",
+    "name": "Singleton Group",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Brazil",
+    "annual_revenue_usd": 5367450,
+    "context_note": "Few recognize role find month news such."
+  },
+  {
+    "company_id": "90407313-6603-488c-956e-5711beb6de34",
+    "name": "Parrish-Wright",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cote d'Ivoire",
+    "annual_revenue_usd": 8778900,
+    "context_note": "Under number cause call middle religious detail radio support account former."
+  },
+  {
+    "company_id": "f186351b-6932-46ff-ae18-dcfba68a7bac",
+    "name": "Mclaughlin, Scott and Young",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "American Samoa",
+    "annual_revenue_usd": 6692100,
+    "context_note": "Conference writer public talk but maintain whom cause bank sign."
+  },
+  {
+    "company_id": "2b46633f-8834-4a12-a7f1-cb2523153cb7",
+    "name": "Lopez LLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Malaysia",
+    "annual_revenue_usd": 4714950,
+    "context_note": "Scene within writer speech simple could scientist occur fish else here."
+  },
+  {
+    "company_id": "5e904a56-f8b3-4839-b3d6-7e14fdab8ecd",
+    "name": "Reeves LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Guatemala",
+    "annual_revenue_usd": 9132200,
+    "context_note": "Production gun style current after young officer."
+  },
+  {
+    "company_id": "efc6a80a-7cc8-4de1-be69-825d82e9e1bc",
+    "name": "Williams-Jenkins",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cayman Islands",
+    "annual_revenue_usd": 34674600,
+    "context_note": "Up ahead reason choice manage total again financial ability look message strong data."
+  },
+  {
+    "company_id": "5e54f3fa-bcda-46b4-847b-cc7a99332a5c",
+    "name": "Chapman, Ayala and Snyder",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Hong Kong",
+    "annual_revenue_usd": 29093000,
+    "context_note": "Key trial woman agreement dog sort give cut short such since back."
+  },
+  {
+    "company_id": "109fa997-c317-4f67-8de5-f1e677b0468c",
+    "name": "Smith, Sampson and Campbell",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Macao",
+    "annual_revenue_usd": 6743800,
+    "context_note": "Human game charge somebody charge difficult as shoulder feel sense himself approach."
+  },
+  {
+    "company_id": "30019b2d-7469-48dd-b6ff-ab7038eb7dad",
+    "name": "Price-Reynolds",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Togo",
+    "annual_revenue_usd": 7883500,
+    "context_note": "Pressure occur next more expert movement."
+  },
+  {
+    "company_id": "aec902fc-4bcc-4fd8-ba1b-e356b64f15ca",
+    "name": "Garza and Sons",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Brazil",
+    "annual_revenue_usd": 336010000,
+    "context_note": "This hold free fall watch heavy important officer could rock."
+  },
+  {
+    "company_id": "831157c5-3c62-48fe-9937-3a88190ba546",
+    "name": "Abbott-Wilkinson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "United States of America",
+    "annual_revenue_usd": 16857800,
+    "context_note": "Couple add want own certainly tend personal mission safe ok opportunity claim pick."
+  },
+  {
+    "company_id": "4362e3f5-a443-40c5-a0a4-b1c4c59745aa",
+    "name": "Kirby Ltd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Solomon Islands",
+    "annual_revenue_usd": 5708900,
+    "context_note": "Owner expert course hear easy sign myself institution southern marriage wonder tonight."
+  },
+  {
+    "company_id": "6a2b0398-4961-4991-b357-e093c8a26abc",
+    "name": "Johnson, Taylor and Golden",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Saint Pierre and Miquelon",
+    "annual_revenue_usd": 4040850,
+    "context_note": "True section should high officer late finally research."
+  },
+  {
+    "company_id": "829acd5e-37f3-4a0c-811c-a8d0fe547ccb",
+    "name": "Fernandez, King and Campos",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Austria",
+    "annual_revenue_usd": 243972000,
+    "context_note": "Bed market general from rule talk thought interest but wait specific bar American."
+  },
+  {
+    "company_id": "65503dd1-288d-4ef1-abb1-f330c54ff3e7",
+    "name": "Norton-Wilkins",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Tuvalu",
+    "annual_revenue_usd": 9803400,
+    "context_note": "Dog task despite put happy election reach arm whose behind."
+  },
+  {
+    "company_id": "6bfc22ce-e9a8-45aa-bfb4-0efab929672d",
+    "name": "Meyer Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Malaysia",
+    "annual_revenue_usd": 5182400,
+    "context_note": "National cost suffer generation without store significant direction."
+  },
+  {
+    "company_id": "eff87cd7-e350-4f31-91f6-afe66d8e39bf",
+    "name": "Wilson Ltd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Angola",
+    "annual_revenue_usd": 8054500,
+    "context_note": "Compare road level suffer how every staff particular about there best plan."
+  },
+  {
+    "company_id": "39cf6eca-d022-4822-95f2-3f188dbca891",
+    "name": "Arroyo Group",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "El Salvador",
+    "annual_revenue_usd": 5278050,
+    "context_note": "Second country people career see style."
+  },
+  {
+    "company_id": "82eb97bc-9178-4cc6-af18-2a78d5c93fe9",
+    "name": "Johnson, Brown and Thomas",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Pakistan",
+    "annual_revenue_usd": 274776000,
+    "context_note": "Industry within as music bit fast least western fly low around them."
+  },
+  {
+    "company_id": "07e81361-b974-424a-874a-6611d9846ba3",
+    "name": "Aguilar, Martin and Hawkins",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Myanmar",
+    "annual_revenue_usd": 20109400,
+    "context_note": "Various drop national fight million or role another agree."
+  },
+  {
+    "company_id": "5daf6e04-e369-476a-a071-ecc89956e652",
+    "name": "Jones, Moore and Cross",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Micronesia",
+    "annual_revenue_usd": 35683400,
+    "context_note": "Remain whose room and federal tax information like radio share reduce member peace."
+  },
+  {
+    "company_id": "ad0be101-04c9-4ffd-8475-52c7221ec1ce",
+    "name": "Barron, Fuller and Swanson",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Micronesia",
+    "annual_revenue_usd": 39150400,
+    "context_note": "Least wife himself spring note give fly nearly stop until about support."
+  },
+  {
+    "company_id": "81a165be-6e3f-40ef-80b8-a5838290d53b",
+    "name": "Petty Ltd",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Togo",
+    "annual_revenue_usd": 295736000,
+    "context_note": "Large seem eye turn determine professional."
+  },
+  {
+    "company_id": "abb32163-e10a-4d79-b5f8-3cef25a42d20",
+    "name": "Little, Stewart and Harrington",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Sri Lanka",
+    "annual_revenue_usd": 29289400,
+    "context_note": "Reason answer make argue street throughout."
+  },
+  {
+    "company_id": "625ec18c-194b-42ee-b47d-d3aab3b3a035",
+    "name": "Stewart, Rojas and Smith",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cambodia",
+    "annual_revenue_usd": 26275000,
+    "context_note": "Tv mother relationship media treat law service style."
+  },
+  {
+    "company_id": "51e139bd-cc4d-42a4-a062-c04842489d02",
+    "name": "Martinez, Beard and Best",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Vietnam",
+    "annual_revenue_usd": 19812800,
+    "context_note": "Great hold sort participant model decide news physical air."
+  },
+  {
+    "company_id": "2425092c-6833-4070-8fd9-beca83c1931f",
+    "name": "Hopkins PLC",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Antigua and Barbuda",
+    "annual_revenue_usd": 7989850,
+    "context_note": "Behind plan pretty happy some air never main."
+  },
+  {
+    "company_id": "a809ac07-f554-4bae-971b-8308aa5109d0",
+    "name": "Sharp, Lester and Alvarado",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Yemen",
+    "annual_revenue_usd": 346754000,
+    "context_note": "Tend scientist nation side report system season health rule question explain."
+  },
+  {
+    "company_id": "65a1b0a0-3ea1-464a-bb1d-29ff5a9d0b38",
+    "name": "Cameron-Murphy",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Wallis and Futuna",
+    "annual_revenue_usd": 23268000,
+    "context_note": "Daughter yes out fall body hour color visit traditional reveal order never."
+  },
+  {
+    "company_id": "b84f8b16-395b-4e2f-ae7d-2bddf92d5053",
+    "name": "Wallace PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Hungary",
+    "annual_revenue_usd": 7811150,
+    "context_note": "Then issue health you front half."
+  },
+  {
+    "company_id": "e7a50eaf-620e-4c86-adcd-28c0873811dc",
+    "name": "Daugherty, Miller and Hall",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Paraguay",
+    "annual_revenue_usd": 7936550,
+    "context_note": "Tree total thank service section visit discover picture population hold prove maintain."
+  },
+  {
+    "company_id": "bca2465a-429f-457b-aeba-f0853ac8be16",
+    "name": "Richardson, Clark and Roy",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Samoa",
+    "annual_revenue_usd": 5106550,
+    "context_note": "Science claim hot or cut eye sell staff speech keep majority."
+  },
+  {
+    "company_id": "a62b5521-39c4-41cf-a178-c29274512f93",
+    "name": "Hanna, Hernandez and Hoffman",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Gambia",
+    "annual_revenue_usd": 26458200,
+    "context_note": "Rock different major than growth activity garden none."
+  },
+  {
+    "company_id": "03bf4956-2ed2-49b0-8156-6df29712898c",
+    "name": "Oneal, Garcia and Murillo",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 7450300,
+    "context_note": "Last opportunity character record join current."
+  },
+  {
+    "company_id": "271c3b8d-047c-4759-a2c2-74ae564c529f",
+    "name": "Garza, Phillips and Conley",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Liechtenstein",
+    "annual_revenue_usd": 4588600,
+    "context_note": "Ever box move change animal end reduce bill debate draw paper."
+  },
+  {
+    "company_id": "16ae0075-8189-4536-808c-c6d7632c55d7",
+    "name": "Bush Ltd",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
     "hq_region": "Marshall Islands",
-    "annual_revenue_usd": 7211800,
-    "context_note": "Change note hear over both simply benefit."
+    "annual_revenue_usd": 5903900,
+    "context_note": "Scientist involve gun PM often cut off."
+  },
+  {
+    "company_id": "0dc5cc81-2962-4ed1-ab62-bec7680d72f5",
+    "name": "Baker, Lewis and Hensley",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Armenia",
+    "annual_revenue_usd": 9447650,
+    "context_note": "Those human food direction official risk fight."
+  },
+  {
+    "company_id": "81344a30-2d88-4f9a-9589-29c9d489ebf5",
+    "name": "Davis and Sons",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Belgium",
+    "annual_revenue_usd": 22942600,
+    "context_note": "Fish different safe next about effort clearly first structure treat fish."
+  },
+  {
+    "company_id": "227643fd-21b5-43bb-9e83-e60e7eda3568",
+    "name": "Weaver, Rasmussen and Allen",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Bangladesh",
+    "annual_revenue_usd": 34914000,
+    "context_note": "Resource project create during little source lay decide."
+  },
+  {
+    "company_id": "6a514bd6-59a3-4b6d-8a16-ca6b2bf2fa28",
+    "name": "Abbott and Sons",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Russian Federation",
+    "annual_revenue_usd": 5615200,
+    "context_note": "Capital who whether economic bed policy sport her house difference kind."
+  },
+  {
+    "company_id": "a7a7f102-7ddc-4401-aafb-6d77a4e21a83",
+    "name": "Herrera-Martin",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Svalbard & Jan Mayen Islands",
+    "annual_revenue_usd": 336988000,
+    "context_note": "Mr get whatever trip compare president."
+  },
+  {
+    "company_id": "b80d6911-31d4-4c77-9fed-195ac0c2b43d",
+    "name": "Bowman, Mckinney and Roach",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Afghanistan",
+    "annual_revenue_usd": 4475150,
+    "context_note": "Talk with brother daughter number image science than."
+  },
+  {
+    "company_id": "b28a4a17-f883-484a-ba8b-bc3787861cf8",
+    "name": "Frederick-Hall",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Palau",
+    "annual_revenue_usd": 4790800,
+    "context_note": "Live information young final south television fish system about yourself painting turn response."
+  },
+  {
+    "company_id": "6a3e1e18-3af6-44d7-907d-234c07754bb0",
+    "name": "Lane-Kim",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "French Guiana",
+    "annual_revenue_usd": 5323300,
+    "context_note": "Allow charge official teach certain up play election leader relationship daughter mouth check."
+  },
+  {
+    "company_id": "3f1b66e9-40e5-4849-a1b2-8d0f2dccad76",
+    "name": "Watkins-Jordan",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Pakistan",
+    "annual_revenue_usd": 36923800,
+    "context_note": "How analysis hour win improve establish."
+  },
+  {
+    "company_id": "0bbb384e-e8ca-4b34-b53c-87144031201a",
+    "name": "Martinez-Jones",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Congo",
+    "annual_revenue_usd": 248422000,
+    "context_note": "Future source as toward side week report clearly important miss call high compare."
+  },
+  {
+    "company_id": "a50be1f3-2e97-4abe-842a-620356622293",
+    "name": "Haynes, Jones and Doyle",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Uzbekistan",
+    "annual_revenue_usd": 356972000,
+    "context_note": "Listen agreement each worker over food generation style next of."
+  },
+  {
+    "company_id": "6eb6a458-3198-4c21-aa25-00c8161c6d27",
+    "name": "Nicholson, Henry and Wright",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Kazakhstan",
+    "annual_revenue_usd": 39751600,
+    "context_note": "Western upon time issue knowledge machine stock guy whom."
+  },
+  {
+    "company_id": "480c7d31-46bc-4602-babd-75ac1faeac70",
+    "name": "Hooper-Clarke",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "United States Virgin Islands",
+    "annual_revenue_usd": 5414000,
+    "context_note": "Movie edge over have baby amount minute ever option response drive address."
+  },
+  {
+    "company_id": "258056e0-262a-497d-be6b-416701323fe9",
+    "name": "Gordon LLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Lithuania",
+    "annual_revenue_usd": 35223000,
+    "context_note": "Beat themselves necessary other environment people walk what over man boy yeah professional."
+  },
+  {
+    "company_id": "f09a03f0-e17e-467d-b720-4a0e702a5f49",
+    "name": "Soto, Chandler and Finley",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Fiji",
+    "annual_revenue_usd": 8620800,
+    "context_note": "Fill current year image white feeling report."
+  },
+  {
+    "company_id": "05ef9020-6dc1-4f88-990b-47a7bd81a03b",
+    "name": "Case-Smith",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "China",
+    "annual_revenue_usd": 20923200,
+    "context_note": "Coach drive skill create her recently nor oil weight."
+  },
+  {
+    "company_id": "9a15d8f1-cf11-49e5-9dd6-eb2a42433987",
+    "name": "Brown, Soto and Hayden",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Austria",
+    "annual_revenue_usd": 9482250,
+    "context_note": "Even range statement both suddenly avoid."
+  },
+  {
+    "company_id": "0514bec1-220d-43df-9472-9e14a93cb6d4",
+    "name": "Collins-Gonzalez",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Timor-Leste",
+    "annual_revenue_usd": 294722000,
+    "context_note": "Know by reach our produce growth same social rise."
+  },
+  {
+    "company_id": "25779f38-1883-4b92-b7f9-48b07519225e",
+    "name": "Mueller PLC",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Zimbabwe",
+    "annual_revenue_usd": 330652000,
+    "context_note": "Executive season among three film see almost store against rate nice leave store."
+  },
+  {
+    "company_id": "bd8975f9-39e0-4dba-ad35-c7b9d4225ea8",
+    "name": "Alvarez-Hunt",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Greenland",
+    "annual_revenue_usd": 24042600,
+    "context_note": "Determine single last put stay before skill."
+  },
+  {
+    "company_id": "6b437048-ad7b-4baa-889b-a17de39ba44d",
+    "name": "Cook Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Bahrain",
+    "annual_revenue_usd": 7168100,
+    "context_note": "Drop talk form group sea whom."
+  },
+  {
+    "company_id": "efd06b06-3d91-4cde-9300-0f213c0117cc",
+    "name": "Allen Inc",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Oman",
+    "annual_revenue_usd": 352442000,
+    "context_note": "Threat end who would assume decision respond cultural."
+  },
+  {
+    "company_id": "671a9b24-b8f4-4559-9592-ebe25575ea1a",
+    "name": "Fritz-Watkins",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Madagascar",
+    "annual_revenue_usd": 6587850,
+    "context_note": "Store out career order rise executive skill break enter nice property build."
+  },
+  {
+    "company_id": "1eabe6b6-9dd6-4dae-99eb-79d1725c36cd",
+    "name": "Shaw-Montgomery",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Germany",
+    "annual_revenue_usd": 257438000,
+    "context_note": "Interview police majority cell rate this day factor."
+  },
+  {
+    "company_id": "42a1f016-b2e5-4f49-8828-8fe4b08cd82e",
+    "name": "Hardy-Morris",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Slovenia",
+    "annual_revenue_usd": 6154450,
+    "context_note": "Hospital inside receive amount state everyone last fight base our major."
+  },
+  {
+    "company_id": "5833b6e1-b406-4a98-a398-ab291492bf1f",
+    "name": "Jackson Ltd",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Fiji",
+    "annual_revenue_usd": 169668000,
+    "context_note": "Ground but lead fact model home score level good list."
+  },
+  {
+    "company_id": "f9b77063-7db2-4336-aa5e-0a917139e882",
+    "name": "Daniels, Sandoval and Hardy",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Lebanon",
+    "annual_revenue_usd": 335488000,
+    "context_note": "Affect program woman figure side born."
+  },
+  {
+    "company_id": "d6692e88-7571-4200-bb9a-c5df35a8af19",
+    "name": "Vargas, Little and Garner",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Cook Islands",
+    "annual_revenue_usd": 6134300,
+    "context_note": "Result fill read suggest concern tough mother term five."
+  },
+  {
+    "company_id": "159e2ebd-0e04-48c2-b35b-2af132a75cb9",
+    "name": "Burke Inc",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Maldives",
+    "annual_revenue_usd": 304068000,
+    "context_note": "Want court serious late yeah father magazine car certainly between very."
+  },
+  {
+    "company_id": "716db817-a83b-44f0-9cd0-7b3b5cf19fc5",
+    "name": "Page PLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Saudi Arabia",
+    "annual_revenue_usd": 7228450,
+    "context_note": "World change now wonder too thing current specific station thus."
+  },
+  {
+    "company_id": "621c6e9c-e751-4c1e-bfd4-586633034d37",
+    "name": "Delacruz, Cox and Ayala",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mali",
+    "annual_revenue_usd": 18692600,
+    "context_note": "Short last such group leader poor coach time agree thus."
+  },
+  {
+    "company_id": "71fc4bd4-7939-465e-871d-26b3c8df3f85",
+    "name": "Lozano, Jimenez and Chapman",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Vietnam",
+    "annual_revenue_usd": 295046000,
+    "context_note": "Institution state ball miss evidence camera."
+  },
+  {
+    "company_id": "3f367c1d-d7d2-4961-a1ec-22c7a1c81167",
+    "name": "Hamilton Inc",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Costa Rica",
+    "annual_revenue_usd": 37893200,
+    "context_note": "Majority recent bit recently movie simply rich."
+  },
+  {
+    "company_id": "5a920223-3ffe-4442-b547-24e063ec02fd",
+    "name": "Carter-Solis",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Guatemala",
+    "annual_revenue_usd": 355134000,
+    "context_note": "Popular why simply traditional force modern bill head."
+  },
+  {
+    "company_id": "a7905395-d8a6-4f06-adc0-50bf01c89ac1",
+    "name": "Walker Ltd",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Mayotte",
+    "annual_revenue_usd": 6569600,
+    "context_note": "Particularly child floor conference better fill agent."
+  },
+  {
+    "company_id": "e443675c-a6ef-4072-854c-b4c1ea6a8474",
+    "name": "Duncan-Hall",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "French Southern Territories",
+    "annual_revenue_usd": 4698400,
+    "context_note": "Stuff citizen area peace top democratic simply second natural."
+  },
+  {
+    "company_id": "15b1f03e-6bc9-4a0d-8997-47d946409d84",
+    "name": "Gregory PLC",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Oman",
+    "annual_revenue_usd": 20577000,
+    "context_note": "Add friend shoulder cover bring successful himself."
+  },
+  {
+    "company_id": "36c44a4b-aa6a-4b1c-9574-1382ccefb719",
+    "name": "Patterson-Martin",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Mali",
+    "annual_revenue_usd": 26173400,
+    "context_note": "Her trip other want when age without huge."
+  },
+  {
+    "company_id": "fa567d6c-a16a-408f-9c72-c2efd469e90b",
+    "name": "Carter-Tate",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Moldova",
+    "annual_revenue_usd": 21299400,
+    "context_note": "Walk almost conference reason a like conference."
+  },
+  {
+    "company_id": "2c653177-7832-4767-93cf-8a00e308c133",
+    "name": "Hall-Lowe",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Nicaragua",
+    "annual_revenue_usd": 33855000,
+    "context_note": "Claim each skin because world agreement culture black."
+  },
+  {
+    "company_id": "bf6ca257-76e5-4067-be70-349f6b63c7e5",
+    "name": "Salazar-Buck",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Greenland",
+    "annual_revenue_usd": 246792000,
+    "context_note": "Cover factor throughout career car in prepare exist fight."
+  },
+  {
+    "company_id": "0c5e5257-f5a2-4e54-b92f-249586e34e1d",
+    "name": "Raymond, Solomon and Bowen",
+    "industry": "SaaS",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "Italy",
+    "annual_revenue_usd": 288512000,
+    "context_note": "Analysis exactly economy under there shake citizen responsibility student hit late travel past."
+  },
+  {
+    "company_id": "d2d11a9f-a584-4ab6-83f6-bcdebd5cc62d",
+    "name": "Long-Miller",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Svalbard & Jan Mayen Islands",
+    "annual_revenue_usd": 36924000,
+    "context_note": "Artist live employee experience my capital single leg."
+  },
+  {
+    "company_id": "40755403-d861-4078-abe7-8f97e9c6a993",
+    "name": "Robinson LLC",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Jamaica",
+    "annual_revenue_usd": 6896600,
+    "context_note": "Thing day trial check tough particularly everybody at society more also require."
+  },
+  {
+    "company_id": "08098d8e-799d-4fe8-81a2-bdb28d31368c",
+    "name": "Moore, Fleming and Harding",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Papua New Guinea",
+    "annual_revenue_usd": 32908800,
+    "context_note": "Onto bed quickly grow record only."
+  },
+  {
+    "company_id": "204f10a4-7ec9-4fb3-9158-cd78b8408938",
+    "name": "Mcbride, Donaldson and Mills",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Cyprus",
+    "annual_revenue_usd": 16944800,
+    "context_note": "Modern yet attack analysis free floor unit benefit know door student sometimes experience."
+  },
+  {
+    "company_id": "db992afa-f7ec-4bb5-a036-eea526c90036",
+    "name": "Bell-Young",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Indonesia",
+    "annual_revenue_usd": 30343000,
+    "context_note": "Identify trial should between player effect space save."
+  },
+  {
+    "company_id": "3bd22254-b0a6-473d-ae59-eb31a193aba5",
+    "name": "Howe-Summers",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Syrian Arab Republic",
+    "annual_revenue_usd": 23842600,
+    "context_note": "Claim society deep apply else idea know tonight old data sound."
+  },
+  {
+    "company_id": "38eb1947-5921-489b-9f65-70dc20d45c37",
+    "name": "Chan Group",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Montenegro",
+    "annual_revenue_usd": 5990150,
+    "context_note": "Seem feel state growth whole factor both also adult language age when nearly."
+  },
+  {
+    "company_id": "98ff3b91-9ac3-43c5-95f2-32cb652ff16a",
+    "name": "Taylor-Christian",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Macedonia",
+    "annual_revenue_usd": 25728800,
+    "context_note": "Record most include himself simple side father particularly or deep identify both need."
+  },
+  {
+    "company_id": "f9a0d096-2c9e-4dd6-89f1-bdf82c4f34d0",
+    "name": "Smith-Grant",
+    "industry": "SaaS",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Andorra",
+    "annual_revenue_usd": 9713800,
+    "context_note": "Against with political pick maybe unit already."
+  },
+  {
+    "company_id": "69cccf4d-5361-4c4d-8403-5e1bb2c37da9",
+    "name": "Anderson Inc",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "French Southern Territories",
+    "annual_revenue_usd": 7134850,
+    "context_note": "Them year model least maybe food degree catch media simply."
+  },
+  {
+    "company_id": "da8fa3fa-fffc-4221-bcb3-9de56272622d",
+    "name": "Parker, Foster and Bennett",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Saint Martin",
+    "annual_revenue_usd": 8459850,
+    "context_note": "Leave account professional source whether allow than after."
+  },
+  {
+    "company_id": "3f658c29-baf5-4cda-b926-5117c0f3517e",
+    "name": "Reynolds-Thomas",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "India",
+    "annual_revenue_usd": 35180000,
+    "context_note": "Day together writer song and early write expert really small drop from."
+  },
+  {
+    "company_id": "c1c01168-daa5-4a54-8680-197f4c336fb4",
+    "name": "Berger-Bush",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Burundi",
+    "annual_revenue_usd": 17376600,
+    "context_note": "Own sell PM fact include sometimes myself wall exist care adult laugh."
+  },
+  {
+    "company_id": "d14b6039-87f0-43c1-aaaf-bc1e012416c1",
+    "name": "Ford Group",
+    "industry": "Healthcare",
+    "employee_count": 2000,
+    "growth_stage": "Enterprise",
+    "hq_region": "India",
+    "annual_revenue_usd": 376762000,
+    "context_note": "Contain nice probably a analysis high."
+  },
+  {
+    "company_id": "eddbf76b-47ac-4cc1-a157-7d256f454044",
+    "name": "Schneider-Jordan",
+    "industry": "Healthcare",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Dominican Republic",
+    "annual_revenue_usd": 29500200,
+    "context_note": "Current national enjoy through there ask firm arm discuss your product."
+  },
+  {
+    "company_id": "eeca857b-29e2-40d0-b608-42517c0146f6",
+    "name": "Pineda-Miller",
+    "industry": "Healthcare",
+    "employee_count": 50,
+    "growth_stage": "Startup",
+    "hq_region": "Romania",
+    "annual_revenue_usd": 5787450,
+    "context_note": "Executive network season market player western west impact."
+  },
+  {
+    "company_id": "9e2c8d1e-abf0-48b3-ba6c-450de78381e9",
+    "name": "Baker, Jackson and Jackson",
+    "industry": "SaaS",
+    "employee_count": 200,
+    "growth_stage": "Scaleup",
+    "hq_region": "Slovenia",
+    "annual_revenue_usd": 23030000,
+    "context_note": "Compare nature church person source trial police this."
   }
 ]

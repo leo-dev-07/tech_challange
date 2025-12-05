@@ -25,3 +25,20 @@ python -m app.validate --indir output
 Files generated (JSON): `companies.json`, `contacts.json`, `sales_reps.json`, `deals.json`, `emails.json`, `meetings.json`.
 
 See `app/generate.py` for CLI options and `app/core.py` for model/logic.
+
+## Docker
+
+Build and run the generator in a container:
+
+```bash
+docker build -t prospectiq-gen .
+docker run -v $(pwd)/output:/app/output prospectiq-gen --seed 42 --companies 10 --outdir /app/output
+```
+
+Or with custom arguments:
+
+```bash
+docker run -v $(pwd)/output:/app/output prospectiq-gen --seed 100 --companies 20 --industries "SaaS,Healthcare"
+```
+
+Outputs are written to the local `output/` directory (mounted volume).

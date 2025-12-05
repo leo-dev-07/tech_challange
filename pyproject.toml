@@ -1,0 +1,9 @@
+[project]
+name = "prospectiq-data-gen"
+version = "0.1.0"
+description = "Demo data generator for ProspectIQ technical challenge"
+requires-python = ">=3.10"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+faker = "^17.0"

@@ -43,7 +43,7 @@ test_output/
 .env
 .env.local
 .env.*.local
-
+.env.example
 # Generated data
 output/
 

@@ -5,7 +5,6 @@ to retrieve relevant data snippets and passes them to an LLM (Groq/OpenAI)
 or formats them directly if no LLM is available.
 
 No hardcoded rules — all queries are handled via RAG + LLM.
-Incorporates user feedback to improve response quality over time.
 """
 
 import os
@@ -16,7 +15,6 @@ from pydantic import BaseModel, Field
 
 from .data_loader import DataStore
 from .rag import RAGStore, HAS_RAG
-from .feedback import FeedbackStore
 import requests
 
 # Optional imports for Groq/langgraph
@@ -38,9 +36,6 @@ load_dotenv()
 
 # Initialize data store
 data_store = DataStore(data_path=os.getenv("DATA_PATH", "output"))
-
-# Initialize feedback store for learning from user interactions
-feedback_store = FeedbackStore()
 
 # Initialize RAG store for semantic search
 rag_store = None
@@ -67,192 +62,154 @@ class AgentState(BaseModel):
     final_answer: str = ""
 
 
+def _is_aggregation_query(query: str) -> bool:
+    """Check if the query is asking for aggregations (counts, sums, totals)."""
+    query_lower = query.lower()
+    aggregation_keywords = {
+        "how many", "count", "total", "sum", "average", "avg", "min", "max",
+        "percentage", "breakdown", "distribution", "how many", "number of"
+    }
+    return any(keyword in query_lower for keyword in aggregation_keywords)
+
+
+def _retrieve_full_dataset_for_aggregation(query: str) -> Dict[str, Any]:
+    """For aggregation queries, return full dataset instead of RAG snippets."""
+    return {
+        "companies": data_store.companies,
+        "contacts": data_store.contacts,
+        "deals": data_store.deals,
+        "emails": data_store.emails,
+        "meetings": data_store.meetings,
+    }
+
+
 def _retrieve_rag_context(user_message: str, max_items: int = 6) -> Dict[str, Any]:
-    """Retrieve relevant dataset snippets using RAG semantic search."""
+    """Retrieve relevant dataset snippets using RAG semantic search.
+    
+    For aggregation queries (counts, totals, etc.), returns full dataset.
+    For specific queries, uses RAG to retrieve limited context.
+    """
     if rag_store is None:
-        return {"companies": [], "contacts": [], "deals": [], "emails": []}
+        return {"companies": [], "contacts": [], "deals": [], "emails": [], "meetings": []}
+    
+    # Check if this is an aggregation query
+    if _is_aggregation_query(user_message):
+        return _retrieve_full_dataset_for_aggregation(user_message)
+    
+    # Otherwise use RAG for semantic search
     return rag_store.retrieve_context_snippets(user_message, max_items=max_items)
 
 
-def _check_feedback_for_improvements(user_message: str) -> Dict[str, Any]:
-    """Check if there's user feedback that can improve the response.
+def _analyze_snippets_with_query(user_message: str, snippets: Dict[str, Any]) -> str:
+    """Analyze snippets based on the user's query intent.
     
-    Returns:
-        Dict with 'should_avoid' and 'corrections' keys
+    This is a fallback when no LLM is available. It performs actual data analysis
+    on the retrieved snippets to answer the query accurately.
     """
-    improvements = {
-        "should_avoid": feedback_store.should_avoid_pattern(user_message),
-        "corrections": feedback_store.get_corrections_for_pattern(user_message),
-        "common_issues": dict(feedback_store.get_common_issues(3))
-    }
-    return improvements
-
-
-def _format_snippets_as_response(snippets: Dict[str, Any], feedback_improvements: Dict[str, Any] = None) -> str:
-    """Format RAG-retrieved snippets into a natural, conversational response.
+    query_lower = user_message.lower()
     
-    Generates varied, human-like explanations with closing questions tailored
-    to the type of data retrieved (like a teacher explaining to a student).
+    # Extract data from snippets
+    all_contacts = snippets.get("contacts", [])
+    all_companies = snippets.get("companies", [])
+    all_deals = snippets.get("deals", [])
+    all_emails = snippets.get("emails", [])
+    all_meetings = snippets.get("meetings", [])
     
-    Args:
-        snippets: Retrieved data snippets
-        feedback_improvements: Optional feedback data to inform response style
-    """
-    has_results = any(len(v) > 0 for v in snippets.values())
+    # Handle "how many" queries for specific titles FIRST (before generic contact count)
+    if "how many" in query_lower:
+        # Check for specific roles/titles first
+        if any(word in query_lower for word in ["manager", "managers"]):
+            # Count both "Manager" title and "Manager" seniority level
+            managers = [c for c in all_contacts if 'manager' in c.get("title", "").lower() or c.get("seniority", "").lower() == "manager"]
+            return f"There are {len(managers)} Managers in the contacts database."
+        
+        if any(word in query_lower for word in ["director", "directors"]):
+            # Count both "Director" title and "Director" seniority level
+            directors = [c for c in all_contacts if 'director' in c.get("title", "").lower() or c.get("seniority", "").lower() == "director"]
+            return f"There are {len(directors)} Directors in the contacts database."
+        
+        if any(word in query_lower for word in ["engineer", "engineers"]):
+            engineers = [c for c in all_contacts if "engineer" in c.get("title", "").lower() or c.get("seniority", "").lower() == "engineer"]
+            return f"There are {len(engineers)} Engineers in the contacts database."
+        
+        if any(word in query_lower for word in ["vp", "vice president"]):
+            vps = [c for c in all_contacts if "vp" in c.get("title", "").lower() or "vice president" in c.get("title", "").lower() or c.get("seniority", "").lower() == "vp"]
+            return f"There are {len(vps)} VPs in the contacts database."
+        
+        if any(word in query_lower for word in ["cio", "chief information officer"]):
+            cios = [c for c in all_contacts if "cio" in c.get("title", "").lower() or c.get("seniority", "").lower() == "cio"]
+            return f"There are {len(cios)} CIOs in the contacts database."
+        
+        if any(word in query_lower for word in ["cto", "chief technology officer"]):
+            ctos = [c for c in all_contacts if "cto" in c.get("title", "").lower() or c.get("seniority", "").lower() == "cto"]
+            return f"There are {len(ctos)} CTOs in the contacts database."
+        
+        # Then check for generic entity counts
+        if "contact" in query_lower:
+            return f"There are {len(all_contacts)} contacts in the database."
+        
+        if "compan" in query_lower:
+            return f"There are {len(all_companies)} companies in the database."
+        
+        if "deal" in query_lower:
+            return f"There are {len(all_deals)} deals in the database."
+        
+        if "email" in query_lower:
+            return f"There are {len(all_emails)} emails in the database."
+        
+        if "meeting" in query_lower:
+            return f"There are {len(all_meetings)} meetings in the database."
     
+    # Handle "seniority" or "level" queries
+    if "seniority" in query_lower or "level" in query_lower:
+        # Try exact match first, then partial
+        for contact in all_contacts:
+            contact_name = contact["full_name"].lower()
+            if contact_name in query_lower or query_lower in contact_name:
+                return f"{contact['full_name']} has a {contact['seniority'].lower()} seniority level and works as a {contact['title']}."
+        
+        # Try extracting first or last name from query
+        words = [w for w in query_lower.split() if len(w) > 2 and w not in {"the", "what", "seniority", "level", "is", "of", "are", "in"}]
+        for word in words:
+            for contact in all_contacts:
+                if word in contact["full_name"].lower():
+                    return f"{contact['full_name']} has a {contact['seniority'].lower()} seniority level and works as a {contact['title']}."
+    
+    # Handle generic queries - provide summary
+    has_results = any(len(v) > 0 for v in [all_companies, all_contacts, all_deals, all_emails, all_meetings])
     if not has_results:
-        return "I couldn't find any matching records in the database. Try asking about companies, contacts, deals, or other information."
+        return "No matching records found in the database."
     
-    response_parts = []
+    company_count = len(all_companies)
+    contact_count = len(all_contacts)
+    deal_count = len(all_deals)
+    email_count = len(all_emails)
     
-    # Determine what type of data is dominant
-    company_count = len(snippets.get("companies", []))
-    contact_count = len(snippets.get("contacts", []))
-    deal_count = len(snippets.get("deals", []))
-    email_count = len(snippets.get("emails", []))
-    
-    # Dynamic opening based on primary data type
-    total_count = sum([company_count, contact_count, deal_count, email_count])
-    
-    # COMPANIES section
+    results = []
     if company_count > 0:
-        companies = snippets["companies"]
-        if company_count == 1:
-            c = companies[0]
-            response_parts.append(f"I found a company: **{c['name']}**. It's a {c['industry']} company with {c['employee_count']} employees.")
-        else:
-            # Varied opening sentences for multiple companies
-            openings = [
-                f"There are {company_count} companies matching your search.",
-                f"I found {company_count} companies in our database.",
-                f"Let me tell you about {company_count} companies we have.",
-            ]
-            response_parts.append(openings[company_count % len(openings)])
-            
-            # List companies
-            company_names = [f"**{c['name']}**" for c in companies]
-            response_parts.append(f"They are: {', '.join(company_names)}.")
-            
-            # Add industry insight
-            industries = list(set(c['industry'] for c in companies))
-            if len(industries) == 1:
-                response_parts.append(f"All operate in the {industries[0]} sector.")
-            else:
-                response_parts.append(f"They're spread across {len(industries)} industries: {', '.join(industries)}.")
-            
-            # Employee range context
-            employee_counts = [c['employee_count'] for c in companies]
-            min_emp = min(employee_counts)
-            max_emp = max(employee_counts)
-            avg_emp = int(sum(employee_counts) / len(employee_counts))
-            if min_emp == max_emp:
-                response_parts.append(f"Each has {min_emp} employees.")
-            else:
-                response_parts.append(f"They range from {min_emp} to {max_emp} employees in size (averaging {avg_emp}).")
-    
-    # CONTACTS section
+        results.append(f"{company_count} companies")
     if contact_count > 0:
-        contacts = snippets["contacts"]
-        if company_count == 0:  # Only show intro if companies weren't already covered
-            if contact_count == 1:
-                c = contacts[0]
-                response_parts.append(f"\nI found a contact: **{c['full_name']}** — a {c['title']} at {c['seniority']} level.")
-            else:
-                response_parts.append(f"\nThere are {contact_count} relevant contacts:")
-        else:
-            response_parts.append(f"\nI also identified {contact_count} key contacts:")
-        
-        # Show first 2-3 contacts with details
-        for i, c in enumerate(contacts[:3]):
-            response_parts.append(f"  • **{c['full_name']}** — {c['title']} ({c['seniority'].lower()} level)")
-        
-        if contact_count > 3:
-            response_parts.append(f"  • ... and {contact_count - 3} more contacts")
-    
-    # DEALS section
+        results.append(f"{contact_count} contacts")
     if deal_count > 0:
-        deals = snippets["deals"]
-        total_value = sum(d.get('amount_usd') or 0 for d in deals)
-        
-        if deal_count == 1:
-            d = deals[0]
-            response_parts.append(f"\nThere's 1 deal: **{d.get('description', 'Unnamed deal')}** ({d.get('stage', 'Unknown')} stage) worth ${d.get('amount_usd', 0) or 0:,.0f}.")
-        else:
-            response_parts.append(f"\nRegarding deals: I found {deal_count} opportunities totaling **${total_value:,.0f}**.")
-            
-            # Stage breakdown
-            stages = {}
-            for d in deals:
-                stage = d.get('stage', 'Unknown')
-                stages[stage] = stages.get(stage, 0) + 1
-            
-            if len(stages) == 1:
-                stage_name = list(stages.keys())[0]
-                response_parts.append(f"All are currently in the **{stage_name}** stage.")
-            else:
-                stage_breakdown = ", ".join([f"{count} in {stage}" for stage, count in sorted(stages.items())])
-                response_parts.append(f"They're distributed as: {stage_breakdown}.")
-    
-    # EMAILS section
+        results.append(f"{deal_count} deals")
     if email_count > 0:
-        emails = snippets["emails"]
-        response_parts.append(f"\nI also found {email_count} related email(s)")
-        
-        # Sentiment breakdown if available
-        sentiments = {}
-        for e in emails:
-            sentiment = e.get("sentiment", "Neutral")
-            sentiments[sentiment] = sentiments.get(sentiment, 0) + 1
-        
-        if sentiments:
-            if len(sentiments) == 1:
-                sentiment_name = list(sentiments.keys())[0]
-                response_parts.append(f"with {sentiment_name.lower()} sentiment.")
-            else:
-                sentiment_str = ", ".join([f"{count} {s.lower()}" for s, count in sorted(sentiments.items())])
-                response_parts.append(f"with this sentiment breakdown: {sentiment_str}.")
+        results.append(f"{email_count} emails")
     
-    # Add a contextual closing question
-    if company_count > 0 and deal_count > 0:
-        closing_questions = [
-            "Would you like to explore the deal pipeline for these companies?",
-            "Should we dive deeper into the deal stages or company details?",
-            "Want to analyze their sales potential or growth trends?"
-        ]
-    elif company_count > 0:
-        closing_questions = [
-            "Would you like to know more about their business activities or deals?",
-            "Should I show you the contacts or deals associated with these companies?",
-            "Interested in learning about their deal pipeline?"
-        ]
-    elif contact_count > 0:
-        closing_questions = [
-            "Would you like to know more about their companies or departments?",
-            "Should I show you what deals they're working on?",
-            "Want to see their communication history?"
-        ]
-    else:
-        closing_questions = [
-            "Is there anything else you'd like to know?",
-            "Would you like more details about this data?",
-            "What else can I help you with?"
-        ]
-    
-    response_parts.append(f"\n{closing_questions[total_count % len(closing_questions)]}")
-    
-    return "\n".join(response_parts)
+    return f"I found: {', '.join(results)}. Please ask a more specific question for detailed analysis."
 
 
 def _call_llm_with_context(user_message: str, snippets: Dict[str, Any]) -> str:
-    """Call an available LLM with RAG context, or format snippets directly.
+    """Call an available LLM with RAG context to answer the user's query.
 
+    The LLM receives the actual data and generates responses based on:
+    - The user's query intent
+    - The retrieved data snippets
+    - Accurate calculations (counts, sums, aggregations)
+    
     Priority:
       1. If `USE_GROQ` and `llm` available, use ChatGroq.
       2. Else if `OPENAI_API_KEY` present, call OpenAI Chat Completions REST API.
-      3. Else format the RAG snippets directly as a response.
-    
-    For very short/generic queries (like "hello"), provides a helpful response
-    without forcing through RAG results.
+      3. Else return a simple message (no hardcoded templates).
     """
     # Check if this is a generic greeting or very short query
     normalized_message = user_message.strip().lower()
@@ -264,14 +221,26 @@ def _call_llm_with_context(user_message: str, snippets: Dict[str, Any]) -> str:
     has_snippets = any(len(v) > 0 for v in snippets.values())
 
     system_prompt = (
-        f"You are a helpful assistant for querying ProspectIQ sales data.\n"
-        f"Dataset: {summary['total_companies']} companies, {summary['total_contacts']} contacts, {summary['total_deals']} deals.\n"
-        "Use ONLY the provided dataset snippets. Be concise and professional.\n"
+        f"You are an expert data analyst for ProspectIQ sales data.\n"
+        f"Dataset Overview: {summary['total_companies']} companies, {summary['total_contacts']} contacts, {summary['total_deals']} deals, "
+        f"{summary['total_emails']} emails, {summary['total_meetings']} meetings.\n\n"
+        f"INSTRUCTIONS:\n"
+        f"1. Answer the user's query accurately based ONLY on the provided data snippets.\n"
+        f"2. Perform accurate calculations (counts, sums, aggregations) from the data provided.\n"
+        f"3. Be concise and professional. Provide specific numbers and facts.\n"
+        f"4. If data is not in the snippets, say 'I don't have information about that in the current dataset.'\n"
+        f"5. Present results in a clear, easy-to-read format.\n\n"
+        f"Data Retrieved:\n"
+        f"Companies: {len(snippets.get('companies', []))}\n"
+        f"Contacts: {len(snippets.get('contacts', []))}\n"
+        f"Deals: {len(snippets.get('deals', []))}\n"
+        f"Emails: {len(snippets.get('emails', []))}\n"
+        f"Meetings: {len(snippets.get('meetings', []))}\n"
     )
 
-    # Attach JSON snippets
+    # Attach JSON snippets for the LLM to analyze
     context_json = json.dumps(snippets, indent=2)
-    system_prompt += f"\nDataset snippets:\n{context_json}"
+    system_prompt += f"\nFull Dataset Snippets (JSON):\n{context_json}"
 
     # Build messages
     messages = [
@@ -288,7 +257,8 @@ def _call_llm_with_context(user_message: str, snippets: Dict[str, Any]) -> str:
             ]
             response = llm.invoke(lc_msgs)
             return getattr(response, "content", str(response))
-        except Exception:
+        except Exception as e:
+            print(f"[DEBUG] Groq error: {e}")
             pass
 
     # 2) Try OpenAI Chat Completions via REST
@@ -306,42 +276,39 @@ def _call_llm_with_context(user_message: str, snippets: Dict[str, Any]) -> str:
                 msg = data["choices"][0].get("message", {}).get("content")
                 if msg:
                     return msg
-        except Exception:
+        except Exception as e:
+            print(f"[DEBUG] OpenAI error: {e}")
             pass
 
-    # 3) No LLM available — format snippets directly or provide a helpful message
-    if has_snippets:
-        feedback_improvements = _check_feedback_for_improvements(user_message)
-        return _format_snippets_as_response(snippets, feedback_improvements)
-    else:
-        return "No matching records found. Try asking about companies, contacts, or other data fields."
+    # 3) Fallback: No LLM available - use query-aware data analysis
+    if not has_snippets:
+        return "I couldn't find any matching records in the database. Try asking about companies, contacts, deals, or other information."
+    
+    # Use smart fallback that analyzes snippets based on query intent
+    return _analyze_snippets_with_query(user_message, snippets)
 
 
 def process_query(state: AgentState) -> AgentState:
-    """Process query using RAG + LLM (or direct formatting if no LLM available).
-    
-    Also checks feedback data to avoid patterns users marked as problematic.
-    """
+    """Process query using RAG + LLM (or direct formatting if no LLM available)."""
     user_message = state.messages[-1]["content"] if state.messages else ""
     
-    # Check if similar queries have received negative feedback
-    if feedback_store.should_avoid_pattern(user_message):
-        corrections = feedback_store.get_corrections_for_pattern(user_message)
-        if corrections:
-            # Use user's preferred response for this pattern
-            answer = corrections[0]  # Use most recent correction
-        else:
-            # Retrieve context and format with feedback awareness
-            snippets = _retrieve_rag_context(user_message)
-            feedback_improvements = _check_feedback_for_improvements(user_message)
-            answer = _call_llm_with_context(user_message, snippets)
+    # Check if this is a generic greeting or very short query first
+    normalized_message = user_message.strip().lower().rstrip(".,!?;:")
+    greeting_keywords = {"hi", "hello", "hey", "greetings", "help", "good morning", "good afternoon", "good evening", "good day"}
+    
+    # Check exact matches and prefix matches
+    is_greeting = (normalized_message in greeting_keywords or 
+                   any(normalized_message.startswith(keyword) for keyword in greeting_keywords))
+    
+    if is_greeting:
+        answer = "Hi! I can help you query the ProspectIQ sales data. Try asking about companies, contacts, deals, emails, or meetings."
     else:
         snippets = _retrieve_rag_context(user_message)
         answer = _call_llm_with_context(user_message, snippets)
     
     state.messages.append({"role": "assistant", "content": answer})
     state.final_answer = answer
-    state.context = {"source": "rag", "feedback_aware": feedback_store.get_feedback_stats()["total_interactions"] > 0}
+    state.context = {"source": "rag"}
     return state
 
 

@@ -55,3 +55,8 @@ Thumbs.db
 # LangSmith
 .langchain
 .langsmith
+
+#Tests
+test_*
+debug_*
+demo_

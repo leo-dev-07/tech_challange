@@ -1,41 +1,61 @@
-"""Interactive chat CLI for the ProspectIQ query agent."""
+"""Interactive chat CLI for the ProspectIQ RAG system."""
 
 import os
 import sys
 from dotenv import load_dotenv
-from .agent import run_agent
+from .main import handle_query
+from .data_loader import DataStore
+from .rag import RAGStore, HAS_RAG
 
 # Load environment variables
 load_dotenv()
+DATA_PATH = os.getenv("DATA_PATH", "output")
 
 
 def main():
-    """Run an interactive chat session with the agent."""
+    """Run an interactive chat session with the RAG system."""
+    print("\n" + "=" * 60)
+    print("ProspectIQ RAG Query App")
     print("=" * 60)
-    print("ProspectIQ Demo Data Query Agent")
-    print("=" * 60)
-    print("Chat with the agent to query sales data.")
-    print("Type 'exit' to quit.\n")
+    print(f"Data path: {DATA_PATH}\n")
+
+    # Load data
+    ds = DataStore(data_path=DATA_PATH)
+    print(f"[OK] Loaded {len(ds.companies)} companies, {len(ds.contacts)} contacts, {len(ds.deals)} deals\n")
+
+    # Initialize RAG
+    if not HAS_RAG:
+        print("[ERROR] RAG not available. Install sentence-transformers or scikit-learn.\n")
+        return
+
+    try:
+        print("Initializing RAG semantic search...")
+        rag = RAGStore(ds, embedding_model_name=os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2"))
+        print("[OK] RAG ready\n")
+    except Exception as e:
+        print(f"[ERROR] RAG initialization failed: {e}\n")
+        return
+
+    print("Commands:")
+    print("  Type queries like: 'How many IC contacts?' or 'Show SaaS companies'")
+    print("  'exit' to quit\n")
 
     while True:
         try:
-            user_input = input("You: ").strip()
-            if not user_input:
+            query = input("Query: ").strip()
+            if not query:
                 continue
-            if user_input.lower() == "exit":
+            if query.lower() in ["exit", "quit", "bye"]:
                 print("Goodbye!")
                 break
 
-            print("\nAgent: ", end="", flush=True)
-            response = run_agent(user_input)
-            print(response)
-            print()
+            result = handle_query(query, ds, rag)
+            print(f"\n{result}\n")
         except KeyboardInterrupt:
             print("\n\nGoodbye!")
             break
         except Exception as e:
-            print(f"Error: {e}")
-            print()
+            print(f"Error: {e}\n")
 
 
 if __name__ == "__main__":

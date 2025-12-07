@@ -79,41 +79,30 @@ class RAGStore:
         self._build_index()
 
     def _build_index(self):
-        """Build search index (FAISS or TF-IDF) from all dataset records."""
+        """Build search index (FAISS or TF-IDF) from all dataset records - FULLY DYNAMIC."""
         # Collect all documents (each record is a document with metadata)
         self.documents = []
         doc_texts = []
 
-        # Add companies
-        for comp in self.data_store.companies:
-            revenue = comp.get('annual_revenue_usd') or 0
-            doc_text = f"Company: {comp.get('name')} in {comp.get('industry')} with {comp.get('employee_count')} employees. Revenue: ${revenue:,.0f}"
-            self.documents.append({"type": "company", "data": comp, "text": doc_text})
-            doc_texts.append(doc_text)
+        # Dynamically process ALL entities without hardcoding
+        entities_map = {
+            "companies": ("company", self.data_store.companies),
+            "contacts": ("contact", self.data_store.contacts),
+            "deals": ("deal", self.data_store.deals),
+            "emails": ("email", self.data_store.emails[:500]),  # Limit emails to avoid huge index
+            "meetings": ("meeting", getattr(self.data_store, "meetings", [])),
+            "sales_reps": ("sales_rep", getattr(self.data_store, "sales_reps", []))
+        }
 
-        # Add contacts
-        for contact in self.data_store.contacts:
-            doc_text = f"Contact: {contact.get('full_name')}, {contact.get('title')} at {contact.get('seniority')} level. Email: {contact.get('email')}"
-            self.documents.append({"type": "contact", "data": contact, "text": doc_text})
-            doc_texts.append(doc_text)
+        for entity_name, (entity_type, records) in entities_map.items():
+            if not records:
+                continue
 
-        # Add deals
-        for deal in self.data_store.deals:
-            amount = deal.get('amount_usd') or 0
-            stage = deal.get('stage') or "Unknown"
-            close_date = deal.get('expected_close_date') or "TBD"
-            doc_text = f"Deal: ${amount:,.0f} in {stage} stage with expected close on {close_date}"
-            self.documents.append({"type": "deal", "data": deal, "text": doc_text})
-            doc_texts.append(doc_text)
-
-        # Add emails (as brief snippets, limited to avoid huge index)
-        for email in self.data_store.emails[:500]:
-            subject = email.get('subject') or "No subject"
-            sent_date = email.get('date_sent') or "Unknown date"
-            sentiment = email.get('sentiment') or "Neutral"
-            doc_text = f"Email: {subject} on {sent_date}. Sentiment: {sentiment}"
-            self.documents.append({"type": "email", "data": email, "text": doc_text})
-            doc_texts.append(doc_text)
+            for record in records:
+                # Dynamically build text from ALL fields in the record
+                doc_text = self._build_document_text(entity_type, record)
+                self.documents.append({"type": entity_type, "data": record, "text": doc_text})
+                doc_texts.append(doc_text)
 
         print(f"Indexing {len(self.documents)} documents...")
 
@@ -132,6 +121,37 @@ class RAGStore:
             self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english', lowercase=True)
             self.tfidf_matrix = self.vectorizer.fit_transform(doc_texts)
             print(f"[OK] TF-IDF index built with {self.tfidf_matrix.shape[0]} documents.")
+
+    def _build_document_text(self, entity_type: str, record: dict) -> str:
+        """
+        Dynamically build searchable text from ALL fields in a record.
+        This ensures ANY field can be searched without hardcoding.
+        
+        Format: entity_type field_name=value field_name=value ...
+        This allows searching by any field value, including IDs, without tokenization issues.
+        """
+        parts = [f"{entity_type}"]  # Entity type as first token
+
+        # Iterate ALL fields and include them as key=value pairs
+        # This format prevents TF-IDF from splitting on hyphens in UUIDs
+        for key, value in record.items():
+            # Skip complex types that don't add search value
+            if isinstance(value, (list, dict)):
+                continue
+
+            # Convert value to string and clean it
+            str_value = str(value).strip() if value is not None else ""
+            
+            if not str_value:  # Skip empty values
+                continue
+
+            # Format as "key:value" and include the key name for field-specific searches
+            # Also add the value standalone for substring matches
+            parts.append(f"{key}:{str_value}")
+
+        # Join with spaces to create comprehensive searchable text
+        # This text will be tokenized by TF-IDF but the key:value format helps with finding specific fields
+        return " ".join(parts)
 
     def search(self, query: str, top_k: int = 6) -> List[Dict[str, Any]]:
         """Retrieve top-k most similar documents for a query."""
@@ -166,45 +186,22 @@ class RAGStore:
         return results
 
     def retrieve_context_snippets(self, query: str, max_items: int = 6) -> Dict[str, Any]:
-        """Retrieve relevant snippets organized by type (companies, contacts, deals, emails)."""
+        """Retrieve relevant snippets organized by type - RETURNS ALL FIELDS DYNAMICALLY."""
         results = self.search(query, top_k=max_items * 2)  # Get extra to filter by type
 
-        snippets = {"companies": [], "contacts": [], "deals": [], "emails": []}
+        # Dynamically build snippets based on entity types found
+        snippets = {}
 
         for result in results:
             doc_type = result["type"]
             data = result["data"]
 
-            if doc_type == "company" and len(snippets["companies"]) < max_items:
-                snippets["companies"].append({
-                    "company_id": data.get("company_id"),
-                    "name": data.get("name"),
-                    "industry": data.get("industry"),
-                    "employee_count": data.get("employee_count"),
-                    "annual_revenue_usd": data.get("annual_revenue_usd")
-                })
-            elif doc_type == "contact" and len(snippets["contacts"]) < max_items:
-                snippets["contacts"].append({
-                    "contact_id": data.get("contact_id"),
-                    "full_name": data.get("full_name"),
-                    "title": data.get("title"),
-                    "seniority": data.get("seniority"),
-                    "email": data.get("email")
-                })
-            elif doc_type == "deal" and len(snippets["deals"]) < max_items:
-                snippets["deals"].append({
-                    "deal_id": data.get("deal_id"),
-                    "company_id": data.get("company_id"),
-                    "amount_usd": data.get("amount_usd"),
-                    "stage": data.get("stage"),
-                    "expected_close_date": data.get("expected_close_date")
-                })
-            elif doc_type == "email" and len(snippets["emails"]) < max_items:
-                snippets["emails"].append({
-                    "email_id": data.get("email_id"),
-                    "subject": data.get("subject"),
-                    "date_sent": data.get("date_sent"),
-                    "sentiment": data.get("sentiment")
-                })
+            # Initialize list for this type if not exists
+            if doc_type not in snippets:
+                snippets[doc_type] = []
+
+            # Add ALL fields from the record (dynamic)
+            if len(snippets[doc_type]) < max_items:
+                snippets[doc_type].append(data)
 
         return snippets

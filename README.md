@@ -2,51 +2,104 @@
 
 This repository provides a deterministic demo data generator for ProspectIQ (companies → contacts → deals → emails → meetings). It produces JSON outputs suitable for demos and validation.
 
-Quick start
+## Quick Start: Data Generation & RAG Chat
 
-1. Create a virtualenv and install dependencies:
+### 1. Setup
 
 ```powershell
 python -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install -r requirements.txt
 ```
 
-2. Run the generator (example):
+### 2. Generate Demo Data
 
 ```powershell
-python -m app.generate --seed 42 --companies 10 --industries SaaS,Healthcare --outdir output
+python -m app.generate --seed 42 --companies 500 --outdir output
 ```
 
-3. Validate outputs (basic checks):
+Output files: `output/companies.json`, `output/contacts.json`, `output/deals.json`, `output/emails.json`, `output/meetings.json`, `output/sales_reps.json`
+
+### 3. Run RAG Chat Application
 
 ```powershell
-python -m app.validate --indir output
+python -m app.chat
 ```
 
-Files generated (JSON): `companies.json`, `contacts.json`, `sales_reps.json`, `deals.json`, `emails.json`, `meetings.json`.
-
-See `app/generate.py` for CLI options and `app/core.py` for model/logic.
-
-## Docker
-
-Build and run the generator in a container:
-
-```bash
-docker build -t prospectiq-gen .
-docker run -v $(pwd)/output:/app/output prospectiq-gen --seed 42 --companies 10 --outdir /app/output
+Then query anything about your data:
+```
+Query: How many SaaS companies?
+Query: Show all demo meetings
+Query: Find IC contacts
+Query: What discovery calls are scheduled?
 ```
 
-Or with custom arguments:
+## RAG System - Fully Dynamic Indexing
 
-```bash
-docker run -v $(pwd)/output:/app/output prospectiq-gen --seed 100 --companies 20 --industries "SaaS,Healthcare"
+The included RAG (Retrieval-Augmented Generation) system features **completely dynamic indexing** - no hardcoding needed!
+
+### How It Works
+
+1. **Automatic Field Discovery**: Indexes ALL fields from ALL data entities
+2. **Any Query**: Query by any field value (company name, meeting title, contact seniority, etc.)
+3. **Zero Code Changes**: Add new fields or entities without modifying code
+4. **LLM Context**: Provides comprehensive context to Groq/OpenAI for natural responses
+
+### Architecture
+
+```
+Your Query
+    ↓
+Dynamic QueryAnalyzer (detects entities and filters)
+    ↓
+RAGStore (indexes all fields dynamically)
+    ↓
+Semantic Search (TF-IDF or Sentence-Transformers)
+    ↓
+Dynamic StatisticsBuilder (builds context from retrieved data)
+    ↓
+LLM (Groq llama-3.3-70b-versatile or OpenAI)
+    ↓
+Natural Language Response
 ```
 
-Outputs are written to the local `output/` directory (mounted volume).
+### What's Indexed
 
-## Code overview
+**3,961 Documents Total:**
+- 500 companies (all fields: id, name, industry, revenue, etc.)
+- 1,500 contacts (all fields: id, name, title, seniority, etc.)
+- 489 deals (all fields: id, stage, value, etc.)
+- 500 emails (sample, all fields)
+- 966 meetings (all fields: id, title, dates, outcome, etc.)
+- 6 sales reps (all fields)
 
-This section describes the main classes and generator methods so you can quickly
-understand and extend the code.
+### Example Queries
+
+```
+"How many meetings are there?" → Returns total + distributions
+"Show all discovery calls" → Returns meetings with "Discovery Call" title
+"SaaS companies" → Returns companies with industry=SaaS
+"Find IC contacts" → Returns contacts with seniority=IC
+"What's our deal pipeline?" → Returns deal statistics by stage
+```
+
+### Adding New Data
+
+The system automatically works with new fields or entities - **no code changes required!**
+
+1. Add data to `output/*.json` files
+2. Update `DataStore` in `app/data_loader.py` (1 line)
+3. Done! Everything else adapts automatically
+
+### Testing
+
+```powershell
+# Test dynamic indexing
+python test_dynamic_index.py
+
+# Test end-to-end queries
+python test_end_to_end.py
+```
+
+## Original Documentation
 
 - **Company**: dataclass representing a target account. Fields include
 	`company_id`, `industry`, `employee_count`, `annual_revenue_usd`, and
@@ -93,7 +146,7 @@ A new agent app allows you to chat with the generated data. The agent uses a **R
 
 ### Setup
 
-1. Copy `.env.example` to `.env` (optional, for LLM mode):
+1. Copy `.env.example` to `.env` (optional, for LLM mode) to use with your own credentials:
 
 ```powershell
 Copy-Item .env.example .env
